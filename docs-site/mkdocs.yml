@@ -6,10 +6,10 @@ nav:
   - Home: index.md
   - Atas:
     - Reunião 1: atas/Reuniao01_23.10.2024.md
-  - Contextualização:
-    - Contextualização: contextualizacao/contextualizacao.md
+  - Contextualização: contexto/contextualizacao.md
   - GQM:
     - Artefato GQM: gqm/gqm.md
+    - Abstraction Sheets: gqm/abstract.md
 
 theme:
   name: material
@@ -35,6 +35,5 @@ theme:
       toggle:
         icon: material/weather-cloudy-alert
         name: Switch to high contrast
-  logo: imagens/logo1.png
+  logo: ../assets/img/logo1.png
   extra_css: [stylesheets/extra.css]
-

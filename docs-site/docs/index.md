@@ -1,24 +1,25 @@
 # Grupo Betty Snyder - Turma 1 (2025.1)
 
+## Sobre o Projeto
+
+Esta página é dedicada à documentação de todos os artefatos criados pelo Grupo Betty Snyder no primeiro semestre de 2025, na disciplina de Qualidade de Software da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB).
+
+Na figura 1 é possível encontrar a foto da mulher a qual nomeia o nosso grupo, Betty Snyder. 
+
+Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro computador digital eletrônico de uso geral. Durante a Segunda Guerra Mundial, ela fez parte de um grupo pioneiro de mulheres que programavam utilizando apenas painéis e cabos, sem as linguagens que conhecemos nos dias atuais. Além disso, contribuiu para o desenvolvimento de linguagens como COBOL e FORTRAN e participou da criação de padrões fundamentais para a computação moderna. Seu legado inspira gerações de profissionais da área de tecnologia, especialmente mulheres que seguem seus passos em um campo historicamente marcado por desigualdade de gênero.
+
 <div align="center">
   <font size="4"><p style="text-align: center; margin-bottom: 50px;"><b>Figura 1: Frances Elizabeth "Betty" Snyder Holberton</b></p></font>
 </div>
 
 <div align="center">
-<img src="./imagens/betty.jpg" alt="Logo inss" style=" max-width: 100%; height: auto; margin-bottom: 20px;">
+<img src="../assets/img/betty.jpg" alt="Logo inss" style=" max-width: 80%; height: auto; margin-bottom: 20px;">
 </div>
 <div align="center">
 <p style="text-align: center; margin-bottom: 50px;">
   <b>Fonte: <a href="https://www.linkedin.com/posts/julienbarbier_happy-birthday-betty-holberton-did-you-activity-7171674981515427842-a2su"></a> Julien Barbier, 2024</b>
 </p>
 </div>
-
-## Sobre o projeto
-Esta página é dedicada à documentação de todos os artefatos criados pelo Grupo Betty Snyder no primeiro semestre de 2025, na disciplina de Qualidade de Software da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB).
-
-Na figura 1 é possível encontrar a foto da mulher a qual nomeia o nosso grupo, Betty Snyder. 
-
-Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro computador digital eletrônico de uso geral. Durante a Segunda Guerra Mundial, ela fez parte de um grupo pioneiro de mulheres que programavam utilizando apenas painéis e cabos, sem as linguagens que conhecemos nos dias atuais. Além disso, contribuiu para o desenvolvimento de linguagens como COBOL e FORTRAN e participou da criação de padrões fundamentais para a computação moderna. Seu legado inspira gerações de profissionais da área de tecnologia, especialmente mulheres que seguem seus passos em um campo historicamente marcado por desigualdade de gênero.
 
 ## Equipe
 
@@ -64,7 +65,7 @@ Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro compu
 </table>
 
 
-## Historico de versões
+## Histórico de Versões
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
