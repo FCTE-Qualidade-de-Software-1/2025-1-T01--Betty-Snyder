@@ -13,7 +13,7 @@ Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro compu
 </div>
 
 <div align="center">
-<img src="../assets/img/betty.jpg" alt="Logo inss" style=" max-width: 80%; height: auto; margin-bottom: 20px;">
+<img src="assets/img/betty.jpg" alt="Logo inss" style=" max-width: 80%; height: auto; margin-bottom: 20px;">
 </div>
 <div align="center">
 <p style="text-align: center; margin-bottom: 50px;">

@@ -35,5 +35,5 @@ theme:
       toggle:
         icon: material/weather-cloudy-alert
         name: Switch to high contrast
-  logo: ../assets/img/logo1.png
+  logo: assets/img/logo1.png
   extra_css: [stylesheets/extra.css]
