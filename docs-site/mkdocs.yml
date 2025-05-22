@@ -1,0 +1,40 @@
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T01--Betty-Snyder
+repo_name: 2025-1-T01--Betty-Snyder
+site_name: Grupo Betty Snyder - Turma 1 (2025.1)
+site_description: Documentação do projeto do grupo Betty Snyder de Qualidade de Software (2025.1), Turma 1
+nav:
+  - Home: index.md
+  - Atas:
+    - Reunião 1: atas/Reuniao01_23.10.2024.md
+  - Contextualização:
+    - Contextualização: contextualizacao/contextualizacao.md
+  - GQM:
+    - Artefato GQM: gqm/gqm.md
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: teal
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+    - scheme: high-contrast
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/weather-cloudy-alert
+        name: Switch to high contrast
+  logo: imagens/logo1.png
+  extra_css: [stylesheets/extra.css]
+
