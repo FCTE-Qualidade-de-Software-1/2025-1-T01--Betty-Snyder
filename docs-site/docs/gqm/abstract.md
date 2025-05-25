@@ -21,11 +21,10 @@
     <td colspan="2">
         <ul>
             <li>Facilidade de navegação</li>
-            <li>Reconhecimento de funcionalidades</li>
+            <li>Interface intuitiva</li>
             <li>Clareza das informações exibidas</li>
-            <li>Ocorrência de erros</li>
+            <li>Prevenção de erros</li>
             <li>Tempo médio para realizar tarefas básicas (ex: cadastro, pedido, login)</li>
-            <li>Grau de autonomia do usuário (sem necessidade de ajuda externa)</li>
             <li>Nível de acessibilidade</li>
         </ul>
     </td>
@@ -34,7 +33,9 @@
             <li>Familiaridade prévia dos usuários com tecnologia</li>
             <li>Qualidade visual e responsividade da interface</li>
             <li>Nível de clareza textual das instruções e tutoriais (labels, mensagens, botões)</li>
+            <li>Faixa etária dos usuários</li>
             <li>Dispositivos utilizados (PC, celular, tablet)</li>
+            <li>Tipos de deficiência visual</li>
         </ul>
     </td>
   </tr>
@@ -49,16 +50,18 @@
             <li>Novos usuários compreendem a plataforma com até 5 minutos de uso exploratório</li>
             <li>Tempo médio para finalizar uma compra: até 3 minutos</li>
             <li>Pelo menos 85% dos usuários reconhecem as funcionalidades básicas sem ajuda externa</li>
-            <li>95% acessam com leitores de tela e bom contraste</li>
+            <li>90% dos usuários avaliam a interface de maneira positiva</li>
+            <li>95% das telas avaliadas possuem contraste adequado</li>
         </ul>
     </td>
     <td colspan="2">
         <ul>
             <li>Usuários com baixa familiaridade digital demandam mais clareza e feedback</li>
             <li>Melhor escrita e organização visual aumentam a autonomia dos usuários</li>
+            <li>Podem aumentar os níveis de erros pelos usuários</li>
+            <li>Jovens podem ter mais familiaridade com interfaces digitais</li>
             <li>O uso de dispositivos móveis pode afetar negativamente a experiência se o layout não for adaptado</li>
-            <li>Usuários menos familiarizados têm mais dificuldade se a interface não for intuitiva</li>
-            <li>Melhorias no design e tutoriais reduzem o número de falhas de uso</li>
+            <li>O "contraste adequado" pode não ser universal (ex.: válido para videntes, mas não para usuários com baixa visão)</li>
         </ul>
     </td>
   </tr>
