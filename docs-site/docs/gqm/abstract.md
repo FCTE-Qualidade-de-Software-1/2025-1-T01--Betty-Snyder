@@ -105,9 +105,8 @@
         <ul>
             <li>Volume de usuários simultâneos</li>
             <li>Infraestrutura da aplicação</li>
-            <li>Nível de conectividade da rede dos usuários</li>
+            <li>Diferente tipos de erros e contexto dos usuários</li>
             <li>Qualidade do código e cobertura de testes</li>
-            <li>Frequência de deploys e atualizações</li>
         </ul>
     </td>
   </tr>
@@ -132,10 +131,9 @@
     <td colspan="2">
         <ul>
             <li>Alta carga de usuários pode aumentar falhas graves e lentidão</li>
-            <li>Cobertura de testes baixa pode causar aumento em falhas médias e graves</li>
-            <li>Boa conectividade dos usuários reduz falhas percebidas relacionadas à rede</li>
-            <li>Deploys frequentes sem revisão adequada tendem a aumentar falhas inesperadas</li>
             <li>Melhor infraestrutura e monitoramento aumentam a disponibilidade e a recuperabilidade.</li>
+            <li>Diferentes categorias de erros exigem abordagens distintas para correção</li>
+            <li>Cobertura de testes baixa pode causar aumento em falhas médias e graves</li>
         </ul>
     </td>
   </tr>
@@ -194,3 +192,4 @@
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento|[Júlia Fortunato](https://github.com/julia-fortunato)|[Weverton Rodrigues](https://github.com/vevetin)|
+|`1.1`|25/05/2025|Correção abstraction sheets|[Maurício Ferreira](https://github.com/mauricio-araujoo)||
