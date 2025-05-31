@@ -139,9 +139,35 @@
   </tr>
 </table>
 
-## Tabela de Contribuição
+## Rastreabilidade
 
-# Tabela de Contribuição
+A rastreabilidade entre os elementos permite compreender como diferentes fatores de qualidade, variações no contexto de uso e hipóteses de desempenho estão interligados e impactam a experiência dos usuários e a robustez do sistema. A seguir, são apresentadas duas tabelas de rastreabilidade — uma para cada objetivo de medição (usabilidade e confiabilidade) — que conectam os focos de qualidade com fatores de variação, hipóteses estabelecidas e os impactos observados dessas variações. Essa estrutura lógica facilita a visualização de como determinadas decisões de design e desenvolvimento afetam diretamente a experiência do usuário final e o comportamento da aplicação em diferentes condições.
+
+---
+
+### Usabilidade
+
+| Quality Focus                         | Variation Factor                                           | Hypotheses (estimates)                                                              | Impact of Variation Factor                                                         |
+|--------------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Facilidade de navegação              | Qualidade visual e responsividade da interface             | Novos usuários compreendem a plataforma com até 5 minutos de uso exploratório       | Melhor escrita e organização visual aumentam a autonomia dos usuários              |
+| Interface intuitiva                  | Familiaridade prévia dos usuários com tecnologia           | 80% dos usuários concluem tarefas sem dificuldades                                  | Usuários com baixa familiaridade digital demandam mais clareza e feedback          |
+| Clareza das informações exibidas     | Nível de clareza textual das instruções e tutoriais        | Pelo menos 85% dos usuários reconhecem funcionalidades básicas sem ajuda externa    | Pode aumentar os níveis de erros pelos usuários                                    |
+| Prevenção de erros                   | Faixa etária dos usuários                                  | 90% dos usuários avaliam a interface de maneira positiva                             | Jovens têm mais familiaridade com interfaces digitais                               |
+| Acessibilidade                       | Tipos de deficiência visual                                | 95% das telas avaliadas possuem contraste adequado                                  | O contraste pode não ser universal (ex: baixa visão)                                |
+| Tempo médio para realizar tarefas    | Dispositivos utilizados (PC, celular, tablet)              | Tempo médio para finalizar uma compra: até 3 minutos                                | Layout não adaptado afeta negativamente a experiência                               |
+
+---
+
+### Confiabilidade
+
+| Quality Focus                         | Variation Factor                          | Hypotheses (estimates)                                                                                  | Impact of Variation Factor                                                             |
+|--------------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Número de falhas por tipo e impacto  | Diferentes tipos de erros e contexto       | Distribuição esperada de falhas: 70% leves, 20% médias, 10% graves                                       | Diferentes categorias exigem abordagens distintas                                       |
+| Tempo médio de disponibilidade       | Volume de usuários simultâneos            | Disponibilidade mensal > 99%                                                                             | Alta carga pode aumentar falhas graves e lentidão                                      |
+| Respostas aos erros                  | Qualidade do código e cobertura de testes | 90% dos erros exibem mensagens claras                                                                   | Cobertura de testes baixa pode causar aumento em falhas médias e graves                |
+| Capacidade de retomada               | Infraestrutura da aplicação               | 95% dos processos retomam automaticamente após falhas                                                    | Melhor infraestrutura e monitoramento aumentam a disponibilidade e recuperabilidade    |
+
+## Tabela de Contribuição
 
 <div align="center">
   <table border="1">
@@ -187,9 +213,12 @@
   </table>
 </div>
 
+
 ## Histórico de Versões
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento|[Júlia Fortunato](https://github.com/julia-fortunato)|[Weverton Rodrigues](https://github.com/vevetin)|
 |`1.1`|25/05/2025|Correção abstraction sheets|[Maurício Ferreira](https://github.com/mauricio-araujoo)||
+|`1.2`|31/05/2025|Rastreabilidade abstraction sheets|[Ana Júlia](https://github.com/ailujana)||
+
