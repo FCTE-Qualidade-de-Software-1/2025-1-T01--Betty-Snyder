@@ -106,6 +106,21 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 ![Questões e Métricas - Confiabilidade](../assets/img/questoes-metricas-confiabilidade.jpg)
 
+## Bibliografia
+> /- ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.
+
+> /- IEEE Standard 1061-1998. IEEE Standard for a Software Quality Metrics Methodology. Disponível em: https://standards.ieee.org/standard/1061-1998.html. Acesso em: 02 de junho de 2025.
+
+> /- WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 02 de junho de 2025.
+
+## Referências Bibliográficas
+
+> [1] ISO/IEC. ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.
+
+> [2] IEEE Standard 1061-1998. IEEE Standard for a Software Quality Metrics Methodology. Disponível em: https://standards.ieee.org/standard/1061-1998.html. Acesso em: 02 de junho de 2025.
+
+> [3] WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 02 de junho de 2025.
+
 # Tabela de Contribuição
 
 <div align="center">
