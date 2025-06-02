@@ -1,3 +1,15 @@
+## Aplicação da Metodologia GQM
+
+A equipe seguiu as oito primeiras fases da metodologia GQM para estruturar a avaliação da plataforma AgroMart.Inicialmente, foram definidos os objetivos de medição, com foco em usabilidade e confiabilidade. Em seguida, revisou-se o contexto do sistema e realizaram-se discussões em grupo para a elaboração dos abstraction sheets, o que permitiu a definição colaborativa de perguntas e hipóteses alinhadas aos objetivos propostos.
+
+As questões levantadas foram refinadas e vinculadas a métricas específicas, que passaram por revisão quanto à consistência e completude. Por fim, foi elaborado o plano GQM, consolidando todos os elementos definidos.
+
+<center><p>Figura 1 - Definição de procedimentos GQM</p></center>
+
+![Definição de procedimentos GQM](../assets/img/definicao-procedimentos-gqm.png)
+
+<center><p>Fonte: Retirado de Basili et al. <sup>[1]</sup></p></center>
+
 ## Objetivo de Negócio do AgroMart
 
 O objetivo de negócio do AGROMART é desenvolver um software inovador que estabeleça uma conexão direta entre agricultores e consumidores, especialmente em resposta aos desafios impostos pelo isolamento social durante a pandemia da COVID-19. A plataforma tem como foco principal facilitar e fortalecer a comercialização de produtos agroecológicos, promovendo o acesso direto ao mercado para pequenos produtores rurais.
@@ -96,6 +108,8 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/528adcf3-936a-4628-815a-332c93e97a77" id="xzNge43~wSc2"></iframe></div>
 -->
 
+<center><p>Figura 2 - Questões e Métricas - Usabilidade</p></center>
+
 ![Questões e Métricas - Usabilidade](../assets/img/questoes-metricas-usabilidade.jpg)
 
 ## Relação entre Objetivos de Medição - Questões e Métricas - Objetivo de Medição 2: Confiabilidade
@@ -103,6 +117,8 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 <!--
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/204674cd-d3bd-4ca0-b8c3-4cf8daec7142" id="GENgbFXe6QNI"></iframe></div>
 -->
+
+<center><p>Figura 3 - Questões e Métricas - Confiabilidade</p></center>
 
 ![Questões e Métricas - Confiabilidade](../assets/img/questoes-metricas-confiabilidade.jpg)
 
@@ -115,11 +131,13 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 ## Referências Bibliográficas
 
-> [1] ISO/IEC. ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.
+> [1] BASILI, Victor R.; CALDIERA, Gianluigi; ROMBACH, Hans Dieter. The Goal Question Metric (GQM) Approach. In: MARCINIAK, J. J. (ed.). Encyclopedia of Software Engineering. New York: John Wiley & Sons, 1994. cap. 6, p. 50. Ilust. (Figura 6-2).
 
-> [2] IEEE Standard 1061-1998. IEEE Standard for a Software Quality Metrics Methodology. Disponível em: https://standards.ieee.org/standard/1061-1998.html. Acesso em: 02 de junho de 2025.
+> [2] ISO/IEC. ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.
 
-> [3] WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 02 de junho de 2025.
+> [3] IEEE Standard 1061-1998. IEEE Standard for a Software Quality Metrics Methodology. Disponível em: https://standards.ieee.org/standard/1061-1998.html. Acesso em: 02 de junho de 2025.
+
+> [4] WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em: https://www.w3.org/TR/WCAG21/. Acesso em: 02 de junho de 2025.
 
 # Tabela de Contribuição
 
