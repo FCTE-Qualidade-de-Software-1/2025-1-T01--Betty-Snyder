@@ -8,23 +8,53 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 ## Objetivo de Medição 1: Usabilidade
 
-|||
-|---|---|
-| Analisar | o AgroMart |
-| Para o propósito de | entender  a qualidade do produto da plataforma para melhorar a experiência do usuário|
-| Com respeito a | usabilidade |
-| Do ponto de vista da | equipe de desenvolvimento |
-| No contexto da | disciplina |
+<table border="1">
+  <tr>
+    <td>Analisar</td>
+    <td>o AgroMart</td>
+  </tr>
+  <tr>
+    <td>Para o propósito de</td>
+    <td>entender a qualidade do produto da plataforma para melhorar a experiência do usuário</td>
+  </tr>
+  <tr>
+    <td>Com respeito a</td>
+    <td>usabilidade</td>
+  </tr>
+  <tr>
+    <td>Do ponto de vista da</td>
+    <td>equipe de desenvolvimento</td>
+  </tr>
+  <tr>
+    <td>No contexto da</td>
+    <td>disciplina</td>
+  </tr>
+</table>
 
 ## Objetivo de Medição 2: Confiabilidade
 
-|||
-|---|---|
-| Analisar | o AgroMart |
-| Para o propósito de | Entender  a estabilidade e o bom funcionamento da plataforma, promovendo uma experiência consistente e sem falhas para o usuário |
-| Com respeito a | confiabilidade |
-| Do ponto de vista da | equipe de desenvolvimento |
-| No contexto da | disciplina |
+<table border="1">
+  <tr>
+    <td>Analisar</td>
+    <td>o AgroMart</td>
+  </tr>
+  <tr>
+    <td>Para o propósito de</td>
+    <td>Entender a estabilidade e o bom funcionamento da plataforma, promovendo uma experiência consistente e sem falhas para o usuário</td>
+  </tr>
+  <tr>
+    <td>Com respeito a</td>
+    <td>confiabilidade</td>
+  </tr>
+  <tr>
+    <td>Do ponto de vista da</td>
+    <td>equipe de desenvolvimento</td>
+  </tr>
+  <tr>
+    <td>No contexto da</td>
+    <td>disciplina</td>
+  </tr>
+</table>
 
 ## Questões Objetivo de Medição 1: Usabilidade
 

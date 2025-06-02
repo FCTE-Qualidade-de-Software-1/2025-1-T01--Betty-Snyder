@@ -4,10 +4,11 @@ site_name: Grupo Betty Snyder - Turma 1 (2025.1)
 site_description: Documentação do projeto do grupo Betty Snyder de Qualidade de Software (2025.1), Turma 1
 nav:
   - Home: index.md
-  - Atas:
-    - Reunião 1: atas/Reuniao01_23.10.2024.md
-  - Contextualização: contexto/contextualizacao.md
+  #- Atas:
+  #  - Reunião 1: atas/Reuniao01_23.10.2024.md
+  - Processo de Avaliação do Produto: processo-avaliacao/processo_de_avaliacao.md
   - GQM:
+    - Definição de Procedimentos: gqm/procedimentos.md
     - Artefato GQM: gqm/gqm.md
     - Abstraction Sheets: gqm/abstract.md
 
