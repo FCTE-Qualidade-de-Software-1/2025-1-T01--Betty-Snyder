@@ -247,5 +247,5 @@ Os resultados e as interpretações da avaliação serão revisados por, no mín
 |`1.0`|22/05/2025|Criação do documento|[Júlia Fortunato](https://github.com/julia-fortunato)|[Weverton Rodrigues](https://github.com/vevetin)|
 |`1.1`|25/05/2025|Correção abstraction sheets|[Maurício Ferreira](https://github.com/mauricio-araujoo)|[Júlia Fortunato](https://github.com/julia-fortunato)|
 |`1.2`|31/05/2025|Rastreabilidade abstraction sheets|[Ana Júlia](https://github.com/ailujana)|[Júlia Fortunato](https://github.com/julia-fortunato)|
-|`1.3`|03/06/2025|Revisão geral e Requisitos de Rigor da Avaliaçãos|[Maria Clara](https://github.com/Oleari19)| - |
+|`1.3`|03/06/2025|Revisão geral e Requisitos de Rigor da Avaliaçãos|[Maria Clara](https://github.com/Oleari19)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |
 
