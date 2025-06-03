@@ -167,6 +167,32 @@ A rastreabilidade entre os elementos permite compreender como diferentes fatores
 | Respostas aos erros                  | Qualidade do código e cobertura de testes | 90% dos erros exibem mensagens claras                                                                   | Cobertura de testes baixa pode causar aumento em falhas médias e graves                |
 | Capacidade de retomada               | Infraestrutura da aplicação               | 95% dos processos retomam automaticamente após falhas                                                    | Melhor infraestrutura e monitoramento aumentam a disponibilidade e recuperabilidade    |
 
+
+## Requisitos de Rigor da Avaliação
+Para garantir que os resultados da avaliação da qualidade do sistema AgroMart sejam confiáveis, válidos e úteis para orientar decisões de desenvolvimento, foram definidos os seguintes requisitos de rigor, alinhados às orientações da ISO/IEC 25040 (a qual define o processo de avaliação da qualidade de produtos de software):
+
+### 1. Precisão
+A coleta e a medição dos indicadores serão realizadas buscando uma margem de erro inferior a 5% nas análises quantitativas. Caso seja possível, serão utilizados instrumentos de medição automatizados para minimizar erros humanos e garantir maior precisão e consistência nos resultados.
+
+### 2. Profundidade
+A avaliação abrangerá todas as funcionalidades críticas da plataforma, com foco especial nos módulos que impactam diretamente a experiência dos usuários e a estabilidade do sistema. Essas funcionalidades críticas serão analisados em relação aos critérios priorizados: usabilidade e confiabilidade.
+
+### 3. Abrangência
+A avaliação será aplicada aos módulos mais críticos para a experiência do usuário e para a estabilidade do sistema, levando em consideração diferentes cenários de uso, perfis de usuários e ambientes operacionais (como dispositivos móveis e desktop).
+
+### 4. Nível de Confiança
+Pretende-se alcançar um nível de confiança estatística de 95% nas análises quantitativas e na interpretação dos resultados, garantindo que as conclusões sejam robustas e representativas da realidade do sistema.
+
+### 5. Relacionamento com outras avaliações
+Esta avaliação é inicial e não está vinculada a outras avaliações anteriores ou paralelas. No entanto, seus resultados poderão ser utilizados futuramente como referência para versões e ciclos posteriores de melhoria contínua e evolução do sistema AgroMart.
+
+### 6. Documentação
+Todos os procedimentos, dados coletados, métodos de análise e decisões de design serão rigorosamente documentados, garantindo rastreabilidade e possibilitando a replicação da avaliação, se necessário.
+
+### 7. Revisão Cruzada
+Os resultados e as interpretações da avaliação serão revisados por, no mínimo, dois membros da equipe, como forma de reduzir vieses individuais e assegurar a confiabilidade e a qualidade dos achados.
+
+
 ## Tabela de Contribuição
 
 <div align="center">
@@ -221,4 +247,5 @@ A rastreabilidade entre os elementos permite compreender como diferentes fatores
 |`1.0`|22/05/2025|Criação do documento|[Júlia Fortunato](https://github.com/julia-fortunato)|[Weverton Rodrigues](https://github.com/vevetin)|
 |`1.1`|25/05/2025|Correção abstraction sheets|[Maurício Ferreira](https://github.com/mauricio-araujoo)|[Júlia Fortunato](https://github.com/julia-fortunato)|
 |`1.2`|31/05/2025|Rastreabilidade abstraction sheets|[Ana Júlia](https://github.com/ailujana)|[Júlia Fortunato](https://github.com/julia-fortunato)|
+|`1.3`|03/06/2025|Revisão geral e Requisitos de Rigor da Avaliaçãos|[Maria Clara](https://github.com/Oleari19)| - |
 
