@@ -148,32 +148,32 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
       <tr>
         <td>221007798</td>
         <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
-        <td>19</td>
+        <td>16,6</td>
       </tr>
       <tr>
         <td>221022355</td>
         <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
-        <td>19</td>
+        <td>16,6</td>
       </tr>
       <tr>
         <td>221008338</td>
         <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
-        <td>19</td>
+        <td>16,6</td>
       </tr>
       <tr>
         <td>222007021</td>
         <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
-        <td>19</td>
+        <td>16,6</td>
       </tr>
       <tr>
         <td>222006356</td>
         <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
-        <td>5</td>
+        <td>16,6</td>
       </tr>
       <tr>
         <td>221022767</td>
         <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
-        <td>19</td>
+        <td>16,6</td>
       </tr>
     </tbody>
   </table>
