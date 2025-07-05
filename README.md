@@ -13,7 +13,7 @@ Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro compu
     <td align="center">
       <a href="http://github.com/ailujana">
         <img src="http://github.com/ailujana.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt=""/>
-        <br /><sub><b>Ana Júlia Mendes Santos</b></sub>
+        <br /><sub><b>Ana Júlia Mendes</b></sub>
       </a>
     </td>
     <td align="center">
@@ -25,7 +25,7 @@ Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro compu
     <td align="center">
       <a href="http://github.com/Oleari19">
         <img src="http://github.com/Oleari19.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt=""/>
-        <br /><sub><b>Maria Clara Oleari de Araujo</b></sub>
+        <br /><sub><b>Maria Clara Oleari</b></sub>
       </a>
     </td>
     <td align="center">
@@ -37,13 +37,13 @@ Betty Snyder foi uma das seis primeiras programadoras do ENIAC, o primeiro compu
     <td align="center">
       <a href="http://github.com/PedroLock">
         <img src="http://github.com/PedroLock.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt=""/>
-        <br /><sub><b>Pedro Lock Martins</b></sub>
+        <br /><sub><b>Pedro Lock</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="http://github.com/vevetin">
         <img src="http://github.com/vevetin.png" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt=""/>
-        <br /><sub><b>Weverton Rodrigues da Costa Silva</b></sub>
+        <br /><sub><b>Weverton Rodrigues</b></sub>
       </a>
     </td>
   </tr>
