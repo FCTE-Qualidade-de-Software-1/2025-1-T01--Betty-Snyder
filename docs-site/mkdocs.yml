@@ -10,7 +10,7 @@ nav:
   - GQM:
     - Artefato GQM: gqm/gqm.md
     - Abstraction Sheets: gqm/abstract.md
-  - Fase 2: fase2/relatorio-fase2.md
+  - Relatório Trabalho Final: trabalho-final/relatorio.md
 
 theme:
   name: material
