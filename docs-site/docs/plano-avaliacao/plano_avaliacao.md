@@ -1,30 +1,50 @@
 # Plano de Avaliação
 
-# Introdução
+## Introdução
 
-O **Plano de Avaliação** é um documento fundamental no processo de análise de sistemas ou aplicações, com o objetivo de garantir que as avaliações de qualidade sejam feitas de forma estruturada e eficiente. Ele descreve como a avaliação será conduzida, quais recursos são necessários e qual o cronograma para a execução das atividades.
+O Plano de Avaliação é um documento fundamental no processo de análise de sistemas ou aplicações, com o objetivo de garantir que as avaliações de qualidade sejam feitas de forma estruturada, eficiente e reprodutível. Ele descreve como a avaliação será conduzida, quais recursos são necessários, o cronograma de execução das atividades e os critérios que guiarão a interpretação dos resultados.
 
-O plano de avaliação serve como um roteiro que orienta todo o processo de análise, assegurando que todos os aspectos críticos da aplicação sejam avaliados de forma sistemática e com base em padrões bem definidos. Isso permite que os responsáveis pelo desenvolvimento e pela melhoria do sistema identifiquem pontos fortes, áreas de melhoria e oportunidades de otimização da experiência do usuário.
+O plano serve como um roteiro que orienta todo o processo de análise, assegurando que os aspectos críticos da aplicação sejam avaliados de forma sistemática, com base em métricas, níveis de pontuação e critérios de julgamento definidos na Fase 2. Isso permite que os responsáveis pelo desenvolvimento e evolução do sistema identifiquem pontos fortes, áreas de melhoria e oportunidades de otimização da experiência do usuário com base em evidências.
 
 ## Método de Avaliação
 
-A avaliação será realizada por meio de uma combinação de métricas de **confiabilidade** e **usabilidade**, as quais foram previamente especificadas na **Fase 2: Especificar a Avaliação**. As métricas selecionadas abrangem tanto a **confiabilidade** do sistema, como a **eficiência e a satisfação do usuário**. Essa combinação visa proporcionar uma análise completa do sistema em dois aspectos essenciais: seu funcionamento técnico e a experiência do usuário durante a interação com a aplicação.
+A avaliação será realizada por meio de uma combinação de métricas de **confiabilidade** e **usabilidade**, previamente especificadas na [Fase 2: Especificar a Avaliação](../gqm/gqm.md#seleção-das-métricas). As métricas abrangem tanto aspectos técnicos (como taxa de falhas e retomada de operações) quanto de experiência do usuário (como tempo de tarefa, compreensão da interface e acessibilidade). Essa abordagem visa proporcionar uma análise completa do sistema.
 
 ### Método de Avaliação Selecionado
 
-Os **testes de usabilidade internos** serão conduzidos com o auxílio de **métodos observacionais**, realizados pela própria equipe de desenvolvimento. O objetivo desses testes é avaliar a **eficiência**, a **eficácia** e a **satisfação do usuário** com o sistema, permitindo identificar pontos fortes e áreas que necessitam de melhorias.
+A equipe utilizará testes de usabilidade e confiabilidade internos, com o auxílio de métodos observacionais e análise heurística. Os testes serão realizados pela própria equipe de desenvolvimento com membros simulando cenários reais. O foco está em avaliar:
+
+   - Eficiência: tempo médio para concluir tarefas comuns;
+
+   - Eficácia: taxa de sucesso e recuperação após erros;
+
+   - Satisfação e acessibilidade: percepção estética, compreensão e suporte a tecnologias assistivas;
 
 ### Instruções de Como Utilizá-lo
 
-Os **testes de usabilidade internos** serão executados por meio de sessões de testes individuais, nas quais os membros da equipe de desenvolvimento acompanharão os usuários ao realizar tarefas específicas dentro do sistema. Durante essas sessões, serão coletados dados sobre o tempo necessário para a execução das tarefas, a taxa de erros cometidos pelos usuários e outros indicadores importantes relacionados à usabilidade da aplicação. Essa abordagem proporcionará uma visão clara sobre a facilidade de uso e as dificuldades que os usuários podem enfrentar ao interagir com o sistema.
+Durante os testes, os participantes realizarão as tarefas enquanto um membro da equipe observa e coleta dados quantitativos (tempo, acertos, erros) e qualitativos (dificuldades, comentários, reações). As sessões serão registradas com ferramentas como cronômetro digital e, quando possível, captura de tela ou gravação para análise posterior.
+
+Após os testes, será aplicado um breve questionário para medir a satisfação e avaliar aspectos como clareza da interface, compreensão dos ícones, facilidade de navegação e estética visual.
+
+A avaliação será considerada bem-sucedida se pelo menos 70% das métricas atingirem os níveis "Bom" ou "Excelente", conforme os níveis de pontuação definidos na Fase 2.
 
 ## Especificação dos Recursos Necessários
 
-Para a realização da avaliação, será necessário o seguinte conjunto de recursos:
+Para a realização da avaliação, serão utilizados os seguintes recursos:
 
-1. **Materiais de Apoio:**
-   - **Documentação de Critérios de Avaliação:** Documento detalhado que explicará como cada uma das métricas de **usabilidade** e **confiabilidade** será avaliada, garantindo a transparência e a padronização do processo.
-   - **Heurísticas de Nielsen:** A equipe se baseará nas **heurísticas de usabilidade de Nielsen** para realizar uma avaliação crítica da interface do sistema. Esse conjunto de princípios servirá como guia para identificar problemas comuns de usabilidade e sugerir melhorias.
+1. Materiais de Apoio:
+
+   - Documentação de Critérios de Avaliação: Documento com instruções sobre como cada métrica será medida e julgada, garantindo consistência e transparência.
+
+   - Heurísticas de Nielsen: As dez heurísticas servirão como guia complementar para avaliação da interface, especialmente durante a análise heurística.
+
+2. Ferramentas Técnicas:
+
+   - Cronômetro digital (medição de tempo de tarefas);
+
+   - Ferramentas de captura de tela ou gravação (opcional, para análise detalhada de interações);
+
+   - Ferramenta de verificação de acessibilidade (ex: WAVE, Lighthouse).
 
 ## Cronograma das Ações
 
@@ -39,9 +59,9 @@ Este planejamento temporal visa assegurar que todas as atividades sejam realizad
 
 ## Conclusão
 
-Este **plano de avaliação** visa proporcionar uma análise detalhada do sistema, utilizando métricas específicas para avaliar tanto a **confiabilidade** quanto a **usabilidade**. Os recursos necessários e o cronograma de ações foram devidamente definidos para garantir a realização de uma avaliação eficiente e completa. O plano assegura que todas as áreas do sistema serão abordadas, proporcionando uma visão abrangente de seu desempenho e da experiência do usuário.
+Este plano de avaliação foi elaborado com o objetivo de proporcionar uma análise criteriosa da qualidade do sistema AgroMart, por meio da aplicação de métricas previamente definidas para avaliar sua usabilidade e confiabilidade. A estrutura adotada garante a reprodutibilidade e rastreabilidade do processo, permitindo que diferentes avaliadores obtenham resultados consistentes a partir dos mesmos critérios.
 
-O presente Plano de Avaliação foi elaborado com o intuito de viabilizar uma análise minuciosa e criteriosa do sistema, contemplando aspectos técnicos e de interação com o usuário. A definição clara dos métodos, dos recursos necessários e do cronograma de execução contribui para a organização eficiente do processo avaliativo. Ao final, espera-se obter uma visão abrangente do desempenho do sistema, subsidiando decisões fundamentadas para sua evolução e aperfeiçoamento contínuo.
+Espera-se, com isso, obter uma visão abrangente sobre o desempenho do sistema e sua adequação ao público-alvo, gerando subsídios confiáveis para futuras melhorias e evoluções.
 
 ## Histórico de Versões
 

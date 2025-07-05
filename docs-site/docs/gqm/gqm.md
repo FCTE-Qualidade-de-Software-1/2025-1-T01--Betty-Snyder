@@ -112,7 +112,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 <center><p>Figura 2 - Questões e Métricas - Usabilidade</p></center>
 
-![Questões e Métricas - Usabilidade](../assets/img/questoes-metricas-usabilidade.jpg)
+![Questões e Métricas - Usabilidade](../assets/img/Figura%20GQM%20-%20Usabilidade.png)
 
 ## Relação entre Objetivos de Medição - Questões e Métricas - Objetivo de Medição 2: Confiabilidade
 
@@ -122,19 +122,21 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 <center><p>Figura 3 - Questões e Métricas - Confiabilidade</p></center>
 
-![Questões e Métricas - Confiabilidade](../assets/img/.jpg)
+![Questões e Métricas - Confiabilidade](../assets/img/Figura%20GQM%20-%20Confiabilidade.png)
 
-### Seleção das Métricas
+## Seleção das Métricas
 
 Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes métricas para a avaliação:
 
-#### Confiabilidade:
+#### Confiabilidade
+
 - **M1:** Percentual de erros com mensagens claras e sem perda de dados.
 - **M2:** Tempo médio de resposta do sistema após a ocorrência de erros.
 - **M3:** Percentual de requisitos que possuem testes automatizados associados.
 - **M4:** Percentual de requisitos com critérios de aceitação bem definidos.
 
-#### Usabilidade:
+#### Usabilidade
+
 - **M1:** Tempo médio para completar tarefas.
 - **M2:** Taxa de sucesso de novos usuários em tarefas básicas.
 - **M3:** Percentual de acertos na identificação de botões.
@@ -145,22 +147,40 @@ Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes 
 - **M8:** Percentual de avaliação positiva em ferramenta automatizada de acessibilidade.
 - **M9:** Tempo médio de navegação utilizando o teclado (tecla Tab).
 
-### Níveis de Pontuação das Métricas
+## Níveis de Pontuação das Métricas
 
-Após discussões internas no grupo, decidimos adotar uma escala de pontuação de **0 a 10** para cada métrica, com as seguintes categorias de avaliação:
+Para cada métrica definida por meio da abordagem GQM, foram estabelecidos níveis de pontuação que permitem interpretar os resultados de maneira padronizada, facilitando comparações e decisões. Esses níveis foram definidos com base em referências da literatura, expectativas do público-alvo e boas práticas de avaliação.
 
-- **Excelente (10):** Desempenho superior, com poucas falhas e alta usabilidade.
-- **Bom (7-9):** Algumas falhas, mas o sistema continua funcional. A usabilidade é razoável.
-- **Razoável (4-6):** O sistema apresenta falhas frequentes ou tarefas difíceis de completar.
-- **Ruim (1-3):** O sistema apresenta falhas críticas que afetam negativamente a experiência do usuário, necessitando de melhorias substanciais.
+A seguir, apresenta-se a escala de pontuação definida pela equipe:
 
-### Critérios para Julgamento
+| Desempenho da Métrica | Faixa de Valores | Interpretação Qualitativa   |
+| --- | :---: | --- |
+| **Excelente**         | 10 | Atende plenamente às expectativas de qualidade. |
+| **Bom**               | 7 - 9 | Atende de forma satisfatória, com pequenas oportunidades de melhoria. |
+| **Regular**           | 4 - 6| Apresenta deficiências perceptíveis, mas ainda pode ser considerado utilizável. |
+| **Insatisfatório**    | 1 - 3 | Compromete significativamente a experiência e/ou confiança do usuário. |
 
-Para cada subcaracterística de qualidade, estabelecemos os seguintes critérios de julgamento:
+## Critérios para Julgamento
 
-- **Confiabilidade:** O sistema será classificado como **"ruim"** em confiabilidade caso apresente falhas frequentes ou impactantes, prejudicando a funcionalidade e a experiência do usuário. Caso contrário, será classificado como **"aprovado"**.
-  
-- **Usabilidade:** O sistema será classificado como **"ruim"** em usabilidade caso os membros da equipe encontrem dificuldades significativas ao realizar tarefas principais, como navegação ou interações com a interface. Caso contrário, será classificado como **"aprovado"**.
+Com base nas métricas e níveis de pontuação definidos, foram estabelecidos critérios de julgamento para interpretar os resultados da avaliação e apoiar a tomada de decisões quanto à qualidade da aplicação.
+
+Os critérios são organizados por característica (usabilidade e confiabilidade) e baseiam-se na média de desempenho das métricas associadas a cada uma delas:
+
+### Critérios para Usabilidade 
+
+- **Aceitável:** ≥ 70% das métricas classificadas como "Bom" ou "Excelente".
+
+- **Parcialmente aceitável:** Entre 50% e 69% das métricas com nível "Bom" ou superior.
+
+- **Inaceitável:** < 50% das métricas atingindo "Bom" ou "Excelente".
+
+### Critérios para Confiabilidade 
+
+- **Adequada:** Taxa de erros inferior a 5% nas sessões testadas e ≥ 90% dos erros com mensagens claras e recuperação possível.
+
+- **Moderada:** Taxa de erros entre 5% e 10%, com ≥ 70% dos erros apresentando feedback compreensível.
+
+- **Crítica:** Taxa de erros > 10% ou erros recorrentes sem feedback ou perda de dados.
 
 ## Bibliografia
 > \- ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.

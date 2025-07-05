@@ -4,15 +4,15 @@ Este trabalho foi elaborado e desenvolvido no contexto da disciplina de Qualidad
 
 ## Aplicação Escolhida
 
-O software avaliado neste trabalho é o AgroMart <sup></sup>, uma plataforma tecnológica desenvolvida durante uma hackathon na UnB-FCTE (Universidade de Brasília - Faculdade de Ciências e Tecnologias em Engenharia) em 2020, com o objetivo de apoiar a agricultura familiar por meio da conexão entre pequenos produtores e consumidores. Trata-se de uma plataforma híbrida, composta por uma interface web voltada aos produtores e um aplicativo móvel multiplataforma destinado aos consumidores. O domínio de aplicação do AgroMart abrange temas como agricultura familiar, comércio digital, inclusão social e consumo sustentável.
+O software avaliado neste trabalho é o **AgroMart <sup>[1]</sup>** , uma plataforma tecnológica desenvolvida durante uma hackathon na UnB-FCTE (Universidade de Brasília - Faculdade de Ciências e Tecnologias em Engenharia) em 2020, com o objetivo de apoiar a agricultura familiar por meio da conexão entre pequenos produtores e consumidores. Trata-se de uma plataforma híbrida, composta por uma interface web voltada aos produtores e um aplicativo móvel multiplataforma destinado aos consumidores. O **domínio de aplicação** do AgroMart abrange temas como agricultura familiar, comércio digital, inclusão social e consumo sustentável.
 
-Apesar de ter funcionalidades voltadas para atividades comerciais (como venda de produtos e conexão entre produtores e consumidores), o AgroMart não foi concebido como um software comercial no sentido tradicional da classificação de Pressman, uma vez que foi desenvolvido em ambiente acadêmico, com foco em impacto social e sem fins lucrativos.
+Apesar de ter funcionalidades voltadas para atividades comerciais (como venda de produtos e conexão entre produtores e consumidores), o AgroMart **não foi concebido como um software comercial no sentido tradicional** da classificação de Pressman, uma vez que foi desenvolvido em ambiente acadêmico, com foco em impacto social e sem fins lucrativos.
 
-No entanto, de acordo com a norma IEEE 1062, o AgroMart pode ser classificado como um COTS (Commercial Off-The-Shelf Software), pois é um produto padronizado, voltado a múltiplos usuários e disponibilizado como uma solução genérica, sem personalizações específicas para clientes individuais.
+No entanto, de acordo com a norma IEEE 1062, o AgroMart pode ser classificado como um **COTS (Commercial Off-The-Shelf Software)**, pois é um produto padronizado, voltado a múltiplos usuários e disponibilizado como uma solução genérica, sem personalizações específicas para clientes individuais.
 
-O objetivo estratégico da plataforma é se consolidar como referência em qualidade e inovação tecnológica no segmento agrícola, respondendo de forma robusta, segura e adaptável às demandas desse setor em constante transformação.
+O **objetivo estratégico da plataforma** é se consolidar como referência em qualidade e inovação tecnológica no segmento agrícola, respondendo de forma robusta, segura e adaptável às demandas desse setor em constante transformação.
 
-Por fim, avaliação da qualidade tem como objetivos principais identificar e priorizar as características mais relevantes para o seu público-alvo; orientar ações de melhoria contínua no sistema; e assegurar que o produto esteja alinhado às normas e boas práticas reconhecidas internacionalmente para qualidade de software.
+Por fim, **avaliação da qualidade** tem como objetivos principais identificar e priorizar as características mais relevantes para o seu público-alvo; orientar ações de melhoria contínua no sistema; e assegurar que o produto esteja alinhado às normas e boas práticas reconhecidas internacionalmente para qualidade de software.
 
 ## Classificação e Ênfase das Características de Qualidade
 
@@ -20,9 +20,10 @@ Nesta etapa inicial do processo de avaliação, foram definidos as característi
 
 Foram priorizadas as características de **usabilidade** e **confiabilidade**, devido à sua relação direta com acessibilidade, facilidade de uso e estabilidade da aplicação — aspectos fundamentais para um público composto por pessoas com 30 anos ou mais, incluindo idosos e usuários com menor familiaridade tecnológica.
 
-A seguir, apresenta-se a classificação das características de qualidade com suas respectivas ênfases, conforme os critérios da abordagem SQuaRE (ISO/IEC 25010)<sup>[3]</sup>, em uma escala de 1 a 5. A SQuaRE (Software Product Quality Requirements and Evaluation) é uma norma internacional que define um modelo de qualidade para produtos de software, estabelecendo características e subcaracterísticas que servem como referência para avaliação e especificação da qualidade de sistemas.
+A seguir, apresenta-se a classificação das características de qualidade com suas respectivas ênfases, conforme os critérios da abordagem SQuaRE (ISO/IEC 25010)<sup>[2]</sup>, em uma escala de 1 a 5. A SQuaRE (Software Product Quality Requirements and Evaluation) é uma norma internacional que define um modelo de qualidade para produtos de software, estabelecendo características e subcaracterísticas que servem como referência para avaliação e especificação da qualidade de sistemas.
 
 | Característica | Ênfase (1-5) |
+|---|---|
 | Usabilidade | 5 – grande interesse|
 | Confiabilidade | 5 – grande interesse|
 | Funcionalidade | 4 – largo interesse|
@@ -43,9 +44,9 @@ A proposta de avaliação tem como principal objetivo assegurar a qualidade da a
 
 O domínio da aplicação abrange comunidades de agricultura familiar, consumidores e vendedores inseridos em um ambiente digital de compra e venda. A avaliação visa, portanto, garantir que o produto atenda às necessidades desse público, identificar pontos de melhoria relacionados à usabilidade — de modo a facilitar o acesso, a navegação e a compreensão da aplicação —, além de propor sugestões que contribuam para a manutenção da confiabilidade do sistema.
 
-### Conexão com ODS (Objetivo de Desenvolvimento Sustentável) da ONU
+## Conexão com ODS (Objetivo de Desenvolvimento Sustentável) da ONU
 
-A aplicação avaliada apresenta forte alinhamento com diversos Objetivos de Desenvolvimento Sustentável (ODS) propostos pela Organização das Nações Unidas (ONU)<sup>[2]</sup>, demonstrando seu potencial de impacto positivo em múltiplas dimensões sociais, econômicas e ambientais. A seguir, destacam-se os ODS com os quais a aplicação se conecta diretamente:
+A aplicação avaliada apresenta forte alinhamento com diversos Objetivos de Desenvolvimento Sustentável (ODS) propostos pela Organização das Nações Unidas (ONU)<sup>[3]</sup>, demonstrando seu potencial de impacto positivo em múltiplas dimensões sociais, econômicas e ambientais. A seguir, destacam-se os ODS com os quais a aplicação se conecta diretamente:
 
 - **ODS 2 – Fome Zero e Agricultura Sustentável:** ao promover a valorização da agricultura familiar e facilitar a comercialização de seus produtos, a aplicação contribui para o fortalecimento de sistemas alimentares sustentáveis e o acesso à alimentação de qualidade.
 
@@ -121,9 +122,9 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 
 > [1] AgroMart. Disponível em: <https://github.com/AgroMart>. Acesso em: 22 de maio de 2025.
 
-> [2] ONU. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 22 de maio de 2025.
+> [2] ISO/IEC 25010. Disponível em: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>. Acesso em: 22 de maio de 2025.
 
-> [3] ISO/IEC 25010. Disponível em: <https://iso25000.com/index.php/en/iso-25000-standards/iso-25010>. Acesso em: 22 de maio de 2025.
+> [3] ONU. Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 22 de maio de 2025.
 
 
 ## Histórico de Versões
