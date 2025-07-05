@@ -4,9 +4,35 @@ Este trabalho foi elaborado e desenvolvido no contexto da disciplina de Qualidad
 
 ## Aplicação Escolhida
 
-A aplicação escolhida para a avaliação da qualidade de software é o **AgroMart** <sup>[1]</sup>, um projeto desenvolvido durante um hackathon na UnB-FCTE (Universidade de Brasília - Faculdade de Ciências e Tecnologias em Engenharia) em 2020, com o objetivo de apoiar a agricultura familiar durante o isolamento social causado pela pandemia do COVID-19. A proposta inicial era criar um aplicativo que permitisse aos agricultores divulgar seus pontos de venda, produtos e informações de contato, facilitando a conexão com consumidores próximos.
+O software avaliado neste trabalho é o AgroMart <sup></sup>, uma plataforma tecnológica desenvolvida durante uma hackathon na UnB-FCTE (Universidade de Brasília - Faculdade de Ciências e Tecnologias em Engenharia) em 2020, com o objetivo de apoiar a agricultura familiar por meio da conexão entre pequenos produtores e consumidores. Trata-se de uma plataforma híbrida, composta por uma interface web voltada aos produtores e um aplicativo móvel multiplataforma destinado aos consumidores. O domínio de aplicação do AgroMart abrange temas como agricultura familiar, comércio digital, inclusão social e consumo sustentável.
 
-Com o tempo, o projeto evoluiu para incluir uma plataforma mais robusta e funcionalidades voltadas para CSAs (Comunidades que Sustentam a Agricultura) e meios de pagamento digitais. Atualmente, o AgroMart é mantido por professores e estudantes da UnB como uma iniciativa open source voltada à valorização do pequeno produtor rural.
+Apesar de ter funcionalidades voltadas para atividades comerciais (como venda de produtos e conexão entre produtores e consumidores), o AgroMart não foi concebido como um software comercial no sentido tradicional da classificação de Pressman, uma vez que foi desenvolvido em ambiente acadêmico, com foco em impacto social e sem fins lucrativos.
+
+No entanto, de acordo com a norma IEEE 1062, o AgroMart pode ser classificado como um COTS (Commercial Off-The-Shelf Software), pois é um produto padronizado, voltado a múltiplos usuários e disponibilizado como uma solução genérica, sem personalizações específicas para clientes individuais.
+
+O objetivo estratégico da plataforma é se consolidar como referência em qualidade e inovação tecnológica no segmento agrícola, respondendo de forma robusta, segura e adaptável às demandas desse setor em constante transformação.
+
+Por fim, avaliação da qualidade tem como objetivos principais identificar e priorizar as características mais relevantes para o seu público-alvo; orientar ações de melhoria contínua no sistema; e assegurar que o produto esteja alinhado às normas e boas práticas reconhecidas internacionalmente para qualidade de software.
+
+## Classificação e Ênfase das Características de Qualidade
+
+Nesta etapa inicial do processo de avaliação, foram definidos as características de qualidade a serem considerados com base nos objetivos da avaliação e no perfil do público-alvo. A análise levou em conta tanto as necessidades dos usuários finais quanto os interesses da equipe de desenvolvimento, com o propósito de identificar características críticas para a experiência de uso e o desempenho do sistema.
+
+Foram priorizadas as características de **usabilidade** e **confiabilidade**, devido à sua relação direta com acessibilidade, facilidade de uso e estabilidade da aplicação — aspectos fundamentais para um público composto por pessoas com 30 anos ou mais, incluindo idosos e usuários com menor familiaridade tecnológica.
+
+A seguir, apresenta-se a classificação das características de qualidade com suas respectivas ênfases, conforme os critérios da abordagem SQuaRE (ISO/IEC 25010)<sup>[3]</sup>, em uma escala de 1 a 5. A SQuaRE (Software Product Quality Requirements and Evaluation) é uma norma internacional que define um modelo de qualidade para produtos de software, estabelecendo características e subcaracterísticas que servem como referência para avaliação e especificação da qualidade de sistemas.
+
+| Característica | Ênfase (1-5) |
+| Usabilidade | 5 – grande interesse|
+| Confiabilidade | 5 – grande interesse|
+| Funcionalidade | 4 – largo interesse|
+| Eficiência (Desempenho) | 2 – baixo interesse|
+| Compatibilidade | 2 – baixo interesse|
+| Segurança | 1 – nenhum interesse|
+| Manutenibilidade | 1 – nenhum interesse|
+| Portabilidade | 1 – nenhum interesse |
+
+Essa priorização servirá como base para a especificação das métricas, definição dos critérios de julgamento e planejamento da avaliação, garantindo foco nas qualidades mais relevantes para a experiência e confiança dos usuários no produto avaliado.
 
 ## Proposta de Avaliação e Melhoria de Qualidade 
 
@@ -30,34 +56,6 @@ A aplicação avaliada apresenta forte alinhamento com diversos Objetivos de Des
 - **ODS 12 – Consumo e Produção Responsáveis:** a iniciativa estimula o consumo consciente e a valorização de produtos locais, contribuindo para cadeias de produção mais éticas, sustentáveis e transparentes.
 
 - **ODS 15 – Vida Terrestre:** ao incentivar práticas agrícolas sustentáveis e apoiar a agricultura familiar, a aplicação colabora com a preservação de ecossistemas terrestres e o uso sustentável dos recursos naturais.
-
-
-## Classificação e Ênfase das Características de Qualidade de Acordo com a SQuaRE 
-
-Nesta etapa inicial do processo de avaliação, foram definidos as características de qualidade a serem considerados com base nos objetivos da avaliação e no perfil do público-alvo. A análise levou em conta tanto as necessidades dos usuários finais quanto os interesses da equipe de desenvolvimento, com o propósito de identificar características críticas para a experiência de uso e o desempenho do sistema.
-
-Foram priorizadas as características de **usabilidade** e **confiabilidade**, devido à sua relação direta com acessibilidade, facilidade de uso e estabilidade da aplicação — aspectos fundamentais para um público composto por pessoas com 30 anos ou mais, incluindo idosos e usuários com menor familiaridade tecnológica.
-
-A seguir, apresenta-se a classificação das características de qualidade com suas respectivas ênfases, conforme os critérios da abordagem SQuaRE (ISO/IEC 25010)<sup>[3]</sup>, em uma escala de 1 a 5. A SQuaRE (Software Product Quality Requirements and Evaluation) é uma norma internacional que define um modelo de qualidade para produtos de software, estabelecendo características e subcaracterísticas que servem como referência para avaliação e especificação da qualidade de sistemas.
-
-
-- Usabilidade: 5 – grande interesse
-
-- Confiabilidade: 5 – grande interesse
-
-- Funcionalidade: 4 – largo interesse
-
-- Eficiência (Desempenho): 2 – baixo interesse
-
-- Compatibilidade: 2 – baixo interesse
-
-- Segurança: 1 – nenhum interesse
-
-- Manutenibilidade: 1 – nenhum interesse
-
-- Portabilidade: 1 – nenhum interesse
-
-Essa priorização servirá como base para a especificação das métricas, definição dos critérios de julgamento e planejamento da avaliação, garantindo foco nas qualidades mais relevantes para a experiência e confiança dos usuários no produto avaliado.
 
 
 ## Tabela de Contribuição

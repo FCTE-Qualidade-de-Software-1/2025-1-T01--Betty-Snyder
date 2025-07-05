@@ -122,7 +122,45 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 <center><p>Figura 3 - Questões e Métricas - Confiabilidade</p></center>
 
-![Questões e Métricas - Confiabilidade](../assets/img/questoes-metricas-confiabilidade.jpg)
+![Questões e Métricas - Confiabilidade](../assets/img/.jpg)
+
+### Seleção das Métricas
+
+Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes métricas para a avaliação:
+
+#### Confiabilidade:
+- **M1:** Percentual de erros com mensagens claras e sem perda de dados.
+- **M2:** Tempo médio de resposta do sistema após a ocorrência de erros.
+- **M3:** Percentual de requisitos que possuem testes automatizados associados.
+- **M4:** Percentual de requisitos com critérios de aceitação bem definidos.
+
+#### Usabilidade:
+- **M1:** Tempo médio para completar tarefas.
+- **M2:** Taxa de sucesso de novos usuários em tarefas básicas.
+- **M3:** Percentual de acertos na identificação de botões.
+- **M4:** Percentual de erros com sugestões de correção e mensagens claras.
+- **M5:** Taxa de recuperação após erro.
+- **M6:** Nota média atribuída pelos usuários em questionário sobre a interface da aplicação.
+- **M7:** Percentual de compatibilidade com leitores de tela.
+- **M8:** Percentual de avaliação positiva em ferramenta automatizada de acessibilidade.
+- **M9:** Tempo médio de navegação utilizando o teclado (tecla Tab).
+
+### Níveis de Pontuação das Métricas
+
+Após discussões internas no grupo, decidimos adotar uma escala de pontuação de **0 a 10** para cada métrica, com as seguintes categorias de avaliação:
+
+- **Excelente (10):** Desempenho superior, com poucas falhas e alta usabilidade.
+- **Bom (7-9):** Algumas falhas, mas o sistema continua funcional. A usabilidade é razoável.
+- **Razoável (4-6):** O sistema apresenta falhas frequentes ou tarefas difíceis de completar.
+- **Ruim (1-3):** O sistema apresenta falhas críticas que afetam negativamente a experiência do usuário, necessitando de melhorias substanciais.
+
+### Critérios para Julgamento
+
+Para cada subcaracterística de qualidade, estabelecemos os seguintes critérios de julgamento:
+
+- **Confiabilidade:** O sistema será classificado como **"ruim"** em confiabilidade caso apresente falhas frequentes ou impactantes, prejudicando a funcionalidade e a experiência do usuário. Caso contrário, será classificado como **"aprovado"**.
+  
+- **Usabilidade:** O sistema será classificado como **"ruim"** em usabilidade caso os membros da equipe encontrem dificuldades significativas ao realizar tarefas principais, como navegação ou interações com a interface. Caso contrário, será classificado como **"aprovado"**.
 
 ## Bibliografia
 > \- ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.
@@ -184,3 +222,4 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento|[Weverton Rodrigues](https://github.com/vevetin)|[Júlia Fortunato](https://github.com/julia-fortunato)|
+| `1.1`|27/06/2025 | Atualização do documento |[Ana Júlia](https://github.com/ailujana)|[Weverton Rodrigues](https://github.com/vevetin)|
