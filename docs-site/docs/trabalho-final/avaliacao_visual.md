@@ -70,7 +70,7 @@ Print Anexado:
 
 ## Interpretação dos Resultados com Base na Escala de Pontuação
 
-Para tornar a avaliação comparável e objetiva, foi aplicada a escala de pontuação definida pela equipe na [Fase 2 - Especificar a avaliação]().
+Para tornar a avaliação comparável e objetiva, foi aplicada a escala de pontuação definida pela equipe na [Fase 2 - Especificar a avaliação].
 
 Com base na aplicação dos checklists, nas observações sistemáticas e na análise das evidências visuais coletadas, foram atribuídas as seguintes pontuações, de acordo com a escala definida pela equipe:
 

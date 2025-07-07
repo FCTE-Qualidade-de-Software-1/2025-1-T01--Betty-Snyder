@@ -181,5 +181,8 @@ Este documento define métricas simples para avaliar o desempenho do projeto Agr
 | Equipamentos      | R$ 3.000,00     | 6          | R$ 18.000,00   |
 | **Total Geral**   | —              | —          | **R$ 40.800,00** |
 
+## Histórico de Versões
 
-
+|Versão|Data|Descrição|Autor|Revisor|
+|:----:|----|---------|-----|:-------:|
+|`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) |[Weverton Rodrigues](https://github.com/vevetin)|
