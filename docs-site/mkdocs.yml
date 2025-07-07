@@ -4,21 +4,26 @@ site_name: Grupo Betty Snyder - Turma 1 (2025.1)
 site_description: Documentação do projeto do grupo Betty Snyder de Qualidade de Software (2025.1), Turma 1
 nav:
   - Home: index.md
-  - Fase 1 - Estabelecer os requisitos de avaliação: processo-avaliacao/processo_de_avaliacao.md
-  - Fase 2 - Especificar a avaliação:
+  - Fase 1: processo-avaliacao/processo_de_avaliacao.md
+  - Fase 2:
     - Abordagem GQM: gqm/gqm.md
     - Abstraction Sheets: gqm/abstract.md
-  - Fase 3 - Projetar a avaliação:
+  - Fase 3:
     - Plano de Avaliação: plano-avaliacao/plano_avaliacao.md
-  - Fase 4 - Executar a avaliação:
-    - Medidas Obtidas: medidas-obtidas/medidas_obtidas.md
+  - Fase 4:
     - Comparação com os Critérios: medidas-obtidas/comparacao_criterios.md
-    - Usabilidade:
-      - M9: medidas-obtidas/usabilidade/usabilidade-m9.md
-    - Confiabilidade:
-      - M4: medidas-obtidas/confiabilidade/confiabilidade-m4.md
+    - Medidas Obtidas - Usabilidade:
+      - M9: medidas-obtidas/usabilidade/usabilidade-m1.md
+    - Medidas Obtidas - Confiabilidade:
+      - M2: medidas-obtidas/confiabilidade/confiabilidade-m2.md
+      - M3: medidas-obtidas/confiabilidade/confiabilidade-m3.md
     - Julgamento dos Resultados: medidas-obtidas/julgamento_resultados.md
-  - Relatório Trabalho Final: trabalho-final/relatorio.md
+  - Entrega Final:
+    - Métricas de Avaliação do Processo: trabalho-final/metricas_de_avaliacao_do_projeto_agromart.md
+    - Relatório Final: trabalho-final/relatorio.md 
+    - Avaliação Individuais: 
+      - Avaliação Heurística: trabalho-final/avaliacao_agromart_anaju.md 
+      - Avaliação Visual e de Navegabilidade: trabalho final/avaliacao_visual.md
 
 theme:
   name: material

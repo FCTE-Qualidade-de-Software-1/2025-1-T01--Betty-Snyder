@@ -131,9 +131,8 @@ Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes 
 #### Confiabilidade
 
 - **M1:** Percentual de erros com mensagens claras e sem perda de dados.
-- **M2:** Tempo médio de resposta do sistema após a ocorrência de erros.
-- **M3:** Percentual de requisitos que possuem testes automatizados associados.
-- **M4:** Percentual de requisitos com critérios de aceitação bem definidos.
+- **M2:** Percentual de requisitos que possuem testes automatizados associados.
+- **M3:** Percentual de requisitos com critérios de aceitação bem definidos.
 
 #### Usabilidade
 
@@ -142,10 +141,9 @@ Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes 
 - **M3:** Percentual de acertos na identificação de botões.
 - **M4:** Percentual de erros com sugestões de correção e mensagens claras.
 - **M5:** Taxa de recuperação após erro.
-- **M6:** Nota média atribuída pelos usuários em questionário sobre a interface da aplicação.
+- **M6:** Nota média atribuída pelos desenvolvedores sobre a interface da aplicação.
 - **M7:** Percentual de compatibilidade com leitores de tela.
 - **M8:** Percentual de avaliação positiva em ferramenta automatizada de acessibilidade.
-- **M9:** Tempo médio de navegação utilizando o teclado (tecla Tab).
 
 ## Níveis de Pontuação das Métricas
 

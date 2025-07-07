@@ -1,4 +1,6 @@
 <!-- Avaliação da Consistência Visual e de Navegação -->
+**Feito por:** Weverton Rodrigues da Costa Silva
+**Matrícula:** 221022767
 
 ## Metodologia Utilizada
 
