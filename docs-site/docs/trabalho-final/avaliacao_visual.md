@@ -1,4 +1,5 @@
-<!-- Avaliação da Consistência Visual e de Navegação -->
+# Análise de Telas da Aplicação AgroMart - Consistência Visual e de Navegação
+
 **Feito por:** Weverton Rodrigues da Costa Silva
 **Matrícula:** 221022767
 
@@ -113,4 +114,3 @@ A avaliação evidenciou [x] inconsistências relevantes na interface, principal
 - Adotar um guia de estilo visual para futuras versões.
 
 A análise seguiu os critérios propostos por Barbosa et al. (2021) e contribui para uma visão mais ampla da qualidade de uso do sistema, reforçando a importância da coerência visual e estrutural para a usabilidade.
-
