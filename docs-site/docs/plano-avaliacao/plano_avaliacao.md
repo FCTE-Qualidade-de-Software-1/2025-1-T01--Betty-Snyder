@@ -44,7 +44,7 @@ Para a realização da avaliação, serão utilizados os seguintes recursos:
 
    - Ferramentas de captura de tela ou gravação (opcional, para análise detalhada de interações);
 
-   - Ferramenta de verificação de acessibilidade (ex: WAVE, Lighthouse).
+   - Ferramenta de verificação de acessibilidade (ex: TalkBack Android).
 
 ## Cronograma das Ações
 

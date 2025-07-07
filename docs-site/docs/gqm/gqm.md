@@ -29,7 +29,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
   </tr>
   <tr>
     <td>Para o propósito de</td>
-    <td>entender a qualidade do produto da plataforma para melhorar a experiência do usuário</td>
+    <td>entender a usabilidade do produto</td>
   </tr>
   <tr>
     <td>Com respeito a</td>
@@ -54,7 +54,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
   </tr>
   <tr>
     <td>Para o propósito de</td>
-    <td>Entender a estabilidade e o bom funcionamento da plataforma, promovendo uma experiência consistente e sem falhas para o usuário</td>
+    <td>Entender a confiabilidade do produto</td>
   </tr>
   <tr>
     <td>Com respeito a</td>

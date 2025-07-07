@@ -1,50 +1,92 @@
 # Usabilidade - M2: Taxa de sucesso de novos usuários em tarefas básicas
 ## Introdução
 
-Durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto Agromart, foi definida a métrica M2 com o objetivo de avaliar a eficácia da interface para novos usuários. A métrica verifica a capacidade de novos usuários em realizar tarefas básicas no aplicativo sem auxílio externo, sendo essencial para medir o nível de intuitividade da interface.
+Durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto Agromart, foi definida a métrica M2 com o objetivo de avaliar a eficácia da interface para novos usuários. Essa métrica visa mensurar o grau de intuitividade do sistema a partir da taxa de sucesso na execução de tarefas básicas sem auxílio externo, sendo, portanto, um indicador direto da capacidade do sistema de guiar usuários inexperientes com clareza e consistência.
 
 ## Referencial teórico
 
-De acordo com Nielsen (1993), sistemas eficazes devem permitir que usuários novos consigam utilizar as funcionalidades principais com mínima curva de aprendizagem. A taxa de sucesso em tarefas básicas é um dos indicadores mais confiáveis de usabilidade e está diretamente ligada à clareza dos elementos visuais, consistência de padrões e coerência semântica da aplicação.
+Segundo Nielsen (1993)[1], sistemas eficazes devem permitir que usuários novatos realizem tarefas essenciais sem depender de treinamentos prévios, com base apenas em sua familiaridade com interfaces similares e na clareza das instruções visuais disponíveis. A taxa de sucesso em tarefas básicas é, portanto, um dos indicadores mais confiáveis de usabilidade, especialmente no que diz respeito à curva de aprendizado, consistência dos padrões e organização semântica da interface.
 
 ## Análise
-Foram consideradas tarefas básicas aquelas diretamente ligadas à jornada principal do usuário:
+
+Para a avaliação da métrica M2, foram consideradas tarefas diretamente associadas à jornada inicial do usuário no aplicativo, conforme definido na Fase 2:
 
 - Criar uma conta;
-- Realizar login;
-- Escolher uma CSA;
 
-Essas tarefas foram simuladas por membros da equipe representando novos usuários (sem conhecimento prévio da aplicação), e seu sucesso foi registrado sem interferências externas.
+- Realizar login;
+
+- Escolher uma CSA.
+
+Essas tarefas foram executadas por três membros da equipe simulando o comportamento de novos usuários, ou seja, sem conhecimento prévio da aplicação e sem acesso a documentação técnica.
 
 ## Execução da análise
 
-Três membros da equipe simulados os testes, e cada tarefa foi considerada **"bem-sucedida"** se fosse concluída até o fim sem solicitar ajuda ou cometer erros que impedissem o progresso. Foram utilizados registros manuais e observações presenciais durante a execução.
+Cada tarefa foi considerada "bem-sucedida" se o participante conseguisse completá-la integralmente, sem solicitar ajuda ou cometer erros críticos que inviabilizassem o progresso. As interações foram monitoradas presencialmente e os resultados foram registrados manualmente.
 
-| Tarefa                   | Tentativas bem-sucedidas | Total de tentativas | Taxa de Sucesso (%) |
-|--------------------------|--------------------------|----------------------|----------------------|
-| Criar conta              | 0                        | 3                    | 0%                 |
-| Realizar login           | 0                        | 3                    | 0%                 |
-| Escolher uma CSA         | 0                        | 3                    | 0%                |
+<div style="text-align: center">
+ <font size="3"> <p><b>Tabela 1 – Taxa de sucesso dos novos usuários em tarefas básicas</b></p> </font>
+  <table border="1" style="margin: 0 auto;">
+   <thead>
+      <tr>
+        <th>Tarefa</th>
+        <th>Tentativas bem-sucedidas</th>
+        <th>Total de tentativas</th>
+        <th>Taxa de Sucesso (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Criar conta</td>
+        <td>0</td>
+        <td>3</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Realizar login</td>
+          <td>0</td>
+          <td>3</td>
+          <td>0%</td>
+        </tr>
+      <tr>
+        <td>Escolher uma CSA</td>
+        <td>0</td>
+        <td>3</td>
+        <td>0%</td>
+      </tr>
+    </tbody>
+  </table> <font size="3"> <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a></p> </font> 
+</div>
 
-**Observação:** as tentativas não deram certo porque não existe documentação suficiente e eficaz de como rodar a aplicação por inteiro.
+Observação: Nenhuma das tentativas foi bem-sucedida devido à ausência de documentação técnica eficaz e à dificuldade de executar a aplicação em seu estado atual.
 
 ## Resultados
 
-A taxa de sucesso geral ficou **abaixo da meta de 70%**, estabelecida na Fase 2, o que configura um péssimo resultado. Isso acontece devido a falta de documentação e atualizações na aplicação escolhida.
+A taxa de sucesso geral observada foi de 0%, ficando significativamente abaixo do valor de referência de 70% estabelecido na Fase 2 do projeto. Esse resultado evidencia sérias limitações no sistema quanto à sua capacidade de apoiar a jornada de usuários iniciantes.
 
-- **Métrica considerada "Insatisfatório"** segundo o plano de avaliação.
-- Recomenda-se:
-  - Atualizar o aplicativo;
-  - Melhorar a documentação.
+Os principais fatores observados foram:
 
-## Bibliografia
+- Falta de documentação clara e atualizada para instruir o primeiro acesso;
 
-- NIELSEN, Jakob. *Usability Engineering*. Morgan Kaufmann, 1994.
-- Avaliação do Agromart - Análise Heurística [PDF - Entrega 2]
-- Documentos da Fase 2 do projeto
+- Interface com baixa orientação visual e ausência de feedback contextual;
+
+- Fluxos confusos e pouco previsíveis, especialmente na tela de criação de conta.
+
+Dessa forma, a métrica M2 foi classificada com **pontuação 1 (Insatisfatório)**, o que compromete a experiência de novos usuários e indica necessidade urgente de melhorias tanto na interface quanto no suporte ao onboarding.
+
+Recomenda-se:
+
+- Atualizar o aplicativo e garantir que os fluxos essenciais estejam funcionando;
+
+- Revisar e ampliar a documentação técnica e de uso;
+
+- Incorporar feedbacks visuais e guias interativos no início do uso.
+
+## Referências Bibliográficas
+
+- [1] NIELSEN, Jakob. Usability Engineering. San Francisco: Morgan Kaufmann, 1993.
 
 ## Histórico de Versões
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) ||
+|`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) | [Weverton Rodrigues](https://github.com/vevetin)|

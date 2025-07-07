@@ -2,55 +2,131 @@
 
 ## Introdução
 
-Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, métricas voltadas à avaliação da experiência do usuário com enfoque mobile-first.  
-Esse documento tem como objetivo sintetizar os achados referentes à métrica **M4 (Percentual de erros com sugestões de correção e mensagens claras)**, considerada essencial para avaliar a usabilidade do sistema em dispositivos móveis.
+Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, a métrica M4 (Percentual de erros com sugestões de correção e mensagens claras), com foco na experiência do usuário em dispositivos móveis.
+Essa métrica busca avaliar a capacidade do sistema de detectar erros de entrada do usuário e fornecer mensagens compreensíveis acompanhadas de orientações para a correção, contribuindo para a eficiência, segurança e satisfação na interação.
 
 ## Referencial teórico 
 
-Segundo a norma ISO/IEC 25010 [1], um dos atributos centrais da qualidade em uso é a capacidade de prevenção e recuperação de erros, o que se relaciona com a clareza das mensagens exibidas ao usuário e a orientação para resolução de problemas.
+De acordo com a norma ISO/IEC 25010 [1], a qualidade da usabilidade envolve aspectos como prevenção de erros e recuperabilidade, sendo essencial que o sistema informe adequadamente sobre falhas de uso e auxilie o usuário na resolução de problemas.
 
-Na mesma linha, as heurísticas de Nielsen [2], especialmente a **H5 – Prevenção de erros** e a **H9 – Ajuda ao diagnóstico e recuperação de erros**, reforçam que sistemas eficazes devem:
+As heurísticas de Nielsen [2], especialmente a H5 – Prevenção de erros e a H9 – Ajuda ao diagnóstico e recuperação de erros, reforçam a importância de:
 
-- Evitar que erros aconteçam;
-- Ajudar o usuário a compreender o erro;
-- Oferecer orientações claras para corrigi-lo.
+- Reduzir as chances de erro;
+
+- Fornecer mensagens claras e específicas quando um erro ocorrer;
+
+- Sugerir caminhos objetivos para resolução.
 
 ## Análise
 
-Durante os testes de usabilidade, foram analisadas as telas de cadastro de endereço, finalização de pedido e login.Foram observados os seguintes comportamentos:
+Durante a avaliação, foram selecionados três fluxos considerados críticos para a interação do usuário com o sistema:
 
-- Alguns campos (como CEP e endereço) não possuíam **validação clara**.
-- Ausência de **mensagens de erro específicas**, como "CEP inválido" ou "campo obrigatório".
-- Nenhuma sugestão automatizada de correção foi apresentada.
+- Cadastro de endereço
 
-No entanto, o sistema também **não travava ou apresentava falhas críticas**, o que demonstra certa tolerância a falhas.
+- Finalização de pedido
+
+- Login
+
+Os testes foram conduzidos com simulações intencionais de erro, a fim de observar a capacidade do sistema de resposta adequada. Os principais comportamentos observados incluem:
+
+- Falta de validação visual em campos obrigatórios (como CEP e endereço);
+
+- Ausência de mensagens de erro específicas, como "CEP inválido" ou "campo obrigatório";
+
+- Inexistência de sugestões automáticas para correção dos erros cometidos.
+
+Apesar disso, o sistema não apresentou falhas críticas ou travamentos, demonstrando tolerância razoável a entradas inválidas.
 
 ## Execução da análise
 
-A equipe simulou erros em diferentes fluxos:
+Foram realizadas simulações de erro em diferentes cenários, com observação direta dos resultados. A Tabela 1 resume os achados:
 
-- Inserção de CEP inválido
-- Campos obrigatórios deixados em branco
+<div style="text-align: center">
 
-| Cenário                                   | Erro detectado pelo sistema? | Mensagem clara? | Sugestão de correção? |
-|-------------------------------------------|-------------------------------|------------------|------------------------|
-| CEP inválido                              | Não                           | Não               |           Mensagem clara de erro         |                   |
-| Cadastrar endereço com campos vazios | Sim                            | Não             | Mensagem clara de erro                    |
-| Login com campos vazios           | Sim                           | Não              | Mensagem clara do erro   |
-| Cadastro com campos vazios           | Sim                           | Não              | Mensagem clara do erro   |
+  <font size="3">
+    <p><b>Tabela 1 – Respostas do sistema a diferentes cenários de erro</b></p>
+  </font>
+
+  <table border="1" style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th>Cenário</th>
+        <th>Erro detectado pelo sistema?</th>
+        <th>Mensagem clara?</th>
+        <th>Sugestão de correção?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CEP inválido</td>
+        <td>Não</td>
+        <td>Não</td>
+        <td>Mensagem clara de erro</td>
+      </tr>
+      <tr>
+        <td>Cadastrar endereço com campos vazios</td>
+        <td>Sim</td>
+        <td>Não</td>
+        <td>Mensagem clara de erro</td>
+      </tr>
+      <tr>
+        <td>Login com campos vazios</td>
+        <td>Sim</td>
+        <td>Não</td>
+        <td>Mensagem clara de erro</td>
+      </tr>
+      <tr>
+        <td>Cadastro com campos vazios</td>
+        <td>Sim</td>
+        <td>Não</td>
+        <td>Mensagem clara de erro</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <font size="3">
+    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a></p>
+  </font>
+
+</div>
+
 
 ## Resultados
 
+Com base nas simulações e observações realizadas, constatou-se que, apesar de o sistema identificar parte dos erros de entrada, as mensagens exibidas são genéricas ou inexistentes, e nenhuma sugestão de correção é apresentada ao usuário.
+
+Esse cenário compromete significativamente a experiência de uso, sobretudo para usuários iniciantes, que dependem de feedback claro para compreender e resolver os problemas que encontram durante a navegação.
+
+De acordo com os critérios definidos na Fase 2, a métrica M4 foi classificada como "Insatisfatória" (pontuação ≤ 3), uma vez que:
+
+- A taxa de detecção de erros foi parcial;
+
+- Nenhuma mensagem exibida foi considerada clara ou específica;
+
+- Não foram fornecidas sugestões de correção.
+
+### Recomendação
+
+A ausência de mensagens claras e orientações corretivas prejudica a usabilidade do Agromart, especialmente em fluxos sensíveis como login, cadastro e envio de dados. Para mitigar esse problema, recomenda-se:
+
+- Implementar validações em tempo real nos campos de entrada;
+
+- Exibir mensagens de erro específicas e contextualizadas;
+
+- Fornecer sugestões de correção diretamente nas mensagens (ex.: “Digite um CEP válido”);
+
+- Utilizar elementos visuais como destaque em vermelho e ícones de aviso para reforçar o feedback.
+
+Essas ações tendem a aumentar a confiabilidade da aplicação e a autonomia do usuário ao lidar com erros.
 
 ## Referências Bibliográficas 
 
 - [1] ISO/IEC 25010:2011 – Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE)
-- [2] NIELSEN, Jakob. *Heuristics for User Interface Design*, 1995.
 
-
+- [2] NIELSEN, Jakob. Heuristics for User Interface Design, 1995.
 
 ## Histórico de Versões
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-----:|
-|`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) | — |
+|`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) | [Weverton Rodrigues](https://github.com/vevetin) |
