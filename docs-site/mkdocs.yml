@@ -13,6 +13,10 @@ nav:
   - Fase 4 - Executar a avaliação:
     - Medidas Obtidas: medidas-obtidas/medidas_obtidas.md
     - Comparação com os Critérios: medidas-obtidas/comparacao_criterios.md
+    - Usabilidade:
+      - M9: medidas-obtidas/usabilidade/usabilidade-m9.md
+    - Confiabilidade:
+      - M4: medidas-obtidas/confiabilidade/confiabilidade-m4.md
     - Julgamento dos Resultados: medidas-obtidas/julgamento_resultados.md
   - Relatório Trabalho Final: trabalho-final/relatorio.md
 
