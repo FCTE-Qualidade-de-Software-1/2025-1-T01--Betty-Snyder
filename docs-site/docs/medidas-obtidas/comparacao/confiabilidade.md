@@ -8,19 +8,19 @@ Este documento tem como objetivo sintetizar os achados das medidas obtidas e **c
 
 De acordo com os critérios de julgamento, após a análise da métrica [M1](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/confiabilidade/confiabilidade-m1/) de Confiabilidade, a mesma foi classificada como **insatisfatória (pontuação 1)**, uma vez que 60% dos erros analisados não pontuaram em nenhum critério avaliado. 
 
-Relação com as hipóteses: 
+Relação com as hipóteses: <br>
 - Hipótese 1: O sistema possui, pelo menos 85% dos erros explicados de forma clara, e indica como solucioná-los. -> Falsa
 
 ## M2 - Percentual de requisitos que possuem testes automatizados associados
 De acordo com os critérios de julgamento, após a análise da métrica [M2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/confiabilidade/confiabilidade-m2/) de Confiabilidade, a mesma foi considerada **regular**, o que reforça a necessidade de ações de melhoria, princialmente na priorização de testes para requisitos classificados como críticos.
 
-Relação com as hipóteses: 
+Relação com as hipóteses: <br>
 - Hipótese 2: Pelo menos 80% dos requisitos funcionais possuem critérios de aceitação claros e testes automatizados. -> Parcialmente falsa
 
 ## M3 - Percentual de requisitos com critérios de aceitação bem definidos
 De acordo com os critérios de julgamento, após a análise da métrica [M3](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/confiabilidade/confiabilidade-m3/) de Confiabilidade, a mesma foi considerada **insatisfatório**, o que reforça a necessidade de revisão e aprimoramento desses elementos para garantir maior qualidade e confiabilidade na especificação dos requisitos.
 
-Relação com as hipóteses: 
+Relação com as hipóteses: <br>
 - Hipótese 2: Pelo menos 80% dos requisitos funcionais possuem critérios de aceitação claros e testes automatizados. -> Falsa
  
 
