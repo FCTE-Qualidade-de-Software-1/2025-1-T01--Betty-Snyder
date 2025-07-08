@@ -69,6 +69,10 @@ Relação com as hipóteses: <br>
 
 - Hipótese 6: O sistema é compatível com leitores de tela e possui contraste adequado em mais de 95% das telas avaliadas. -> Falsa
 
+## Julgamento
+
+Com base nos critérios de julgamento definidos na Fase 2, a usabilidade foi classificada entre **Inaceitável** e **Parcialmente Aceitável**, já que 37,5% das métricas foram avaliadas como boas e 37,5% como insatisfatórias. Isso revela uma experiência de uso inconsistente, indicando a necessidade de melhorias em aspectos essenciais da interface.
+
 ## Bibliografia 
 
 > \- Documentação da Fase 2 do Grupo Betty Snyder (T01-2025). Disponível em: <https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/>. Acesso em: 08 de julho de 2025.

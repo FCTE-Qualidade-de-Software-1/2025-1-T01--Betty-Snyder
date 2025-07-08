@@ -10,7 +10,7 @@ Esta documentação tem como objetivo a sintetização das propostas de melhoria
 
 A métrica M1 investiga a exposição de erros dentro da aplicação, e se relaciona bem, com a métrica [M4](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m4/) de Usabilidade, com o respeito de cada subcaracterística. 
 
-Sendo assim, a sugestação de melhoria implementada foi o aperfeiçoamento e correção realizado nas mensagens de erro presentes no prótotipo de alta fidelidade COLOCAR LINK, com a escolha de mensagens de erro claras, sem ambiguidade e termos técnicos e que sugiram sugestões de correção do erro, sempre que possível. 
+Sendo assim, a sugestação de melhoria implementada foi o aperfeiçoamento e correção realizado nas mensagens de erro presentes no [prótotipo de alta fidelidade](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/trabalho-final/melhorias/usabilidade/), com a escolha de mensagens de erro claras, sem ambiguidade e termos técnicos e que sugiram sugestões de correção do erro, sempre que possível. 
 
 Espera-se também que, sempre que possível, os desenvolvedores do AgroMart usem boas práticas de exposição de erros, podendo usar como estudo e guia materiais como o de Gassenferth [1].
 

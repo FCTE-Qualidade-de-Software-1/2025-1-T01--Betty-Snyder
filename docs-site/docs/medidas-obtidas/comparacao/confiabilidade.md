@@ -22,7 +22,10 @@ De acordo com os critérios de julgamento, após a análise da métrica [M3](htt
 
 Relação com as hipóteses: <br>
 - Hipótese 2: Pelo menos 80% dos requisitos funcionais possuem critérios de aceitação claros e testes automatizados. -> Falsa
- 
+
+## Julgamento
+
+De acordo com os critérios de julgamento definidos na Fase 2, a confiabilidade foi julgada como **Inaceitável**, visto que 66,6% das métricas foram avaliadas como **insatisfatória**.
 
 ## Bibliografia
 

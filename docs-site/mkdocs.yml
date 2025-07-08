@@ -33,9 +33,6 @@ nav:
     - Ações de Melhoria Sugeridas:
       - Usabilidade: trabalho-final/melhorias/usabilidade.md
       - Confiabilidade: trabalho-final/melhorias/confiabilidade.md
-    - Avaliação Individuais: 
-      - Avaliação Heurística: trabalho-final/avaliacao_agromart_anaju.md 
-      - Avaliação Visual e de Navegabilidade: trabalho final/avaliacao_visual.md
 
 theme:
   name: material

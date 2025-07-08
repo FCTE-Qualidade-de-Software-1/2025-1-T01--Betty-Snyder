@@ -63,7 +63,8 @@ Este plano de avaliação foi elaborado com o objetivo de proporcionar uma anál
 
 Espera-se, com isso, obter uma visão abrangente sobre o desempenho do sistema e sua adequação ao público-alvo, gerando subsídios confiáveis para futuras melhorias e evoluções.
 
-## Tabela de Contribuição
+
+## Tabela de Contribuição 
 
 <div align="center">
   <table border="1">
@@ -78,7 +79,7 @@ Espera-se, com isso, obter uma visão abrangente sobre o desempenho do sistema e
       <tr>
         <td>221007798</td>
         <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
-        <td>40</td>
+        <td>30</td>
       </tr>
       <tr>
         <td>221022355</td>
@@ -88,27 +89,26 @@ Espera-se, com isso, obter uma visão abrangente sobre o desempenho do sistema e
       <tr>
         <td>221008338</td>
         <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
-        <td>0</td>
+        <td>5</td>
       </tr>
       <tr>
         <td>222007021</td>
         <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
-        <td>0</td>
+        <td>10</td>
       </tr>
       <tr>
         <td>222006356</td>
         <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
-        <td>0</td>
+        <td>5</td>
       </tr>
       <tr>
         <td>221022767</td>
         <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
-        <td>40</td>
+        <td>30</td>
       </tr>
     </tbody>
   </table>
 </div>
-
 
 ## Histórico de Versões
 

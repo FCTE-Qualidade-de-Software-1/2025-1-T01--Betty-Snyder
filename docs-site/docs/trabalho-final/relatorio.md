@@ -280,6 +280,8 @@ Com base na fase de julgamento, foram propostas e implementadas melhorias, como:
 * Arquivo [Análise de Telas da Aplicação AgroMart - Heurísticas de Nielsen](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/trabalho-final/avaliacao_agromart_anaju/) com recomendações de melhoria 
 * Atualização do design e layout (com base em feedbacks da métrica M6)
 
+
+
 ### Conclusão da Avaliação
 
 A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios para uma evolução significativa da aplicação AgroMart. A análise integrada revelou que, apesar de limitações pontuais, a plataforma possui bom potencial de usabilidade e apresenta um nível de confiabilidade compatível com o estágio atual de desenvolvimento.
@@ -398,12 +400,12 @@ A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios 
       <tr>
         <td>221022355</td>
         <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
-        <td>15</td>
+        <td>20</td>
       </tr>
       <tr>
         <td>221008338</td>
         <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
-        <td>10</td>
+        <td>5</td>
       </tr>
       <tr>
         <td>222007021</td>
@@ -450,22 +452,68 @@ A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios 
       <tr>
         <td>221008338</td>
         <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
-        <td>14</td>
+        <td>10</td>
       </tr>
       <tr>
         <td>222007021</td>
         <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
-        <td>15</td>
+        <td>20</td>
       </tr>
       <tr>
         <td>222006356</td>
         <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
-        <td>11</td>
+        <td>10</td>
       </tr>
       <tr>
         <td>221022767</td>
         <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
         <td>20</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## Tabela de Contribuição - Fase Final
+
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>22.5</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>22.5</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>22.5</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>22.5</td>
       </tr>
     </tbody>
   </table>
@@ -500,4 +548,5 @@ A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios 
 |:----:|----|---------|-----|:-------:|
 |`1.0`|04/07/2025|Base documento|[Maria Clara](https://github.com/Oleari19)| [Weverton Rodrigues](https://github.com/vevetin) |
 |`1.1`|04/07/2025|Ajustes de acordo com as decisões do grupo|[Ana Júlia](https://github.com/ailujana)| [Weverton Rodrigues](https://github.com/vevetin) |
-|`1.2`|04/07/2025|Criação e documentação do Relatório Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| - |
+|`1.2`|08/07/2025|Criação e documentação do Relatório Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| - |
+|`1.3`|08/07/2025|Adição tabela de participação Fase Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| - |
