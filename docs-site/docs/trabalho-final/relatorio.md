@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este relatório apresenta o processo de avaliação da qualidade da aplicação AgroMart, seguindo a abordagem definida pela norma ISO/IEC 25000 (SQuaRE), complementada pelos métodos GQM (Goal-Question-Metric) [3] e PSM (Practical Software Measurement) [4]. A avaliação foi conduzida no contexto da disciplina de Qualidade de Software da Universidade de Brasília, com o objetivo de analisar criticamente aspectos relacionados à usabilidade e confiabilidade da aplicação.
+Este relatório apresenta o processo de avaliação da qualidade da aplicação AgroMart, seguindo a abordagem definida pela norma ISO/IEC 25000 (SQuaRE), complementada pelos métodos GQM (Goal-Question-Metric)<sup>[3]</sup> e PSM (Practical Software Measurement)<sup>[4]</sup>. A avaliação foi conduzida no contexto da disciplina de Qualidade de Software da Universidade de Brasília, com o objetivo de analisar criticamente aspectos relacionados à usabilidade e confiabilidade da aplicação.
 
 ## Objetivo Geral
 
@@ -54,20 +54,23 @@ A Fase 2 foi dedicada à estruturação da avaliação por meio da abordagem GQM
 
 ### Objetivo 1 – Avaliar a Usabilidade
 
-| Código | Pergunta                                            | Métrica                                         |
-|--------|------------------------------------------------------|-------------------------------------------------|
-| M1     | Os usuários completam tarefas rapidamente?           | Tempo médio para completar tarefas              |
-| M2     | Novos usuários conseguem realizar tarefas básicas?   | Taxa de sucesso de novos usuários               |
-| M4     | O sistema sugere correções e mensagens claras?       | % de erros com sugestões e mensagens claras     |
-| M5     | Os usuários conseguem se recuperar após erros?       | Taxa de recuperação após erro                   |
-| M6     | Qual a percepção geral dos usuários sobre a interface?| Nota média atribuída à interface                |
+| Código | Questão                                                                                         | Métrica                                                                                                  |
+|--------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Q1     | Os usuários conseguem navegar facilmente pela plataforma para realizar suas tarefas?            | M1: Tempo médio para completar tarefas                                                                    |
+| Q2     | A interface das telas e funções da plataforma são intuitivas e compreensíveis para novos usuários? | M2: Taxa de sucesso de novos usuários em tarefas básicas                                                |
+| Q3     | Os usuários identificam facilmente as funcionalidades e seus propósitos no sistema?             | M3: Percentual de acertos em identificações de botões                                                     |
+| Q4     | O sistema previne ou corrige erros cometidos pelos usuários?                                     | M4: Percentual de erros com sugestões de correção e mensagens claras e M5: Taxa de recuperação após erro       |
+| Q5     | A interface do AgroMart é visualmente agradável e bem organizada?                                | M6: Grau de percepção de design limpo e bem organizado                                                    |
+| Q6     | O AgroMart é acessível a usuários com limitações visuais, motoras ou cognitivas?                 | M7: Percentual de compatibilidade com leitores de tela e M8: Percentual de conformidade com funcionalidades de acessibilidade |
+
+---
 
 ### Objetivo 2 – Avaliar a Confiabilidade
 
-| Código | Pergunta                                         | Métrica                             |
-|--------|--------------------------------------------------|-------------------------------------|
-| M7     | O sistema falha com frequência?                  | Frequência de falhas por sessão     |
-| M8     | O sistema recupera estado após falhas?           | % de sessões com recuperação total  |
+| Código | Questão                                                                                         | Métrica                                                                                                    |
+|--------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Q1     | O sistema lida bem com erros, fornecendo feedback ao usuário?                                   | M1: Percentual de erros com mensagem clara e sem perda de dados                                            |
+| Q2     | O sistema foi especificado e testado de forma a garantir comportamento confiável?               | M2: Percentual de requisitos com testes automatizados e M3: Percentual de requisitos com critérios de aceitação bem definidos |
 
 ### Critérios de Julgamento
 
