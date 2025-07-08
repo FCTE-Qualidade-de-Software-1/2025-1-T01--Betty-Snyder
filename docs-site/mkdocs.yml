@@ -11,7 +11,6 @@ nav:
   - Fase 3:
     - Plano de Avaliação: plano-avaliacao/plano_avaliacao.md
   - Fase 4:
-    - Comparação com os Critérios: medidas-obtidas/comparacao_criterios.md
     - Medidas Obtidas - Usabilidade:
       - M1: medidas-obtidas/usabilidade/usabilidade-m1.md
       - M2: medidas-obtidas/usabilidade/usabilidade-m2.md
@@ -25,6 +24,9 @@ nav:
       - M1: medidas-obtidas/confiabilidade/confiabilidade-m1.md
       - M2: medidas-obtidas/confiabilidade/confiabilidade-m2.md
       - M3: medidas-obtidas/confiabilidade/confiabilidade-m3.md
+    - Comparação com os Critérios: 
+      - Usabilidade: medidas-obtidas/comparacao/usabilidade.md
+      - Confiabilidade: medidas-obtidas/comparacao/confiabilidade.md
     - Julgamento dos Resultados: medidas-obtidas/julgamento_resultados.md
   - Entrega Final:
     - Métricas de Avaliação do Processo: trabalho-final/metricas_de_avaliacao_do_projeto_agromart.md

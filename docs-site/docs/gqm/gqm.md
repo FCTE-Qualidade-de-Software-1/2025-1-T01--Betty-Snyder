@@ -165,7 +165,7 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
 
 - **Parcialmente aceitável:** Entre 50% e 69% das métricas com nível "Bom" ou superior.
 
-- **Inaceitável:** < 50% das métricas atingindo "Bom" ou "Excelente".
+- **Inaceitável:** < 50% das métricas atingindo "Ruim" ou "Insatisfatório".
 
 ### Critérios para Confiabilidade 
 

@@ -75,11 +75,6 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
         <td>8</td>
         <td>4</td>
         <td>6,25</td>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-        <td>4</td>
-        <td>6,25</td>
       </tr>
       <tr>
         <td>Usuário 4</td>
@@ -99,19 +94,19 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
       </tr>
       <tr>
         <td>Usuário 6</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
+        <td>7</td>
+        <td>6</td>
+        <td>8</td>
+        <td>6</td>
+        <td>6,75</td>
       </tr>
       <tr>
         <td><b>Média Geral</b></td>
-        <td>6,8</td>
+        <td>6,83</td>
         <td>6</td>
         <td>6,6</td>
         <td>5,6</td>
-        <td><b>6,25</b></td>
+        <td><b>6,20</b></td>
       </tr>
     </tbody>
   </table>
