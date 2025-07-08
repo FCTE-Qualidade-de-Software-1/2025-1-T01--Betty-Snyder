@@ -4,13 +4,13 @@ site_name: Grupo Betty Snyder - Turma 1 (2025.1)
 site_description: Documentação do projeto do grupo Betty Snyder de Qualidade de Software (2025.1), Turma 1
 nav:
   - Home: index.md
-  - Fase 1: processo-avaliacao/processo_de_avaliacao.md
-  - Fase 2:
+  - Fase 1 - Propósito de avaliação: processo-avaliacao/processo_de_avaliacao.md
+  - Fase 2 - Especificação:
     - Abordagem GQM: gqm/gqm.md
     - Abstraction Sheets: gqm/abstract.md
-  - Fase 3:
+  - Fase 3 - Projetar avaliação:
     - Plano de Avaliação: plano-avaliacao/plano_avaliacao.md
-  - Fase 4:
+  - Fase 4 - Executar avaliação:
     - Medidas Obtidas - Usabilidade:
       - M1: medidas-obtidas/usabilidade/usabilidade-m1.md
       - M2: medidas-obtidas/usabilidade/usabilidade-m2.md
@@ -24,13 +24,15 @@ nav:
       - M1: medidas-obtidas/confiabilidade/confiabilidade-m1.md
       - M2: medidas-obtidas/confiabilidade/confiabilidade-m2.md
       - M3: medidas-obtidas/confiabilidade/confiabilidade-m3.md
-    - Comparação com os Critérios: 
+    - Comparação com os Critérios e Julgamentos: 
       - Usabilidade: medidas-obtidas/comparacao/usabilidade.md
       - Confiabilidade: medidas-obtidas/comparacao/confiabilidade.md
-    - Julgamento dos Resultados: medidas-obtidas/julgamento_resultados.md
   - Entrega Final:
     - Métricas de Avaliação do Processo: trabalho-final/metricas_de_avaliacao_do_projeto_agromart.md
     - Relatório Final: trabalho-final/relatorio.md 
+    - Ações de Melhoria Sugeridas:
+      - Usabilidade: trabalho-final/melhorias/usabilidade.md
+      - Confiabilidade: trabalho-final/melhorias/confiabilidade.md
     - Avaliação Individuais: 
       - Avaliação Heurística: trabalho-final/avaliacao_agromart_anaju.md 
       - Avaliação Visual e de Navegabilidade: trabalho final/avaliacao_visual.md
