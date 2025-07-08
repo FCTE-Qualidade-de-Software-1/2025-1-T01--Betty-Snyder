@@ -27,16 +27,56 @@ A aplicação AgroMart foi avaliada no contexto acadêmico, sendo um sistema hí
 
 As seguintes características de qualidade foram priorizadas:
 
-| Característica     | Ênfase (1–5)          |
-|--------------------|-----------------------|
-| Usabilidade        | 5 – grande interesse  |
-| Confiabilidade     | 5 – grande interesse  |
-| Funcionalidade     | 4 – largo interesse   |
-| Eficiência         | 2 – baixo interesse   |
-| Compatibilidade    | 2 – baixo interesse   |
-| Segurança          | 1 – nenhum interesse  |
-| Manutenibilidade   | 1 – nenhum interesse  |
-| Portabilidade      | 1 – nenhum interesse  |
+<div style="text-align: center">
+
+  <font size="3">
+    <p><b>Tabela 1 – Ênfase atribuída às características de qualidade no Agromart</b></p>
+  </font>
+
+  <table border="1" style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Ênfase (1–5)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Usabilidade</td>
+        <td>5 – grande interesse</td>
+      </tr>
+      <tr>
+        <td>Confiabilidade</td>
+        <td>5 – grande interesse</td>
+      </tr>
+      <tr>
+        <td>Funcionalidade</td>
+        <td>4 – largo interesse</td>
+      </tr>
+      <tr>
+        <td>Eficiência</td>
+        <td>2 – baixo interesse</td>
+      </tr>
+      <tr>
+        <td>Compatibilidade</td>
+        <td>2 – baixo interesse</td>
+      </tr>
+      <tr>
+        <td>Segurança</td>
+        <td>1 – nenhum interesse</td>
+      </tr>
+      <tr>
+        <td>Manutenibilidade</td>
+        <td>1 – nenhum interesse</td>
+      </tr>
+      <tr>
+        <td>Portabilidade</td>
+        <td>1 – nenhum interesse</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 ### Público-alvo
 
@@ -59,9 +99,9 @@ A Fase 2 foi dedicada à estruturação da avaliação por meio da abordagem GQM
 | Q1     | Os usuários conseguem navegar facilmente pela plataforma para realizar suas tarefas?            | M1: Tempo médio para completar tarefas                                                                    |
 | Q2     | A interface das telas e funções da plataforma são intuitivas e compreensíveis para novos usuários? | M2: Taxa de sucesso de novos usuários em tarefas básicas                                                |
 | Q3     | Os usuários identificam facilmente as funcionalidades e seus propósitos no sistema?             | M3: Percentual de acertos em identificações de botões                                                     |
-| Q4     | O sistema previne ou corrige erros cometidos pelos usuários?                                     | M4: Percentual de erros com sugestões de correção e mensagens claras e M5: Taxa de recuperação após erro       |
+| Q4     | O sistema previne ou corrige erros cometidos pelos usuários?                                     | M4: Percentual de erros com sugestões de correção e mensagens claras<br>M5: Taxa de recuperação após erro       |
 | Q5     | A interface do AgroMart é visualmente agradável e bem organizada?                                | M6: Grau de percepção de design limpo e bem organizado                                                    |
-| Q6     | O AgroMart é acessível a usuários com limitações visuais, motoras ou cognitivas?                 | M7: Percentual de compatibilidade com leitores de tela e M8: Percentual de conformidade com funcionalidades de acessibilidade |
+| Q6     | O AgroMart é acessível a usuários com limitações visuais, motoras ou cognitivas?                 | M7: Percentual de compatibilidade com leitores de tela<br>M8: Percentual de conformidade com funcionalidades de acessibilidade |
 
 ---
 
@@ -70,13 +110,13 @@ A Fase 2 foi dedicada à estruturação da avaliação por meio da abordagem GQM
 | Código | Questão                                                                                         | Métrica                                                                                                    |
 |--------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Q1     | O sistema lida bem com erros, fornecendo feedback ao usuário?                                   | M1: Percentual de erros com mensagem clara e sem perda de dados                                            |
-| Q2     | O sistema foi especificado e testado de forma a garantir comportamento confiável?               | M2: Percentual de requisitos com testes automatizados e M3: Percentual de requisitos com critérios de aceitação bem definidos |
+| Q2     | O sistema foi especificado e testado de forma a garantir comportamento confiável?               | M2: Percentual de requisitos com testes automatizados<br>M3: Percentual de requisitos com critérios de aceitação bem definidos |
 
 ### Critérios de Julgamento
 
-Cada métrica foi associada a uma escala de 0 a 10, agrupada nos níveis:
+Cada métrica foi associada a uma escala de 1 a 10, agrupada nos níveis:
 
-- 0–3: Insatisfatório
+- 1–3: Insatisfatório
 - 4–6: Regular
 - 7–8: Bom
 - 9–10: Excelente
@@ -237,7 +277,7 @@ Apesar de apresentar boa estabilidade em tarefas básicas e uma cobertura inicia
 Com base na fase de julgamento, foram propostas e implementadas melhorias, como:
 
 * Protótipo de alta fidelidade com revisão de fluxo e consistência visual 
-* Arquivos [1](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/trabalho-final/avaliacao_agromart_anaju/) e [2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/trabalho-final/avaliacao_visual/) com recomendações de melhoria 
+* Arquivo [Análise de Telas da Aplicação AgroMart - Heurísticas de Nielsen](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/trabalho-final/avaliacao_agromart_anaju/) com recomendações de melhoria 
 * Atualização do design e layout (com base em feedbacks da métrica M6)
 
 ### Conclusão da Avaliação
@@ -458,6 +498,6 @@ A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios 
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`|04/07/2025|Base documento|[Maria Clara](https://github.com/Oleari19)| - |
-|`1.1`|04/07/2025|Ajustes de acordo com as decisões do grupo|[Ana Júlia](https://github.com/ailujana)| - |
+|`1.0`|04/07/2025|Base documento|[Maria Clara](https://github.com/Oleari19)| [Weverton Rodrigues](https://github.com/vevetin) |
+|`1.1`|04/07/2025|Ajustes de acordo com as decisões do grupo|[Ana Júlia](https://github.com/ailujana)| [Weverton Rodrigues](https://github.com/vevetin) |
 |`1.2`|04/07/2025|Criação e documentação do Relatório Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| - |

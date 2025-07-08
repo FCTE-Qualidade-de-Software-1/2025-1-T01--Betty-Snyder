@@ -28,11 +28,8 @@ A média de cada participante foi registrada e, ao final, foi calculada a nota m
 
 ## Execução da análise
 
-Foi utilizada uma escala de **0 (muito ruim)** a **10 (excelente)**. A média das notas foi calculada com base em 6 participantes:
-
-> Como ficou pendente as respostas de um dos 6 integrantes, a média foi calculada considerando 5 participantes
-
-A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da análise.
+Foi utilizada uma escala de **1 (muito ruim)** a **10 (excelente)**. A média das notas foi calculada com base em 6 participantes.
+A Tabela 1 apresenta as notas atribuídas pelos participantes:
 
 <div style="text-align: center">
 
