@@ -32,7 +32,7 @@ Relação com as hipóteses:
 
 ## M4 - Percentual de erros com sugestões de correção e mensagens claras
 
-De acordo com os critérios de julgamento, após a análise da métrica M4 de Usabilidade, a mesma foi classificada com **pontuação <= 3 (Insatisfatória)**, uma vez que o sistema de tratamento de erros da aplicação impacta negativamente na experiência do usuário, possuindo mensagens genéricas e sem sugestão de correção.
+De acordo com os critérios de julgamento, após a análise da métrica [M4](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m4/) de Usabilidade, a mesma foi classificada com **pontuação <= 3 (Insatisfatória)**, uma vez que o sistema de tratamento de erros da aplicação impacta negativamente na experiência do usuário, possuindo mensagens genéricas e sem sugestão de correção.
 
 Relação com as hipóteses: 
 - Hipótese 4: O Agromart oferece mensagens claras e opções de correção em mais de 90% dos erros detectados. -> Falsa
@@ -46,18 +46,28 @@ Relação com as hipóteses:
 
 ## M6 - Nota média atribuída pelos usuários em questionário sobre a interface da aplicação
 
-De acordo com os critérios de julgamento, a métrica [M6](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m6/) recebeu pontuação **5 (Regular)** devido a falta de suporte comunicacional adequado para orientar os usuários na recuperação das falhas.
+De acordo com os critérios de julgamento, a métrica [M6](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m6/) obeteve uma nota de **6,50**, refletindo uma percepção regular a moderadamente positiva de usabilidade e estética da interface.
 
 Relação com as hipóteses: 
 - Hipótese 4: O Agromart oferece mensagens claras e opções de correção em mais de 90% dos erros detectados. -> Falsa
+- Hipótese 5: Mais de 90% dos usuários avaliam a estética como organizadas, cores agradáveis e hierarquia visual. -> Parcialmente verdadeira
+- Hipótese 6: O sistema é compatível com leitores de tela e possui contraste adequado em mais de 95% das telas avaliadas. -> Parcialmente verdadeira
 
 ## M7 - Percentual de compatibilidade com leitores de tela
 
-De acordo com os critérios de julgamento, a métrica [M7](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m6/) recebeu pontuação **7 (Bom)**, uma vez que ao analisar a métrica, percebeu-se que o AgroMart possui boa compatibilidade com leitores de telas.
+De acordo com os critérios de julgamento, a métrica [M7](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m7/) recebeu pontuação **7 (Bom)**, uma vez que ao analisar a métrica, percebeu-se que o AgroMart possui boa compatibilidade com leitores de telas.
 
 Relação com as hipóteses: 
 
-Hipótese 6: O sistema é compatível com leitores de tela e possui contraste adequado em mais de 95% das telas avaliadas. -> Parceialmente verdadeira
+- Hipótese 6: O sistema é compatível com leitores de tela e possui contraste adequado em mais de 95% das telas avaliadas. -> Parcialmente verdadeira
+
+## M8 - Percentual de conformidade com as principais funcionalidades de acessibilidade
+
+De acordo com os critérios de julgamento, a métrica [M8](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m6/) recebeu pontuação **0 (Insatisfatória)**, uma vez que nenhuma das funcionalidades de acessibilidade analisadas foi identificada no aplicativo AgroMart
+
+Relação com as hipóteses: 
+
+- Hipótese 6: O sistema é compatível com leitores de tela e possui contraste adequado em mais de 95% das telas avaliadas. -> Falsa
 
 ## Bibliografia 
 

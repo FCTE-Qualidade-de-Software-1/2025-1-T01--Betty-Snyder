@@ -103,10 +103,10 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
       <tr>
         <td><b>Média Geral</b></td>
         <td>6,83</td>
-        <td>6</td>
-        <td>6,6</td>
-        <td>5,6</td>
-        <td><b>6,20</b></td>
+        <td>5,83</td>
+        <td>6,83</td>
+        <td>5,33</td>
+        <td><b>6,50</b></td>
       </tr>
     </tbody>
   </table>
@@ -120,7 +120,7 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
 
 ## Resultados
 
- A nota média geral obtida foi de 5,75, refletindo uma percepção moderada de usabilidade e estética da interface na percepção subjetiva de usabilidade.
+A nota média geral obtida foi de **6,50**, refletindo uma percepção regular a moderadamente positiva de usabilidade e estética da interface, de acordo com a avaliação subjetiva dos usuários.
 
 Alguns pontos destacados pelos participantes durante o preenchimento do questionário incluem:
 
