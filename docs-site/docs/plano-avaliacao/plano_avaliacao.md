@@ -32,13 +32,13 @@ A avaliação será considerada bem-sucedida se pelo menos 70% das métricas ati
 
 Para a realização da avaliação, serão utilizados os seguintes recursos:
 
-1. Materiais de Apoio:
+#### Materiais de Apoio:
 
    - Documentação de Critérios de Avaliação: Documento com instruções sobre como cada métrica será medida e julgada, garantindo consistência e transparência.
 
    - Heurísticas de Nielsen: As dez heurísticas servirão como guia complementar para avaliação da interface, especialmente durante a análise heurística.
 
-2. Ferramentas Técnicas:
+#### Ferramentas Técnicas:
 
    - Cronômetro digital (medição de tempo de tarefas);
 

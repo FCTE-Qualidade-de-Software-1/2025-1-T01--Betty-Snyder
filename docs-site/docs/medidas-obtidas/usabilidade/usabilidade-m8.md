@@ -130,4 +130,4 @@ Portanto, o nível de cobertura identificado para a métrica considerada **insat
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Júlia Fortunato](https://github.com/julia-fortunato) <br> [Weverton Rodrigues](https://github.com/vevetin) ||
-|`1.2`|07/07/2025|Pequena melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |
+|`1.2`|07/07/2025|Pequena melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |

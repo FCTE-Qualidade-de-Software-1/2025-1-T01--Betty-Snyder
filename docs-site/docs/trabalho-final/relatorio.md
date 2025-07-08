@@ -548,5 +548,5 @@ A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios 
 |:----:|----|---------|-----|:-------:|
 |`1.0`|04/07/2025|Base documento|[Maria Clara](https://github.com/Oleari19)| [Weverton Rodrigues](https://github.com/vevetin) |
 |`1.1`|04/07/2025|Ajustes de acordo com as decisões do grupo|[Ana Júlia](https://github.com/ailujana)| [Weverton Rodrigues](https://github.com/vevetin) |
-|`1.2`|08/07/2025|Criação e documentação do Relatório Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| - |
-|`1.3`|08/07/2025|Adição tabela de participação Fase Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| - |
+|`1.2`|08/07/2025|Criação e documentação do Relatório Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |
+|`1.3`|08/07/2025|Adição tabela de participação Fase Final|[Ana Júlia](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |

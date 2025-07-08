@@ -114,4 +114,4 @@ Apesar disso, o sistema se comporta de forma adequada nas demais áreas testadas
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) |[Júlia Fortunato](https://github.com/julia-fortunato)|
 |`1.1`|07/07/2025|Adição da análise| [Júlia Fortunato](https://github.com/julia-fortunato) |[Weverton Rodrigues](https://github.com/vevetin)|
-|`1.2`|07/07/2025|Pequena melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |
+|`1.2`|07/07/2025|Pequena melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |

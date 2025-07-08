@@ -238,5 +238,5 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento|[Weverton Rodrigues](https://github.com/vevetin)|[Júlia Fortunato](https://github.com/julia-fortunato)|
 | `1.1`|27/06/2025 | Atualização do documento |[Ana Júlia](https://github.com/ailujana)|[Weverton Rodrigues](https://github.com/vevetin)|
-| `1.2`|07/07/2025 | Atualização de métricas e textos do documento |[Júlia Fortunato](https://github.com/julia-fortunato)||
+| `1.2`|07/07/2025 | Atualização de métricas e textos do documento |[Júlia Fortunato](https://github.com/julia-fortunato)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |
 

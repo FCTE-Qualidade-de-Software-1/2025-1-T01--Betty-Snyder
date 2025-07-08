@@ -346,4 +346,4 @@ Dessa forma, a Tabela 2 apresenta um panorama quantitativo das pontuações atri
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`|07/07/2025|Criação do documento| [Júlia Fortunato](https://github.com/julia-fortunato) ||
+|`1.0`|07/07/2025|Criação do documento| [Júlia Fortunato](https://github.com/julia-fortunato) | [Maurício Ferreira](https://github.com/mauricio-araujoo) |
