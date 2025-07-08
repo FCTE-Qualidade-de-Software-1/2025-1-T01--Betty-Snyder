@@ -29,7 +29,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
   </tr>
   <tr>
     <td>Para o propósito de</td>
-    <td>entender a usabilidade do produto</td>
+    <td>entender</td>
   </tr>
   <tr>
     <td>Com respeito a</td>
@@ -54,7 +54,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
   </tr>
   <tr>
     <td>Para o propósito de</td>
-    <td>Entender a confiabilidade do produto</td>
+    <td>entender</td>
   </tr>
   <tr>
     <td>Com respeito a</td>
@@ -92,17 +92,12 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 ## Questões Objetivo de Medição 2: Confiabilidade
 
-> **Q1:** O sistema apresenta falhas durante a utilização?  
-**Hipótese 1:** As falhas são raras e afetam menos de 5% das sessões.
+> **Q1:** O sistema lida bem com erros, fornecendo feedback ao usuário?  
+**Hipótese 1:** O sistema possui, pelo menos 85% dos erros explicados de forma clara, e indica como solucioná-los.
 
-> **Q2:** O sistema se mantém disponível, se comportando de maneira previsível e consistente, durante o horário de uso?  
-**Hipótese 2:** O tempo de disponibilidade é superior a 99% no mês.
+> **Q2:** O sistema foi especificado e testado de forma a garantir comportamento confiável? 
+**Hipótese 2:** Pelo menos 80% dos requisitos funcionais possuem critérios de aceitação claros e testes automatizados.
 
-> **Q3:** O sistema lida bem com erros, fornecendo feedback ao usuário?  
-**Hipótese 3:** Em 90% dos erros, há mensagens claras e sem perda de dados.
-
-> **Q4:** O sistema consegue retomar operações automaticamente após interrupções?  
-**Hipótese 4:** O sistema retoma suas operações em mais de 95% dos casos de interrupções, sem necessidade de ajuda externa.
 
 ## Relação entre Objetivos de Medição - Questões e Métricas - Objetivo de Medição 1: Usabilidade
 
@@ -112,7 +107,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 <center><p>Figura 2 - Questões e Métricas - Usabilidade</p></center>
 
-![Questões e Métricas - Usabilidade](../assets/img/Figura%20GQM%20-%20Usabilidade.png)
+![Questões e Métricas - Usabilidade](../assets/img/usab.jpeg)
 
 ## Relação entre Objetivos de Medição - Questões e Métricas - Objetivo de Medição 2: Confiabilidade
 
@@ -122,7 +117,7 @@ O projeto busca enfrentar desafios recorrentes no meio rural, como a dificuldade
 
 <center><p>Figura 3 - Questões e Métricas - Confiabilidade</p></center>
 
-![Questões e Métricas - Confiabilidade](../assets/img/Figura%20GQM%20-%20Confiabilidade.png)
+![Questões e Métricas - Confiabilidade](../assets/img/conf.jpeg)
 
 ## Seleção das Métricas
 
@@ -141,7 +136,7 @@ Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes 
 - **M3:** Percentual de acertos na identificação de botões
 - **M4:** Percentual de erros com sugestões de correção e mensagens claras
 - **M5:** Taxa de recuperação após erro
-- **M6:** Nota média atribuída pelos desenvolvedores sobre a interface da aplicação
+- **M6:** Grau de percepção de design limpo e bem organizado
 - **M7:** Percentual de compatibilidade com leitores de tela
 - **M8:** Percentual de conformidade com as principais funcionalidades de acessibilidade
 
@@ -241,3 +236,5 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento|[Weverton Rodrigues](https://github.com/vevetin)|[Júlia Fortunato](https://github.com/julia-fortunato)|
 | `1.1`|27/06/2025 | Atualização do documento |[Ana Júlia](https://github.com/ailujana)|[Weverton Rodrigues](https://github.com/vevetin)|
+| `1.2`|07/07/2025 | Atualização de métricas e textos do documento |[Júlia Fortunato](https://github.com/julia-fortunato)||
+
