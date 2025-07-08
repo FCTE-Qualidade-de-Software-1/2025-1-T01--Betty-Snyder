@@ -32,7 +32,8 @@ nav:
     - Relatório Final: trabalho-final/relatorio.md 
     - Ações de Melhoria Sugeridas:
       - Usabilidade: trabalho-final/melhorias/usabilidade.md
-      - Confiabilidade: trabalho-final/melhorias/confiabilidade.md
+      - Confiabilidade: trabalho-final/melhorias/confiabilidade.md 
+    - Slides de apresentação: trabalho-final/slides.md
 
 theme:
   name: material

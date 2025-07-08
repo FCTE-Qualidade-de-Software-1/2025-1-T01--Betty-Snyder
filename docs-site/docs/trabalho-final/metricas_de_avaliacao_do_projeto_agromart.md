@@ -33,21 +33,12 @@ Este documento define métricas simples para avaliar o desempenho do projeto Agr
 - [x] **25/06** – Desenvolvimento do Projeto
 - [x] **30/06** – Continuação do Desenvolvimento do Projeto
 
-#### Julho - A serem modificadas
+#### Julho 
 - [x] **02/07** – PC2 (Reunificado com PC3) – Desenvolvimento do Projeto
-- [ ] **07/07** – EU3 (Entrega da Unidade 3) – até 23h59 no Git
+- [x] **07/07** – EU3 (Entrega da Unidade 3) – até 23h59 no Git
 - [x] **07/07** – PC (Ponto de Controle Final)
-- [ ] **08/07** – Entrega 3 (até 23h59 no Git)
-- [ ] **09/07** – Apresentação do Trabalho Final (5 equipes)
-- [ ] **10 a 13/07** – TAU3 (Teste da Unidade 3 - remoto)
-- [ ] **14/07** – Apresentação do Trabalho Final (5 equipes) -> opcional
-- [ ] **16/07** – TAG (Teste Geral da Disciplina - presencial)
-- [ ] **16/07** – AP (Avaliação por Pares - presencial)
-- [ ] **16/07** – Avaliação da Disciplina (presencial)
-- [ ] **21/07** – Prova Substitutiva (presencial) -> opcional
-- [ ] **23/07** – Revisão de Notas e Menções -> opcional
-- [ ] **28/07** – Revisão final (caso necessário) -> opcional
-
+- [x] **08/07** – Entrega 3 (até 23h59 no Git)
+- [x] **09/07** – Apresentação do Trabalho Final (5 equipes)
 
 - **Conclusão:** 3 de 3 etapas entregues no prazo = **100% de conformidade**.
 
@@ -126,10 +117,10 @@ Este documento define métricas simples para avaliar o desempenho do projeto Agr
 
 #### Entregas Finais
 
-- [ ] Relatório técnico com as 4 fases da SQuaRE
+- [x] Relatório técnico com as 4 fases da SQuaRE
 - [x] Gráfico hierárquico GQM
 - [x] Tabela de contribuição dos membros (100%)
-- [ ] Slides de apresentação
+- [x] Slides de apresentação
 - [x] Repositório atualizado e funcional
 
 - **Conclusão:** Todas as entregas foram concluídas com todos os critérios exigidos dentro do prazo estipulado no plano de ensino. 
