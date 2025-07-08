@@ -106,13 +106,13 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
         <td>5,83</td>
         <td>6,83</td>
         <td>5,33</td>
-        <td><b>6,50</b></td>
+        <td><b>6,20</b></td>
       </tr>
     </tbody>
   </table>
 
   <font size="3">
-    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a><a href="https://github.com/Oleari19">Maria Clara</a></p>
+    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a> e <a href="https://github.com/Oleari19">Maria Clara</a></p>
   </font>
 
 </div>
@@ -120,7 +120,7 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
 
 ## Resultados
 
-A nota média geral obtida foi de **6,50**, refletindo uma percepção regular a moderadamente positiva de usabilidade e estética da interface, de acordo com a avaliação subjetiva dos usuários.
+A nota média geral obtida foi de **6,20**, refletindo uma percepção regular a moderadamente positiva de usabilidade e estética da interface, de acordo com a avaliação subjetiva dos usuários.
 
 Alguns pontos destacados pelos participantes durante o preenchimento do questionário incluem:
 
@@ -130,7 +130,7 @@ Alguns pontos destacados pelos participantes durante o preenchimento do question
 
 - Navegação considerada funcional, porém com fluxo pouco fluido em alguns momentos.
 
-De acordo com os critérios definidos na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M6 foi classificada com a **pontuação 7 (Regular)**.
+De acordo com os critérios definidos na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M6 foi classificada com a **pontuação 6 (Regular)**.
 
 ### Recomendação
 
@@ -155,4 +155,4 @@ Recomendações:
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) |[Weverton Rodrigues](https://github.com/vevetin)|
-|`1.1`|07/07/2025|Atualização dps dados e melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |
+|`1.1`|07/07/2025|Atualização dps dados e melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| [Weverton Rodrigues](https://github.com/vevetin) |
