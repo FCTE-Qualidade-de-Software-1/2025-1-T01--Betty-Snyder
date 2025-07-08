@@ -1,3 +1,5 @@
+# Fase 1 - Processo de Avaliação
+
 ## Contexto de Trabalho 
 
 Este trabalho foi elaborado e desenvolvido no contexto da disciplina de Qualidade de Software, cujo objetivo é proporcionar aos estudantes a compreensão e a aplicação de técnicas, normas e práticas que assegurem a qualidade de produtos e processos de software ao longo de seu ciclo de vida. Como parte das atividades da disciplina, foi proposta a realização de uma análise crítica da qualidade de uma aplicação real, considerando aspectos de qualidade como usabilidade, confiabilidade, segurança, portabilidade, dentre outros.
@@ -43,6 +45,10 @@ A proposta de avaliação tem como principal objetivo assegurar a qualidade da a
 - Indivíduos com **menor** familiaridade com tecnologias digitais.  
 
 O domínio da aplicação abrange comunidades de agricultura familiar, consumidores e vendedores inseridos em um ambiente digital de compra e venda. A avaliação visa, portanto, garantir que o produto atenda às necessidades desse público, identificar pontos de melhoria relacionados à usabilidade — de modo a facilitar o acesso, a navegação e a compreensão da aplicação —, além de propor sugestões que contribuam para a manutenção da confiabilidade do sistema.
+
+## Especificação do Modelo de Qualidade
+
+Para avaliar a qualidade da aplicação AgroMart, adotaremos um modelo baseado na ISO/IEC 25000, com foco na característica de Usabilidade e Confiabilidade. A abordagem será complementada pelas metodologias GQM (Goal-Question-Metric) e PSM (Practical Software Measurement) para garantir uma análise estruturada e orientada a dados. O GQM nos permitirá definir objetivos claros de usabilidade. Já o PSM apoiará na seleção de métricas viáveis e acionáveis. A combinação dessas metodologias assegurará uma avaliação abrangente, alinhando os critérios técnicos da ISO 25000 com as necessidades reais dos usuários e stakeholders.
 
 ## Conexão com ODS (Objetivo de Desenvolvimento Sustentável) da ONU
 
@@ -132,3 +138,4 @@ Na Tabela 1, apresenta-se a contribuição dos membros da equipe na construção
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento| [Júlia Fortunato](https://github.com/julia-fortunato) e [Weverton Rodrigues](https://github.com/vevetin) |[Ana Júlia](https://github.com/ailujana)|
+|`1.1`|07/07/2025|Especificação do Modelo de Qualidade| [Maurício Ferreira](https://github.com/mauricio-araujoo) e [Weverton Rodrigues](https://github.com/vevetin) |[Ana Júlia](https://github.com/ailujana)|

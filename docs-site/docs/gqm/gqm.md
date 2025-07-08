@@ -130,20 +130,20 @@ Com base na abordagem **Goal-Question-Metric (GQM)**, selecionamos as seguintes 
 
 #### Confiabilidade
 
-- **M1:** Percentual de erros com mensagens claras e sem perda de dados.
-- **M2:** Percentual de requisitos que possuem testes automatizados associados.
-- **M3:** Percentual de requisitos com critérios de aceitação bem definidos.
+- **M1:** Percentual de erros com mensagens claras e sem perda de dados
+- **M2:** Percentual de requisitos que possuem testes automatizados associados
+- **M3:** Percentual de requisitos com critérios de aceitação bem definidos
 
 #### Usabilidade
 
-- **M1:** Tempo médio para completar tarefas.
-- **M2:** Taxa de sucesso de novos usuários em tarefas básicas.
-- **M3:** Percentual de acertos na identificação de botões.
-- **M4:** Percentual de erros com sugestões de correção e mensagens claras.
-- **M5:** Taxa de recuperação após erro.
-- **M6:** Nota média atribuída pelos desenvolvedores sobre a interface da aplicação.
-- **M7:** Percentual de compatibilidade com leitores de tela.
-- **M8:** Percentual de avaliação positiva em ferramenta automatizada de acessibilidade.
+- **M1:** Tempo médio para completar tarefas
+- **M2:** Taxa de sucesso de novos usuários em tarefas básicas
+- **M3:** Percentual de acertos na identificação de botões
+- **M4:** Percentual de erros com sugestões de correção e mensagens claras
+- **M5:** Taxa de recuperação após erro
+- **M6:** Nota média atribuída pelos desenvolvedores sobre a interface da aplicação
+- **M7:** Percentual de compatibilidade com leitores de tela
+- **M8:** Percentual de conformidade com as principais funcionalidades de acessibilidade
 
 ## Níveis de Pontuação das Métricas
 

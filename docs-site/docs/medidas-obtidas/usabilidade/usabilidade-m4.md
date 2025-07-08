@@ -1,4 +1,4 @@
-# Usabilidade - M4: Percentual de erros com sugestões de correção e mensagens claras.
+# Usabilidade - M4: Percentual de erros com sugestões de correção e mensagens claras
 
 ## Introdução
 
@@ -7,9 +7,9 @@ Essa métrica busca avaliar a capacidade do sistema de detectar erros de entrada
 
 ## Referencial teórico 
 
-De acordo com a norma ISO/IEC 25010 [1], a qualidade da usabilidade envolve aspectos como prevenção de erros e recuperabilidade, sendo essencial que o sistema informe adequadamente sobre falhas de uso e auxilie o usuário na resolução de problemas.
+De acordo com a norma ISO/IEC 25010<sup>[1]</sup>, a qualidade da usabilidade envolve aspectos como prevenção de erros e recuperabilidade, sendo essencial que o sistema informe adequadamente sobre falhas de uso e auxilie o usuário na resolução de problemas.
 
-As heurísticas de Nielsen [2], especialmente a H5 – Prevenção de erros e a H9 – Ajuda ao diagnóstico e recuperação de erros, reforçam a importância de:
+As heurísticas de Nielsen<sup>[2]</sup>, especialmente a H5 – Prevenção de erros e a H9 – Ajuda ao diagnóstico e recuperação de erros, reforçam a importância de:
 
 - Reduzir as chances de erro;
 

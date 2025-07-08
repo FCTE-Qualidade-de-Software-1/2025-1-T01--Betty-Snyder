@@ -7,7 +7,7 @@ Na presente execução da análise de confiabilidade do Agromart, foi definida, 
 
 ## Referencial teórico 
 
-Para executar a avaliação, o meterial utilizado para a medição foi o PSM, com a aplicação do framework CID [1]. Tendo em vista a completude da especificação de medida da cobertura de testes automatizados, serão analisadas duas medidas derivadas: porcentagem de requisitos testados por automação e porcentagem de requisitos não testados.
+Para executar a avaliação, o meterial utilizado para a medição foi o PSM, com a aplicação do framework CID <sup>[1]</sup>. Tendo em vista a completude da especificação de medida da cobertura de testes automatizados, serão analisadas duas medidas derivadas: porcentagem de requisitos testados por automação e porcentagem de requisitos não testados.
 
 Essa escolha se justifica uma vez que, queremos compreender o percentual de requisitos que são testados por automação, fazendo com que a confiabilidade do sistema persista durante o desenvolvimento do software, de acordo com os requisitos elicitados.
 

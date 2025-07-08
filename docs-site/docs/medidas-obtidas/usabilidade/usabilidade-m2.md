@@ -5,7 +5,7 @@ Durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Be
 
 ## Referencial teórico
 
-Segundo Nielsen (1993)[1], sistemas eficazes devem permitir que usuários novatos realizem tarefas essenciais sem depender de treinamentos prévios, com base apenas em sua familiaridade com interfaces similares e na clareza das instruções visuais disponíveis. A taxa de sucesso em tarefas básicas é, portanto, um dos indicadores mais confiáveis de usabilidade, especialmente no que diz respeito à curva de aprendizado, consistência dos padrões e organização semântica da interface.
+Segundo Nielsen (1993)<sup>[1]</sup>, sistemas eficazes devem permitir que usuários novatos realizem tarefas essenciais sem depender de treinamentos prévios, com base apenas em sua familiaridade com interfaces similares e na clareza das instruções visuais disponíveis. A taxa de sucesso em tarefas básicas é, portanto, um dos indicadores mais confiáveis de usabilidade, especialmente no que diz respeito à curva de aprendizado, consistência dos padrões e organização semântica da interface.
 
 ## Análise
 

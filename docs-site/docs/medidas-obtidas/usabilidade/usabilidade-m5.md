@@ -6,9 +6,9 @@ Na presente execução da análise de usabilidade do Agromart, foi definida, dur
 
 ## Referencial teórico
 
-Segundo a norma ISO/IEC 25010 [1], a qualidade em uso inclui atributos como recuperabilidade, que diz respeito à capacidade de o sistema auxiliar o usuário na retomada de ações após um erro, sem que haja perda de progresso ou dados inseridos.
+Segundo a norma ISO/IEC 25010<sup>[1]</sup>, a qualidade em uso inclui atributos como recuperabilidade, que diz respeito à capacidade de o sistema auxiliar o usuário na retomada de ações após um erro, sem que haja perda de progresso ou dados inseridos.
 
-As heurísticas de Nielsen [2], em especial a H9 – Ajuda ao diagnóstico e recuperação de erros, reforçam que sistemas eficazes devem:
+As heurísticas de Nielsen<sup>[2]</sup>, em especial a H9 – Ajuda ao diagnóstico e recuperação de erros, reforçam que sistemas eficazes devem:
 
 - Apontar claramente o erro ocorrido;
 

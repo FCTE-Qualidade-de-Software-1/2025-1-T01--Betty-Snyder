@@ -9,9 +9,9 @@ Na presente execução da análise de confiabilidade do Agromart, foi definida, 
 
 Para executar a avaliação, é necessário possuir um definição de critérios de aceitação para requisitos. Cabe frizar que a análise foi realizada a partir dos critérios de aceitação das **histórias de usuário**, uma vez que, quando especificados os requisitos na documentação do Agromart, não foram colocados critérios de aceitação.
 
-Segundo Cohn [1], a clareza e satisfação de histórias de usuário tem profunda ligação com adequação de uma aplicação. Dessa forma, podemos compreender também que ao satisfazer histórias de usuário, o software, consequentemente, se torna mais confiável em sua atividade, uma vez que, conclui as atividades de forma correta e satisfatória. 
+Segundo Cohn <sup>[1]</sup>, a clareza e satisfação de histórias de usuário tem profunda ligação com adequação de uma aplicação. Dessa forma, podemos compreender também que ao satisfazer histórias de usuário, o software, consequentemente, se torna mais confiável em sua atividade, uma vez que, conclui as atividades de forma correta e satisfatória. 
 
-Sendo assim, é de extrema importância a declaração de critérios de aceitação para histórias de usuário de forma correta. Sendo assim, bons critérios de aceitação devem seguir os seguintes conceitos [1],[2]:
+Sendo assim, é de extrema importância a declaração de critérios de aceitação para histórias de usuário de forma correta. Sendo assim, bons critérios de aceitação devem seguir os seguintes conceitos <sup>[1]</sup><sup>[2]</sup>:
 
 - Clareza e consisão: devem ser escritos em linguagem sinples, sem a uitlização de jargões técnicos e com ambiguidade, para que assim todos os interessados (devs, testers, PO, etc) consigam compreender o que o critério significa;
 

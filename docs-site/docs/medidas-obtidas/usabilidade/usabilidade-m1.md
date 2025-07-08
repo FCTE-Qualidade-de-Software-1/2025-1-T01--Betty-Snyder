@@ -6,11 +6,11 @@ Esse documento tem como objetivo sintetizar os achados referentes à métrica M1
 
 ## Referencial teórico 
 
-Segundo a norma ISO/IEC 25010 [1], a Usabilidade pode ser definida como "o grau com que um produto ou sistema pode ser usado por usuários específicos para alcançar objetivos específicos com precisão e completude, dentro de um tempo adequado e com esforço razoável".
+Segundo a norma ISO/IEC 25010 <sup>[1]</sup>, a Usabilidade pode ser definida como "o grau com que um produto ou sistema pode ser usado por usuários específicos para alcançar objetivos específicos com precisão e completude, dentro de um tempo adequado e com esforço razoável".
 
 No contexto mobile-first, onde o uso é predominantemente por meio de telas sensíveis ao toque, a métrica de tempo médio para completar tarefas torna-se um indicador direto da fluidez e facilidade de uso da interface.
 
-De acordo com Nielsen [2], uma boa usabilidade em dispositivos móveis depende, entre outros fatores, da disposição clara dos elementos de interação, tamanho adequado dos alvos de toque, e da redução do número de etapas para realizar uma tarefa.
+De acordo com Nielsen <sup>[2]</sup>, uma boa usabilidade em dispositivos móveis depende, entre outros fatores, da disposição clara dos elementos de interação, tamanho adequado dos alvos de toque, e da redução do número de etapas para realizar uma tarefa.
 
 Portanto, quanto menor for o tempo médio de execução de tarefas essenciais, mais eficiente e usável é a interface, refletindo diretamente na satisfação e retenção dos usuários.
 
@@ -24,7 +24,7 @@ Os critérios de julgamento e níveis de pontuação da métrica serão utilizad
 
 A partir desses dados, será possível verificar se o tempo de execução observado está de acordo com o desempenho esperado, e se o sistema oferece uma experiência eficiente e fluida aos usuários em dispositivos móveis.
 
-## Execuçaõ da análise
+## Execução da análise
 
 A avaliação foi conduzida por meio de testes exploratórios, nos quais foi realizada a simulação do uso do sistema Agromart em ambiente mobile, a partir da perspectiva de um usuário final. As interações foram realizadas em um dispositivo com tela sensível ao toque, com o objetivo de observar o tempo necessário para a execução de tarefas essenciais exclusivamente por meio de toques (tap) na interface.
 
