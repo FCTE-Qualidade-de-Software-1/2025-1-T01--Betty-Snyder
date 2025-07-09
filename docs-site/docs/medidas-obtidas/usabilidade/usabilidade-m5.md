@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, a métrica M5 (Taxa de recuperação após erro), com o objetivo de avaliar a capacidade do sistema de permitir que o usuário retome seu fluxo de uso normalmente após a ocorrência de uma falha, com foco na experiência em dispositivos móveis.
+Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, a métrica M5 (Taxa de recuperação após erro), com o objetivo de avaliar a capacidade do sistema de permitir que o usuário retome seu fluxo de uso normalmente após a ocorrência de uma falha, com foco na experiência em ambientes mobile-first.
 
 ## Referencial teórico
 
@@ -98,7 +98,7 @@ Com base nos testes realizados, constatou-se que:
 
 - Nenhum dos casos apresentou mensagens claras ou orientações de correção para o usuário.
 
-Esses achados demonstram que, embora o sistema seja tecnicamente robusto no que diz respeito à continuidade do fluxo, há falhas significativas no suporte comunicacional ao usuário no momento da recuperação.
+Os achados demonstram que, embora o sistema ofereça boa tolerância a erros do ponto de vista técnico, ainda carece de suporte comunicacional adequado para orientar os usuários na recuperação das falhas.
 
 Segundo os critérios definidos na Fase 2, a métrica M5 apresenta resultado mediano:
 
@@ -113,7 +113,7 @@ Dessa forma, a pontuação atribuída à métrica é **5 (Regular)**.
 A análise da métrica M5 mostra que o sistema Agromart possui uma boa tolerância técnica a erros, permitindo ao usuário continuar suas ações mesmo após falhas de entrada. No entanto, a ausência de feedbacks informativos compromete a compreensão e autonomia do usuário no processo de recuperação.
 Recomendações:
 
-- Exibir mensagens específicas de erro, com linguagem clara e orientações de correção;
+- Exibir mensagens de erro específicas, redigidas em linguagem clara e objetiva, com orientações diretas de correção;
 
 - Destacar os campos com erro visualmente;
 
@@ -132,3 +132,4 @@ Recomendações:
 | Versão | Data       | Descrição            | Autor                                            | Revisor |
 |--------|------------|----------------------|--------------------------------------------------|---------|
 | 1.0    | 07/07/2025 | Criação do documento | [Ana Júlia](https://github.com/ailujana)         | [Weverton Rodrigues](https://github.com/vevetin)  |
+|`1.1`|07/07/2025|Pequena melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |

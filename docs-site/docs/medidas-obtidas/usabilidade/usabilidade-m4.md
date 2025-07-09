@@ -3,11 +3,11 @@
 ## Introdução
 
 Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, a métrica M4 (Percentual de erros com sugestões de correção e mensagens claras), com foco na experiência do usuário em dispositivos móveis.
-Essa métrica busca avaliar a capacidade do sistema de detectar erros de entrada do usuário e fornecer mensagens compreensíveis acompanhadas de orientações para a correção, contribuindo para a eficiência, segurança e satisfação na interação.
+ Essa métrica avalia a capacidade do sistema de detectar erros e apresentar mensagens claras com orientações corretivas, promovendo uma experiência segura, eficiente e satisfatória para o usuário.
 
 ## Referencial teórico 
 
-De acordo com a norma ISO/IEC 25010 [1], a qualidade da usabilidade envolve aspectos como prevenção de erros e recuperabilidade, sendo essencial que o sistema informe adequadamente sobre falhas de uso e auxilie o usuário na resolução de problemas.
+De acordo com a norma ISO/IEC 25010 [1], a qualidade da usabilidade envolve aspectos como prevenção de erros e recuperabilidade, sendo essencial que o sistema informe adequadamente sobre falhas de uso e auxilie o usuário na resolução de problemas rapidamente.
 
 As heurísticas de Nielsen [2], especialmente a H5 – Prevenção de erros e a H9 – Ajuda ao diagnóstico e recuperação de erros, reforçam a importância de:
 
@@ -97,7 +97,9 @@ Com base nas simulações e observações realizadas, constatou-se que, apesar d
 
 Esse cenário compromete significativamente a experiência de uso, sobretudo para usuários iniciantes, que dependem de feedback claro para compreender e resolver os problemas que encontram durante a navegação.
 
-De acordo com os critérios definidos na Fase 2, a métrica M4 foi classificada como "Insatisfatória" (pontuação ≤ 3), uma vez que:
+Além disso, a ausência de mensagens claras também impacta negativamente o ponto de vista da acessibilidade digital, dificultando o uso da aplicação por pessoas com deficiência cognitiva, baixa alfabetização ou dificuldades de leitura.
+
+De acordo com os critérios definidos na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M4 foi classificada como **"Insatisfatória" (pontuação ≤ 3)**, uma vez que:
 
 - A taxa de detecção de erros foi parcial;
 
@@ -107,7 +109,7 @@ De acordo com os critérios definidos na Fase 2, a métrica M4 foi classificada 
 
 ### Recomendação
 
-A ausência de mensagens claras e orientações corretivas prejudica a usabilidade do Agromart, especialmente em fluxos sensíveis como login, cadastro e envio de dados. Para mitigar esse problema, recomenda-se:
+A ausência de mensagens claras e sugestões de correção impacta negativamente a usabilidade do Agromart, especialmente em fluxos críticos como login, cadastro e envio de dados. Para mitigar esse problema, recomenda-se:
 
 - Implementar validações em tempo real nos campos de entrada;
 
@@ -117,7 +119,7 @@ A ausência de mensagens claras e orientações corretivas prejudica a usabilida
 
 - Utilizar elementos visuais como destaque em vermelho e ícones de aviso para reforçar o feedback.
 
-Essas ações tendem a aumentar a confiabilidade da aplicação e a autonomia do usuário ao lidar com erros.
+A adoção dessas melhorias tende a aumentar a confiabilidade da aplicação, reduzir frustrações e fortalecer a autonomia do usuário ao lidar com erros.
 
 ## Referências Bibliográficas 
 
@@ -130,3 +132,4 @@ Essas ações tendem a aumentar a confiabilidade da aplicação e a autonomia do
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-----:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) | [Weverton Rodrigues](https://github.com/vevetin) |
+|`1.1`|07/07/2025|Melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |

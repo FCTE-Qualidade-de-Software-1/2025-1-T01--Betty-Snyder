@@ -1,7 +1,7 @@
 # Usabilidade - M2: Taxa de sucesso de novos usuários em tarefas básicas
 ## Introdução
 
-Durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto Agromart, foi definida a métrica M2 com o objetivo de avaliar a eficácia da interface para novos usuários. Essa métrica visa mensurar o grau de intuitividade do sistema a partir da taxa de sucesso na execução de tarefas básicas sem auxílio externo, sendo, portanto, um indicador direto da capacidade do sistema de guiar usuários inexperientes com clareza e consistência.
+Durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto Agromart, foi definida a métrica M2 com o objetivo de avaliar a eficácia da interface para novos usuários. A métrica busca mensurar o grau de intuitividade do sistema, com base na taxa de sucesso de usuários inexperientes na execução de tarefas básicas, sem auxílio externo. Trata-se de um indicador direto da capacidade da interface em guiar novos usuários com clareza e consistência.
 
 ## Referencial teórico
 
@@ -71,7 +71,7 @@ Os principais fatores observados foram:
 
 - Fluxos confusos e pouco previsíveis, especialmente na tela de criação de conta.
 
-Dessa forma, a métrica M2 foi classificada com **pontuação 1 (Insatisfatório)**, o que compromete a experiência de novos usuários e indica necessidade urgente de melhorias tanto na interface quanto no suporte ao onboarding.
+Dessa forma, a métrica M2 foi classificada com **pontuação 1 (Insatisfatório)**, comprometendo a experiência de novos usuários e evidenciando a necessidade urgente de melhorias na interface e nos mecanismos de onboarding.
 
 Recomenda-se:
 
@@ -90,3 +90,4 @@ Recomenda-se:
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) | [Weverton Rodrigues](https://github.com/vevetin)|
+|`1.1`|07/07/2025|Pequena melhoria na escrita|[Maria Clara](https://github.com/Oleari19)| - |

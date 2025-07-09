@@ -1,8 +1,10 @@
-# Usabilidade - M1: Tempo médio de realização de uma tarefa por meio de toques na interface
+# Usabilidade - M1: Tempo médio de execução de tarefas via interação por toque
+
 ## Introdução
 
-Na presente execução da análide de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, métricas voltadas à avaliação da experiência do usuário com enfoque mobile-first. 
-Esse documento tem como objetivo sintetizar os achados referentes à métrica M1 (Tempo médio de realização de uma tarefa por meio de toques na interface), considerada essencial para avaliar a usabilidade do sistema em dispositivos móveis.
+ Esta análise de usabilidade do Agromart, conduzida com base nas diretrizes da [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, adota métricas voltadas à experiência do usuário com enfoque mobile-first.
+ 
+ Este documento apresenta os resultados obtidos para a métrica M1 — Tempo médio de execução de tarefas por meio de toques na interface — considerada fundamental para avaliar a usabilidade do sistema em dispositivos móveis.
 
 ## Referencial teórico 
 
@@ -12,7 +14,7 @@ No contexto mobile-first, onde o uso é predominantemente por meio de telas sens
 
 De acordo com Nielsen [2], uma boa usabilidade em dispositivos móveis depende, entre outros fatores, da disposição clara dos elementos de interação, tamanho adequado dos alvos de toque, e da redução do número de etapas para realizar uma tarefa.
 
-Portanto, quanto menor for o tempo médio de execução de tarefas essenciais, mais eficiente e usável é a interface, refletindo diretamente na satisfação e retenção dos usuários.
+Portanto, quanto menor o tempo médio de execução de tarefas essenciais, maior a eficiência e usabilidade percebidas, impactando diretamente na satisfação e retenção dos usuários.
 
 ## Análise
 
@@ -24,11 +26,11 @@ Os critérios de julgamento e níveis de pontuação da métrica serão utilizad
 
 A partir desses dados, será possível verificar se o tempo de execução observado está de acordo com o desempenho esperado, e se o sistema oferece uma experiência eficiente e fluida aos usuários em dispositivos móveis.
 
-## Execuçaõ da análise
+## Execução da análise
 
 A avaliação foi conduzida por meio de testes exploratórios, nos quais foi realizada a simulação do uso do sistema Agromart em ambiente mobile, a partir da perspectiva de um usuário final. As interações foram realizadas em um dispositivo com tela sensível ao toque, com o objetivo de observar o tempo necessário para a execução de tarefas essenciais exclusivamente por meio de toques (tap) na interface.
 
-Dentre as histórias de usuário disponíveis, apenas a US01: Realizar Cadastro na CSA apresentou estrutura e fluxo funcional suficiente para possibilitar a avaliação da métrica de tempo médio de execução. Essa história foi selecionada por representar uma tarefa comum e crítica no sistema, além de possuir pontuação elevada em critérios de clareza e testabilidade.
+Dentre as histórias de usuário disponíveis, apenas a US01: Realizar Cadastro na CSA apresentou estrutura e fluxo funcional suficiente para possibilitar a avaliação da métrica de tempo médio de execução. A história foi escolhida por representar uma tarefa comum e crítica, com boa clareza e alta testabilidade.
 
 A tarefa foi executada três vezes consecutivas, simulando o comportamento de um usuário comum. O tempo de execução foi cronometrado manualmente, considerando o intervalo entre o primeiro toque relacionado ao início do cadastro e a finalização do processo (toque no botão de envio/registro).
 
@@ -76,9 +78,9 @@ A seguir, a Tabela 1 apresenta os tempos registrados em cada tentativa e o valor
 
 ## Resultados
 
-A partir da execução da métrica M1, observou-se que a tarefa de Realizar Cadastro na CSA pôde ser completada com relativa fluidez, apresentando um tempo médio de 26,10 segundos, o que indica um bom desempenho da interface em termos de agilidade e simplicidade de interação.
+A partir da execução da métrica M1, observou-se que a tarefa de Realizar Cadastro na CSA pôde ser completada com relativa fluidez, apresentando um tempo médio de 26,10 segundos, indicando um bom desempenho da interface quanto à agilidade e simplicidade de interação.
 
-No entanto, durante a análise prática, foi identificada uma interferência significativa no fluxo da tarefa: ao tocar no botão "Criar uma conta", a tela de cadastro pisca brevemente e é sobreposta por um modal de busca de CSA, o que obriga o usuário a retornar uma etapa manualmente para prosseguir com o cadastro. Esse tipo de comportamento pode causar confusão e frustração, além de violar o princípio de previsibilidade da interface.
+No entanto, durante a análise prática, foi identificada uma interferência significativa no fluxo da tarefa: ao tocar no botão "Criar uma conta", a tela de cadastro pisca brevemente e é sobreposta por um modal de busca de CSA, forçando o usuário a uma etapa manualmente para retomar o processo. Esse tipo de comportamento pode causar confusão e frustração, além de violar o princípio de previsibilidade da interface.
 
 Dessa forma, considerando os critérios definidos na Fase 2, a métrica M1 foi classificada com a **pontuação 7 (Bom)**, o que significa que a aplicação atende de forma satisfatória, mas apresenta oportunidades claras de melhoria, especialmente relacionadas ao fluxo de navegação e comportamento da interface.
 
@@ -97,3 +99,4 @@ Dessa forma, considerando os critérios definidos na Fase 2, a métrica M1 foi c
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Weverton Rodrigues](https://github.com/vevetin) | [Ana Júlia](https://github.com/ailujana) |
+|`1.1`|07/07/2025|Melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |

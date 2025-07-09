@@ -3,11 +3,12 @@
 ## Introdução
 
 Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, a métrica M3 (Percentual de acertos na identificação de botões), com foco na experiência do usuário em dispositivos móveis.  
-Essa métrica visa avaliar a capacidade dos usuários em identificar corretamente a funcionalidade dos botões presentes na interface, com base em seus rótulos, ícones e contexto visual.
+
+Essa métrica avalia a capacidade dos usuários de identificar corretamente a funcionalidade dos botões com base em seus rótulos, ícones e contexto visual, especialmente em interfaces mobile.
 
 ## Referencial teórico 
 
-Segundo a norma ISO/IEC 25010 [1], a usabilidade é composta por atributos como compreensibilidade, operabilidade e atratividade. A capacidade de identificar corretamente os botões da interface está diretamente relacionada à compreensibilidade do sistema, sendo crucial para que o usuário navegue com segurança e eficiência.
+Segundo a norma ISO/IEC 25010 [1], a usabilidade é composta por atributos como compreensibilidade, operabilidade e atratividade. A clareza na identificação dos botões está diretamente relacionada à compreensibilidade da interface, sendo crucial para que o usuário navegue com segurança e eficiência.
 
 As heurísticas de usabilidade propostas por Nielsen [2], especialmente a H6 (Reconhecimento em vez de memorização), enfatizam que os elementos de interface devem ser compreensíveis sem exigir esforço de memória, promovendo a identificação imediata da funcionalidade esperada de cada botão.
 
@@ -107,7 +108,7 @@ Entretanto, os botões "Adicionar", "Realizar" e "Histórico" apresentaram baixa
 
 - Aplicar padrões visuais consistentes, com o uso de cores e formatos que transmitam intenção da ação.
 
-Com base nos critérios definidos na Fase 2, a métrica M3 foi classificada com a **pontuação 8 (Bom)**, demonstrando que, apesar de pontos de atenção, a interface atende satisfatoriamente ao princípio de compreensibilidade.
+ De acordo com os critérios da [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M3 recebeu **pontuação 8 (Bom)**. Isso indica que, apesar de pontos de atenção, a interface atende satisfatoriamente ao princípio de compreensibilidade.
 
 ## Referências Bibliográficas
 
@@ -120,3 +121,4 @@ Com base nos critérios definidos na Fase 2, a métrica M3 foi classificada com 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-----:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) | [Weverton Rodrigues](https://github.com/vevetin) |
+|`1.1`|07/07/2025|Melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |

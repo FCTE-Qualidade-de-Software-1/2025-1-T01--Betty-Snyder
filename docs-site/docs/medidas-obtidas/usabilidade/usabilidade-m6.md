@@ -3,6 +3,7 @@
 ## Introdução
 
 Na presente execução da análise de usabilidade do Agromart, foi definida, durante a [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas) do projeto, a métrica M6 (Nota média atribuída pelos usuários em questionário sobre a interface da aplicação).
+
 Essa métrica busca avaliar a percepção subjetiva dos usuários em relação à interface da aplicação, considerando aspectos como clareza visual, facilidade de navegação e compreensão dos ícones.
 
 ## Referencial teórico 
@@ -28,6 +29,8 @@ A média de cada participante foi registrada e, ao final, foi calculada a nota m
 ## Execução da análise
 
 Foi utilizada uma escala de **0 (muito ruim)** a **10 (excelente)**. A média das notas foi calculada com base em 6 participantes:
+
+> Como ficou pendente as respostas de um dos 6 integrantes, a média foi calculada considerando 5 participantes
 
 A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da análise.
 
@@ -67,27 +70,27 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
       </tr>
       <tr>
         <td>Usuário 3</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>4</td>
+        <td>6,25</td>
       </tr>
       <tr>
         <td>Usuário 4</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
+        <td>7</td>
+        <td>8</td>
+        <td>7</td>
+        <td>5</td>
+        <td>6,75</td>
       </tr>
       <tr>
         <td>Usuário 5</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
+        <td>7</td>
+        <td>5</td>
+        <td>9</td>
+        <td>6</td>
+        <td>6,75</td>
       </tr>
       <tr>
         <td>Usuário 6</td>
@@ -99,14 +102,17 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
       </tr>
       <tr>
         <td><b>Média Geral</b></td>
-        <td colspan="4" style="text-align: center"><b>—</b></td>
-        <td><b>5,75</b></td>
+        <td>6,8</td>
+        <td>6</td>
+        <td>6,6</td>
+        <td>5,6</td>
+        <td><b>6,25</b></td>
       </tr>
     </tbody>
   </table>
 
   <font size="3">
-    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a></p>
+    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a><a href="https://github.com/Oleari19">Maria Clara</a></p>
   </font>
 
 </div>
@@ -114,7 +120,7 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
 
 ## Resultados
 
-Com base nas respostas coletadas, a interface do sistema Agromart obteve uma nota média de 5,75, o que indica um desempenho mediano na percepção subjetiva de usabilidade.
+ A nota média geral obtida foi de 5,75, refletindo uma percepção moderada de usabilidade e estética da interface na percepção subjetiva de usabilidade.
 
 Alguns pontos destacados pelos participantes durante o preenchimento do questionário incluem:
 
@@ -124,7 +130,7 @@ Alguns pontos destacados pelos participantes durante o preenchimento do question
 
 - Navegação considerada funcional, porém com fluxo pouco fluido em alguns momentos.
 
-De acordo com os critérios definidos na Fase 2, a métrica M6 foi classificada com a **pontuação 7 (Regular)**.
+De acordo com os critérios definidos na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M6 foi classificada com a **pontuação 7 (Regular)**.
 
 ### Recomendação
 
@@ -135,7 +141,7 @@ Recomendações:
 
 - Refinar o design dos ícones e avaliar o uso de rótulos de apoio;
 
-- Reorganizar fluxos de navegação para reduzir etapas desnecessárias;
+- Simplificar os fluxos de navegação, eliminando cliques e etapas redundantes e/ou desnecessárias;
 
 - Reavaliar o layout com base nos feedbacks subjetivos recebidos.
 
@@ -149,3 +155,4 @@ Recomendações:
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) |[Weverton Rodrigues](https://github.com/vevetin)|
+|`1.1`|07/07/2025|Atualização dps dados e melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |
