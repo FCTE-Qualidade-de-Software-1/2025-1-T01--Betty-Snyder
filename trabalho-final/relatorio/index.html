@@ -1,0 +1,2994 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto do grupo Betty Snyder de Qualidade de Software (2025.1), Turma 1">
+      
+      
+      
+      
+        <link rel="prev" href="../metricas_de_avaliacao_do_projeto_agromart/">
+      
+      
+        <link rel="next" href="../melhorias/usabilidade/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Relatório Final - Grupo Betty Snyder - Turma 1 (2025.1)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#relatorio-da-entrega-final-especificacao-da-avaliacao-de-qualidade-do-agromart" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Grupo Betty Snyder - Turma 1 (2025.1)" class="md-header__button md-logo" aria-label="Grupo Betty Snyder - Turma 1 (2025.1)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Grupo Betty Snyder - Turma 1 (2025.1)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Relatório Final
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="high-contrast" data-md-color-primary="black" data-md-color-accent="yellow"  aria-label="Switch to high contrast"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to high contrast" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19a5 5 0 0 1-5-5 5 5 0 0 1 5-5c1-2.35 3.3-4 6-4 3.43 0 6.24 2.66 6.5 6.03L19 11a4 4 0 0 1 4 4 4 4 0 0 1-4 4zm13-6h-2v-1a5 5 0 0 0-5-5c-2.5 0-4.55 1.82-4.94 4.19C6.73 11.07 6.37 11 6 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3h13a2 2 0 0 0 2-2 2 2 0 0 0-2-2m-6-1h-2V8h2zm0 4h-2v-2h2"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T01--Betty-Snyder" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-1-T01--Betty-Snyder
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../processo-avaliacao/processo_de_avaliacao/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Fase 1 - Propósito de avaliação
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../gqm/gqm/" class="md-tabs__link">
+          
+  
+  
+  Fase 2 - Especificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../plano-avaliacao/plano_avaliacao/" class="md-tabs__link">
+          
+  
+  
+  Fase 3 - Projetar avaliação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../medidas-obtidas/usabilidade/usabilidade-m1/" class="md-tabs__link">
+          
+  
+  
+  Fase 4 - Executar avaliação
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../metricas_de_avaliacao_do_projeto_agromart/" class="md-tabs__link">
+          
+  
+  
+  Entrega Final
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Grupo Betty Snyder - Turma 1 (2025.1)" class="md-nav__button md-logo" aria-label="Grupo Betty Snyder - Turma 1 (2025.1)" data-md-component="logo">
+      
+  <img src="../../assets/img/logo1.png" alt="logo">
+
+    </a>
+    Grupo Betty Snyder - Turma 1 (2025.1)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T01--Betty-Snyder" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2025-1-T01--Betty-Snyder
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../processo-avaliacao/processo_de_avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fase 1 - Propósito de avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Fase 2 - Especificação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Fase 2 - Especificação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gqm/gqm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abordagem GQM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gqm/abstract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abstraction Sheets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Fase 3 - Projetar avaliação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Fase 3 - Projetar avaliação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../plano-avaliacao/plano_avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plano de Avaliação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Fase 4 - Executar avaliação
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Fase 4 - Executar avaliação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Medidas Obtidas - Usabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Medidas Obtidas - Usabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/usabilidade/usabilidade-m8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Medidas Obtidas - Confiabilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Medidas Obtidas - Confiabilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/confiabilidade/confiabilidade-m1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/confiabilidade/confiabilidade-m2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/confiabilidade/confiabilidade-m3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    M3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4" id="__nav_5_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Comparação com os Critérios e Julgamentos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Comparação com os Critérios e Julgamentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/comparacao/usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/comparacao/confiabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Confiabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../medidas-obtidas/julgamento_resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Julgamento dos Resultados
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipo/prototipo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Entrega Final
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega Final
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metricas_de_avaliacao_do_projeto_agromart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Métricas de Avaliação do Processo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Relatório Final
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Relatório Final
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo Geral
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencial-teorico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referencial Teórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-1-processo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 1 – Processo de Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 1 – Processo de Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contexto-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto de Trabalho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristicas-priorizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Características Priorizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Público-alvo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conexao-com-os-ods-da-onu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conexão com os ODS da ONU
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-2-especificacao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 2 – Especificação da Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 2 – Especificação da Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo-1-avaliar-a-usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo 1 – Avaliar a Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetivo-2-avaliar-a-confiabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo 2 – Avaliar a Confiabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-julgamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios de Julgamento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-plano-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 3 – Plano de Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 3 – Plano de Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Método de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instrucoes-de-aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instruções de Aplicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-utilizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos Utilizados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronograma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronograma
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-4-execucao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 4 - Execução da Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 4 - Execução da Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metricas-aplicadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métricas Aplicadas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Métricas Aplicadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coleta-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coleta de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#julgamento-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Julgamento dos Resultados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidencias-documentadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evidências Documentadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consolidacao-e-analise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consolidação e Análise
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consolidação e Análise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usabilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#destaques-positivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destaques Positivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontos-de-melhoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontos de Melhoria
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiabilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Confiabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#destaques-positivos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destaques positivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontos-fracos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontos fracos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-de-melhoria-implementadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações de Melhoria Implementadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão da Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase Final
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências Bibliográficas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Historico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ações de Melhoria Sugeridas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Ações de Melhoria Sugeridas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../melhorias/usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../melhorias/confiabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Confiabilidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Slides de apresentação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protótipo de Alta Fidelidade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo Geral
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencial-teorico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referencial Teórico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-1-processo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 1 – Processo de Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 1 – Processo de Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#contexto-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto de Trabalho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristicas-priorizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Características Priorizadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publico-alvo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Público-alvo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conexao-com-os-ods-da-onu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conexão com os ODS da ONU
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-2-especificacao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 2 – Especificação da Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 2 – Especificação da Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objetivo-1-avaliar-a-usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo 1 – Avaliar a Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetivo-2-avaliar-a-confiabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo 2 – Avaliar a Confiabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-julgamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critérios de Julgamento
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-plano-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 3 – Plano de Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 3 – Plano de Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metodo-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Método de Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instrucoes-de-aplicacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instruções de Aplicação
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-utilizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos Utilizados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cronograma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cronograma
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-4-execucao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 4 - Execução da Avaliação
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 4 - Execução da Avaliação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metricas-aplicadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métricas Aplicadas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Métricas Aplicadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coleta-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coleta de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#julgamento-dos-resultados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Julgamento dos Resultados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidencias-documentadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Evidências Documentadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consolidacao-e-analise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consolidação e Análise
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consolidação e Análise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usabilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#destaques-positivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destaques Positivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontos-de-melhoria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontos de Melhoria
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiabilidade
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Confiabilidade">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#destaques-positivos_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Destaques positivos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pontos-fracos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontos fracos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acoes-de-melhoria-implementadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ações de Melhoria Implementadas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão da Avaliação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase 4
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-fase-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela de Contribuição - Fase Final
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências Bibliográficas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Historico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="relatorio-da-entrega-final-especificacao-da-avaliacao-de-qualidade-do-agromart">Relatório da Entrega Final – Especificação da Avaliação de Qualidade do AgroMart</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este relatório apresenta o processo de avaliação da qualidade da aplicação AgroMart, seguindo a abordagem definida pela norma ISO/IEC 25000 (SQuaRE), complementada pelos métodos GQM (Goal-Question-Metric)<sup>[3]</sup> e PSM (Practical Software Measurement)<sup>[4]</sup>. A avaliação foi conduzida no contexto da disciplina de Qualidade de Software da Universidade de Brasília, com o objetivo de analisar criticamente aspectos relacionados à usabilidade e confiabilidade da aplicação.</p>
+<h2 id="objetivo-geral">Objetivo Geral</h2>
+<p>O objetivo principal desta fase é <strong>avaliar a qualidade do sistema AgroMart</strong><sup>[1]</sup> de forma sistemática, utilizando como base a metodologia <strong>GQM (Goal-Question-Metric)</strong> para definir o que será medido e como interpretar os resultados. A avaliação será conduzida de acordo com o processo definido na norma internacional <strong>ISO/IEC 25040</strong><sup>[2]</sup>, garantindo que os procedimentos adotados sejam reprodutíveis, objetivos e confiáveis. Ao final, espera-se obter um diagnóstico confiável sobre os principais pontos fortes e fracos do sistema, com foco especial nas características de <strong>usabilidade</strong> e <strong>confiabilidade</strong>, que são as mais relevantes para o perfil do público-alvo da aplicação.</p>
+<h2 id="referencial-teorico">Referencial Teórico</h2>
+<p>A avaliação foi pautada nas normas da família ISO/IEC 25000 (SQuaRE), com destaque para a ISO/IEC 25010, que define o modelo de qualidade de produto. As características selecionadas — usabilidade e confiabilidade — estão diretamente ligadas à acessibilidade, clareza e estabilidade de sistemas voltados ao público geral.</p>
+<p>Complementarmente, foram adotadas as abordagens:</p>
+<ul>
+<li><strong>GQM (Goal-Question-Metric):</strong> que permite estruturar a avaliação a partir de metas claras, associadas a perguntas e métricas;</li>
+<li><strong>PSM (Practical Software Measurement):</strong> para facilitar a seleção de métricas observáveis e práticas, alinhadas à realidade da aplicação.</li>
+</ul>
+<h2 id="fase-1-processo-de-avaliacao">Fase 1 – Processo de Avaliação</h2>
+<h3 id="contexto-de-trabalho">Contexto de Trabalho</h3>
+<p>A aplicação AgroMart foi avaliada no contexto acadêmico, sendo um sistema híbrido que conecta pequenos produtores a consumidores por meio de uma interface web (produtores) e um aplicativo móvel (consumidores).</p>
+<h3 id="caracteristicas-priorizadas">Características Priorizadas</h3>
+<p>As seguintes características de qualidade foram priorizadas:</p>
+<div style="text-align: center">
+
+  <font size="3">
+    <p><b>Tabela 1 – Ênfase atribuída às características de qualidade no Agromart</b></p>
+  </font>
+
+  <table border="1" style="margin: 0 auto;">
+    <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Ênfase (1–5)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Usabilidade</td>
+        <td>5 – grande interesse</td>
+      </tr>
+      <tr>
+        <td>Confiabilidade</td>
+        <td>5 – grande interesse</td>
+      </tr>
+      <tr>
+        <td>Funcionalidade</td>
+        <td>4 – largo interesse</td>
+      </tr>
+      <tr>
+        <td>Eficiência</td>
+        <td>2 – baixo interesse</td>
+      </tr>
+      <tr>
+        <td>Compatibilidade</td>
+        <td>2 – baixo interesse</td>
+      </tr>
+      <tr>
+        <td>Segurança</td>
+        <td>1 – nenhum interesse</td>
+      </tr>
+      <tr>
+        <td>Manutenibilidade</td>
+        <td>1 – nenhum interesse</td>
+      </tr>
+      <tr>
+        <td>Portabilidade</td>
+        <td>1 – nenhum interesse</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="publico-alvo">Público-alvo</h3>
+<ul>
+<li>Indivíduos com mais de 30 anos;</li>
+<li>Pessoas com pouca familiaridade tecnológica.</li>
+</ul>
+<h3 id="conexao-com-os-ods-da-onu">Conexão com os ODS da ONU</h3>
+<p>O AgroMart está alinhado com os seguintes Objetivos de Desenvolvimento Sustentável (ODS):<br />
+ODS 2, 8, 11, 12 e 15.</p>
+<h2 id="fase-2-especificacao-da-avaliacao">Fase 2 – Especificação da Avaliação</h2>
+<p>A Fase 2 foi dedicada à estruturação da avaliação por meio da abordagem GQM. Foram definidos dois objetivos principais, cada um com perguntas e métricas associadas:</p>
+<h3 id="objetivo-1-avaliar-a-usabilidade">Objetivo 1 – Avaliar a Usabilidade</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Questão</th>
+<th>Métrica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1</td>
+<td>Os usuários conseguem navegar facilmente pela plataforma para realizar suas tarefas?</td>
+<td>M1: Tempo médio para completar tarefas</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>A interface das telas e funções da plataforma são intuitivas e compreensíveis para novos usuários?</td>
+<td>M2: Taxa de sucesso de novos usuários em tarefas básicas</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>Os usuários identificam facilmente as funcionalidades e seus propósitos no sistema?</td>
+<td>M3: Percentual de acertos em identificações de botões</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>O sistema previne ou corrige erros cometidos pelos usuários?</td>
+<td>M4: Percentual de erros com sugestões de correção e mensagens claras<br>M5: Taxa de recuperação após erro</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>A interface do AgroMart é visualmente agradável e bem organizada?</td>
+<td>M6: Grau de percepção de design limpo e bem organizado</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>O AgroMart é acessível a usuários com limitações visuais, motoras ou cognitivas?</td>
+<td>M7: Percentual de compatibilidade com leitores de tela<br>M8: Percentual de conformidade com funcionalidades de acessibilidade</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="objetivo-2-avaliar-a-confiabilidade">Objetivo 2 – Avaliar a Confiabilidade</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Questão</th>
+<th>Métrica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1</td>
+<td>O sistema lida bem com erros, fornecendo feedback ao usuário?</td>
+<td>M1: Percentual de erros com mensagem clara e sem perda de dados</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>O sistema foi especificado e testado de forma a garantir comportamento confiável?</td>
+<td>M2: Percentual de requisitos com testes automatizados<br>M3: Percentual de requisitos com critérios de aceitação bem definidos</td>
+</tr>
+</tbody>
+</table>
+<h3 id="criterios-de-julgamento">Critérios de Julgamento</h3>
+<p>Cada métrica foi associada a uma escala de 1 a 10, agrupada nos níveis:</p>
+<ul>
+<li>1–3: Insatisfatório</li>
+<li>4–6: Regular</li>
+<li>7–8: Bom</li>
+<li>9–10: Excelente</li>
+</ul>
+<h2 id="fase-3-plano-de-avaliacao">Fase 3 – Plano de Avaliação</h2>
+<h3 id="metodo-de-avaliacao">Método de Avaliação</h3>
+<p>A avaliação combinou testes internos de usabilidade e confiabilidade, com observação direta e aplicação de questionários pós-tarefa. Foram considerados:</p>
+<ul>
+<li>Tempo médio por tarefa;</li>
+<li>Erros detectados;</li>
+<li>Nível de satisfação subjetiva;</li>
+<li>Acessibilidade e clareza da interface.</li>
+</ul>
+<h3 id="instrucoes-de-aplicacao">Instruções de Aplicação</h3>
+<p>Os participantes realizaram tarefas simuladas enquanto membros da equipe observaram, registrando:</p>
+<ul>
+<li>Tempo para cada etapa;</li>
+<li>Ocorrência e tipo de erro;</li>
+<li>Capacidade de recuperação e clareza das mensagens.</li>
+</ul>
+<p>Ao fim, aplicou-se um questionário subjetivo com perguntas sobre clareza, ícones, fluidez e estética da interface.</p>
+<h3 id="recursos-utilizados">Recursos Utilizados</h3>
+<ul>
+<li>Cronômetro digital;</li>
+<li>Ferramentas de captura de tela (opcional);</li>
+<li>TalkBack (testes de acessibilidade);</li>
+<li>Documentação das métricas e heurísticas de Nielsen.</li>
+</ul>
+<h3 id="cronograma">Cronograma</h3>
+<table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>Início</th>
+<th>Conclusão</th>
+<th>Responsável</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coleta de dados e testes</td>
+<td>05/07/25</td>
+<td>07/07/25</td>
+<td>Equipe Técnica</td>
+</tr>
+<tr>
+<td>Análise final e relatório</td>
+<td>07/07/25</td>
+<td>08/07/25</td>
+<td>Equipe Técnica</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fase-4-execucao-da-avaliacao">Fase 4 - Execução da Avaliação</h2>
+<p>Esta etapa refere-se à aplicação prática das métricas de qualidade definidas nas fases anteriores do processo SQuaRE, adaptado com a abordagem GQM + PSM. A execução foi conduzida a partir dos planos estabelecidos, visando coletar dados objetivos e subjetivos sobre os atributos de confiabilidade e usabilidade do sistema AgroMart.</p>
+<h3 id="metricas-aplicadas">Métricas Aplicadas</h3>
+<p>As seguintes métricas foram aplicadas na Fase 4:</p>
+<h4 id="usabilidade">Usabilidade</h4>
+<ul>
+<li><strong>M1 (Tempo para completar tarefas)</strong></li>
+<li><strong>M2 (Taxa de erros)</strong></li>
+<li><strong>M3 (Facilidade de aprendizagem)</strong></li>
+<li><strong>M4 (Acessibilidade com leitores de tela)</strong></li>
+<li><strong>M5 (Aderência a heurísticas de usabilidade)</strong></li>
+<li><strong>M6 (Percepção subjetiva dos usuários)</strong></li>
+<li><strong>M7 (Avaliação por tecnologias assistivas)</strong></li>
+<li><strong>M8 (Consistência visual e de navegação)</strong></li>
+</ul>
+<h4 id="confiabilidade">Confiabilidade</h4>
+<ul>
+<li><strong>M1 (Tempo de resposta da aplicação)</strong></li>
+<li><strong>M2 (Erro no primeiro acesso / onboarding)</strong></li>
+<li><strong>M3 (Taxa de falhas ao longo da navegação)</strong></li>
+</ul>
+<h3 id="coleta-de-dados">Coleta de Dados</h3>
+<p>A coleta de dados foi realizada conforme o plano de avaliação. Para cada métrica:</p>
+<ul>
+<li>Dados quantitativos: cronômetro, tempo de resposta, contagem de erros.</li>
+<li>Dados qualitativos: opiniões dos usuários, avaliação por tecnologias assistivas, checklists de consistência e heurísticas.</li>
+<li>Participantes: 5 a 6 integrantes da equipe realizaram testes individuais e contribuíram com feedbacks.</li>
+</ul>
+<h3 id="julgamento-dos-resultados">Julgamento dos Resultados</h3>
+<p>Os resultados foram comparados aos critérios definidos na <a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#criterios-para-julgamento">Fase 2</a>. Cada métrica recebeu uma pontuação de 0 a 10, com base nas escalas previamente acordadas.</p>
+<h3 id="evidencias-documentadas">Evidências Documentadas</h3>
+<p>Os resultados detalhados de cada métrica estão documentados nos arquivos:</p>
+<ul>
+<li>
+<p><code>usabilidade-m1.md</code> a <code>usabilidade-m8.md</code>:<br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m1/">M1 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m2/">M2 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m3/">M3 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m4/">M4 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m5/">M5 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m6/">M6 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m7/">M7 - Usabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m8/">M8 - Usabilidade</a></p>
+</li>
+<li>
+<p><code>confiabilidade-m1.md</code> a <code>confiabilidade-m3.md</code>:<br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/confiabilidade/confiabilidade-m1/">M1 - Confiabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/confiabilidade/confiabilidade-m2/">M2 - Confiabilidade</a><br />
+<a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/confiabilidade/confiabilidade-m3/">M3 - Confiabilidade</a></p>
+</li>
+</ul>
+<p>Cada documento inclui:</p>
+<ul>
+<li>Introdução</li>
+<li>Referencial teórico </li>
+<li>Análise</li>
+<li>Execução da análise</li>
+<li>Resultados e Recomendações</li>
+<li>Bibliografia</li>
+<li>Referências Bibliográficas</li>
+<li>Histórico de Versões</li>
+</ul>
+<h3 id="consolidacao-e-analise">Consolidação e Análise</h3>
+<p>Os resultados foram agrupados por atributo:</p>
+<h4 id="usabilidade_1">Usabilidade</h4>
+<p>A análise de usabilidade do sistema Agromart foi conduzida com base em oito métricas específicas (M1 a M8), cobrindo aspectos fundamentais da experiência do usuário, especialmente em dispositivos móveis. A seguir, é apresentada uma síntese dos principais achados, destacando tanto os pontos fortes quanto os aspectos que requerem melhorias.</p>
+<h5 id="destaques-positivos">Destaques Positivos</h5>
+<ul>
+<li><strong>Boa percepção geral da estética e organização visual</strong> da interface por parte dos participantes.</li>
+<li><strong>Tempo médio de execução das tarefas</strong> abaixo de 2 minutos, indicando fluidez razoável nas interações básicas (M1).</li>
+<li>A maioria dos fluxos apresenta <strong>respostas rápidas</strong> e sem falhas críticas.</li>
+<li><strong>Mensagens de erro são parcialmente claras</strong>, permitindo que usuários mais experientes recuperem-se sem necessidade de reinício do processo (M4, M5).</li>
+</ul>
+<h5 id="pontos-de-melhoria">Pontos de Melhoria</h5>
+<ul>
+<li><strong>Taxa de sucesso de novos usuários em tarefas básicas (M2)</strong> foi considerada <strong>insatisfatória</strong>, indicando dificuldade de compreensão de navegação sem orientação prévia.</li>
+<li>O <strong>percentual de acertos na identificação de botões (M3)</strong> foi abaixo do esperado, sugerindo falta de padronização nos elementos da interface.</li>
+<li>As <strong>mensagens de erro carecem de clareza e sugestões de correção</strong>, impactando diretamente a eficiência e frustração dos usuários (M4).</li>
+<li><strong>A recuperação após erro (M5)</strong> é possível, mas sem suporte visual ou textual claro.</li>
+<li>A <strong>compatibilidade com leitores de tela (M7)</strong> é limitada, dificultando o uso por pessoas com deficiência visual.</li>
+<li><strong>Ferramentas automatizadas de acessibilidade (M8)</strong> apontaram problemas de contraste, hierarquia semântica e ausência de descrições adequadas em botões e imagens.</li>
+</ul>
+<h5 id="conclusao">Conclusão</h5>
+<p>A avaliação da usabilidade demonstra que o sistema possui uma base funcional promissora, porém com lacunas relevantes em aspectos de acessibilidade, onboarding e padronização de elementos visuais. A métrica foi classificada como <strong>Regular</strong>, e melhorias são recomendadas especialmente na orientação ao usuário, consistência de design e adaptação para tecnologias assistivas.</p>
+<h4 id="confiabilidade_1">Confiabilidade</h4>
+<p>A avaliação da confiabilidade do Agromart foi realizada com base em três métricas complementares: (1) percepção subjetiva dos usuários sobre confiabilidade, (2) percentual de requisitos com testes automatizados e (3) percentual de critérios de aceitação bem definidos.</p>
+<h5 id="destaques-positivos_1">Destaques positivos</h5>
+<ul>
+<li>A aplicação responde corretamente aos comandos básicos, sem apresentar falhas críticas durante o uso comum.</li>
+<li>Parte dos requisitos funcionais já está coberta por testes automatizados (52,17%), especialmente funcionalidades centrais como login, cadastro e exibição de produtos.</li>
+<li>Algumas histórias de usuário possuem critérios de aceitação relativamente bem estruturados, com foco em clareza e testabilidade (ex: US01, US19, US20).</li>
+</ul>
+<h5 id="pontos-fracos">Pontos fracos</h5>
+<ul>
+<li>A maior parte das histórias de usuário (73%) não possui critérios de aceitação adequados, o que dificulta a verificação e validação confiável do sistema.</li>
+<li>A cobertura de testes automatizados ainda é limitada, com 47,83% dos requisitos funcionais sem validação automatizada — incluindo funcionalidades críticas como o carrinho de compras.</li>
+<li>O processo de onboarding não é intuitivo e causou confusão entre os avaliadores no primeiro contato com o sistema, impactando negativamente a confiança inicial.</li>
+<li>Em alguns testes manuais, houve incerteza quanto ao comportamento esperado do sistema, indicando falhas na especificação e comunicação de requisitos.</li>
+</ul>
+<h5 id="conclusao_1">Conclusão</h5>
+<p>Apesar de apresentar boa estabilidade em tarefas básicas e uma cobertura inicial de testes, o Agromart ainda carece de práticas mais robustas para garantir a confiabilidade do sistema. A ausência de critérios de aceitação consistentes e a cobertura incompleta de testes automatizados representam riscos para a manutenção, escalabilidade e evolução da plataforma. Reforça-se a necessidade de melhoria na documentação de requisitos e na priorização de testes automatizados para funcionalidades essenciais.</p>
+<h3 id="acoes-de-melhoria-implementadas">Ações de Melhoria Implementadas</h3>
+<p>Com base na fase de julgamento, foram propostas e implementadas melhorias, como:</p>
+<ul>
+<li>Protótipo de alta fidelidade com revisão de fluxo e consistência visual </li>
+<li>Arquivo <a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/trabalho-final/avaliacao_agromart_anaju/">Análise de Telas da Aplicação AgroMart - Heurísticas de Nielsen</a> com recomendações de melhoria </li>
+<li>Atualização do design e layout (com base em feedbacks da métrica M6)</li>
+</ul>
+<h3 id="conclusao-da-avaliacao">Conclusão da Avaliação</h3>
+<p>A Fase 4 permitiu validar as hipóteses formuladas na Fase 2 e gerou subsídios para uma evolução significativa da aplicação AgroMart. A análise integrada revelou que, apesar de limitações pontuais, a plataforma possui bom potencial de usabilidade e apresenta um nível de confiabilidade compatível com o estágio atual de desenvolvimento.</p>
+<h2 id="tabela-de-contribuicao-fase-1">Tabela de Contribuição - Fase 1</h2>
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>16,6</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>16,6</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>16,6</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>16,6</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>16,6</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>16,6</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="tabela-de-contribuicao-fase-2">Tabela de Contribuição - Fase 2</h2>
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>13,3</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>13,3</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>13,3</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>20</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="tabela-de-contribuicao-fase-3">Tabela de Contribuição - Fase 3</h2>
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>30</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="tabela-de-contribuicao-fase-4">Tabela de Contribuição - Fase 4</h2>
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>20</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="tabela-de-contribuicao-fase-final">Tabela de Contribuição - Fase Final</h2>
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>22.5</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>22.5</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>22.5</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>22.5</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="bibliografia">Bibliografia</h2>
+<blockquote>
+<p>[1] NIELSEN, Jakob. Mobile Usability. Berkeley: New Riders Pub, 2012.</p>
+<p>[2] GASSENFERTH, Daniel. How to design better error messages • Centigrade GmbH. Disponível em: <a href="https://www.centigrade.de/en/blog/how-to-design-better-error-messages/">https://www.centigrade.de/en/blog/how-to-design-better-error-messages/</a>. Acesso em: 07 de julho de 2025.</p>
+<p>- Documentação da Fase 1 do Grupo Betty Snyder (T01-2025). Disponível em: <a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/processo-avaliacao/processo_de_avaliacao/">https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/processo-avaliacao/processo_de_avaliacao/</a>. Acesso em: 08 de julho de 2025.</p>
+<p>- Documentação da Fase 2 do Grupo Betty Snyder (T01-2025). Disponível em: <a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/">https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/</a>. Acesso em: 08 de julho de 2025.</p>
+<p>- Documentação da Fase 3 do Grupo Betty Snyder (T01-2025). Disponível em: <a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/plano-avaliacao/plano_avaliacao/">https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/plano-avaliacao/plano_avaliacao/</a>. Acesso em: 08 de julho de 2025.</p>
+<p>- Documentação da Fase 4 do Grupo Betty Snyder (T01-2025). Disponível em: <a href="https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m1/">https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/medidas-obtidas/usabilidade/usabilidade-m1/</a>. Acesso em: 08 de julho de 2025.</p>
+</blockquote>
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<blockquote>
+<p>[1] AgroMart. Disponível em: https://github.com/AgroMart. Acesso em: 04 de julho de 2025.</p>
+<p>[2] ISO/IEC. ISO/IEC 25040:2011 — Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – Evaluation process. Geneva: International Organization for Standardization, 2011.</p>
+<p>[3] Basili, V. R., Caldiera, G., &amp; Rombach, H. D. (1994). The Goal Question Metric Approach. In <em>Encyclopedia of Software Engineering</em>. John Wiley &amp; Sons.  </p>
+<p>[4] Practical Software and Systems Measurement (PSM). Department of Defense, 2003. Disponível em: https://www.psmsc.com/. Acesso em: 04 de julho de 2025.</p>
+</blockquote>
+<h2 id="historico-de-versoes">Historico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th style="text-align: center;">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td>04/07/2025</td>
+<td>Base documento</td>
+<td><a href="https://github.com/Oleari19">Maria Clara</a></td>
+<td style="text-align: center;"><a href="https://github.com/vevetin">Weverton Rodrigues</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.1</code></td>
+<td>04/07/2025</td>
+<td>Ajustes de acordo com as decisões do grupo</td>
+<td><a href="https://github.com/ailujana">Ana Júlia</a></td>
+<td style="text-align: center;"><a href="https://github.com/vevetin">Weverton Rodrigues</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.2</code></td>
+<td>08/07/2025</td>
+<td>Criação e documentação do Relatório Final</td>
+<td><a href="https://github.com/ailujana">Ana Júlia</a> e <a href="https://github.com/julia-fortunato">Júlia Fortunato</a></td>
+<td style="text-align: center;"><a href="https://github.com/mauricio-araujoo">Maurício Ferreira</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td>08/07/2025</td>
+<td>Adição tabela de participação Fase Final</td>
+<td><a href="https://github.com/ailujana">Ana Júlia</a> e <a href="https://github.com/julia-fortunato">Júlia Fortunato</a></td>
+<td style="text-align: center;"><a href="https://github.com/mauricio-araujoo">Maurício Ferreira</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
