@@ -76,8 +76,9 @@ As melhorias propostas estão refletidas no novo protótipo desenvolvido no Figm
 
 ## Link para o protótipo com melhorias
 
-[Link Figma - Melhorias](https://www.figma.com/design/UnJYeq1K1Ypd1YQNo7DCDx/AgroMart?node-id=0-1&p=f&t=qPLUJHIEIK80vEAl-0)
-[Link Figma - Fluxo](https://www.figma.com/proto/UnJYeq1K1Ypd1YQNo7DCDx/AgroMart?node-id=1-6&t=qq59X2oJCJL1OyCw-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6 )
+> [Clique aqui para acessar o protótipo no Figma](https://www.figma.com/design/UnJYeq1K1Ypd1YQNo7DCDx/AgroMart?node-id=0-1&p=f&t=8OvhyE5JmOqflUdX-0)
+
+> [Clique aqui para acessar o fluxo completo do protótipo no Figma](https://www.figma.com/proto/UnJYeq1K1Ypd1YQNo7DCDx/AgroMart?node-id=1-6&p=f&t=8OvhyE5JmOqflUdX-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6)
 
 ## Bibliografia 
 
@@ -88,3 +89,4 @@ As melhorias propostas estão refletidas no novo protótipo desenvolvido no Figm
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-----:|
 |`1.0`|08/07/2025|Criação do documento| [Júlia Fortunato](https://github.com/julia-fortunato) | [Weverton Rodrigues](https://github.com/vevetin) |
+|`1.1`|08/07/2025|Arrumando links| [Maria Clara](https://github.com/Oleari19) | [Ana Júlia](https://github.com/ailujana) |
