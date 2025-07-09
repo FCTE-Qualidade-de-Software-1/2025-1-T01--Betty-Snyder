@@ -34,6 +34,7 @@ nav:
       - Usabilidade: trabalho-final/melhorias/usabilidade.md
       - Confiabilidade: trabalho-final/melhorias/confiabilidade.md 
     - Slides de apresentação: trabalho-final/slides.md
+    - Protótipo de Alta Fidelidade: trabalho-final/prototipo.md
 
 theme:
   name: material
