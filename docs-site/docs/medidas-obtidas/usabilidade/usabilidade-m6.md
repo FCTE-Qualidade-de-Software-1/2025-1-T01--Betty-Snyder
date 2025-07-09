@@ -1,4 +1,4 @@
-# Usabilidade - M6: Nota média atribuída pelos usuários em questionário sobre a interface da aplicação.
+# Usabilidade - M6: Nota média atribuída pelos usuários em questionário sobre a interface da aplicação
 
 ## Introdução
 
@@ -8,7 +8,7 @@ Essa métrica busca avaliar a percepção subjetiva dos usuários em relação �
 
 ## Referencial teórico 
 
-De acordo com a norma ISO/IEC 25010 [1], o atributo Satisfação do Usuário está relacionado ao grau em que o sistema atende às expectativas dos usuários em termos de usabilidade, estética e experiência geral.
+De acordo com a norma ISO/IEC 25010<sup>[1]</sup>, o atributo Satisfação do Usuário está relacionado ao grau em que o sistema atende às expectativas dos usuários em termos de usabilidade, estética e experiência geral.
 Para medir esse atributo de forma prática, é comum a utilização de questionários com escalas de avaliação subjetiva, os quais permitem capturar a percepção dos usuários sobre diferentes aspectos da interface.
 
 Neste contexto, foi aplicado um questionário baseado em escala numérica de 0 a 10, contemplando os seguintes tópicos:
@@ -63,13 +63,18 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
       <tr>
         <td>Usuário 2</td>
         <td>7</td>
+        <td>3</td>
         <td>4</td>
         <td>4</td>
-        <td>6</td>
-        <td>5,25</td>
+        <td>4,5</td>
       </tr>
       <tr>
         <td>Usuário 3</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>4</td>
+        <td>6,25</td>
         <td>6</td>
         <td>7</td>
         <td>8</td>

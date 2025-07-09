@@ -1,4 +1,4 @@
-# Usabilidade - M3: Percentual de acertos na identificação de botões.
+# Usabilidade - M3: Percentual de acertos na identificação de botões
 
 ## Introdução
 
@@ -8,9 +8,9 @@ Essa métrica avalia a capacidade dos usuários de identificar corretamente a fu
 
 ## Referencial teórico 
 
-Segundo a norma ISO/IEC 25010 [1], a usabilidade é composta por atributos como compreensibilidade, operabilidade e atratividade. A clareza na identificação dos botões está diretamente relacionada à compreensibilidade da interface, sendo crucial para que o usuário navegue com segurança e eficiência.
+Segundo a norma ISO/IEC 25010 <sup>[1]</sup>, a usabilidade é composta por atributos como compreensibilidade, operabilidade e atratividade. A clareza na identificação dos botões está diretamente relacionada à compreensibilidade da interface, sendo crucial para que o usuário navegue com segurança e eficiência.
 
-As heurísticas de usabilidade propostas por Nielsen [2], especialmente a H6 (Reconhecimento em vez de memorização), enfatizam que os elementos de interface devem ser compreensíveis sem exigir esforço de memória, promovendo a identificação imediata da funcionalidade esperada de cada botão.
+As heurísticas de usabilidade propostas por Nielsen <sup>[2]</sup>, especialmente a H6 (Reconhecimento em vez de memorização), enfatizam que os elementos de interface devem ser compreensíveis sem exigir esforço de memória, promovendo a identificação imediata da funcionalidade esperada de cada botão.
 
 ## Análise
 

@@ -67,4 +67,4 @@ Espera-se, com isso, obter uma visão abrangente sobre o desempenho do sistema e
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
-|`1.0`|25/06/2025|Criação do documento| [Ana Júlia Mendes](https://github.com/ailujana) e [Weverton Rodrigues](https://github.com/vevetin) ||
+|`1.0`|05/07/2025|Criação do documento| [Ana Júlia Mendes](https://github.com/ailujana) e [Weverton Rodrigues](https://github.com/vevetin) |[Júlia Fortunato](https://github.com/julia-fortunato)|

@@ -8,11 +8,11 @@
 
 ## Referencial teórico 
 
-Segundo a norma ISO/IEC 25010 [1], a Usabilidade pode ser definida como "o grau com que um produto ou sistema pode ser usado por usuários específicos para alcançar objetivos específicos com precisão e completude, dentro de um tempo adequado e com esforço razoável".
+Segundo a norma ISO/IEC 25010 <sup>[1]</sup>, a Usabilidade pode ser definida como "o grau com que um produto ou sistema pode ser usado por usuários específicos para alcançar objetivos específicos com precisão e completude, dentro de um tempo adequado e com esforço razoável".
 
 No contexto mobile-first, onde o uso é predominantemente por meio de telas sensíveis ao toque, a métrica de tempo médio para completar tarefas torna-se um indicador direto da fluidez e facilidade de uso da interface.
 
-De acordo com Nielsen [2], uma boa usabilidade em dispositivos móveis depende, entre outros fatores, da disposição clara dos elementos de interação, tamanho adequado dos alvos de toque, e da redução do número de etapas para realizar uma tarefa.
+De acordo com Nielsen <sup>[2]</sup>, uma boa usabilidade em dispositivos móveis depende, entre outros fatores, da disposição clara dos elementos de interação, tamanho adequado dos alvos de toque, e da redução do número de etapas para realizar uma tarefa.
 
 Portanto, quanto menor o tempo médio de execução de tarefas essenciais, maior a eficiência e usabilidade percebidas, impactando diretamente na satisfação e retenção dos usuários.
 

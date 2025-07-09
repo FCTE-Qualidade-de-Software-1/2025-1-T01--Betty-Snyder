@@ -19,7 +19,10 @@ nav:
       - M4: medidas-obtidas/usabilidade/usabilidade-m4.md
       - M5: medidas-obtidas/usabilidade/usabilidade-m5.md
       - M6: medidas-obtidas/usabilidade/usabilidade-m6.md
+      - M7: medidas-obtidas/usabilidade/usabilidade-m7.md
+      - M8: medidas-obtidas/usabilidade/usabilidade-m8.md
     - Medidas Obtidas - Confiabilidade:
+      - M1: medidas-obtidas/confiabilidade/confiabilidade-m1.md
       - M2: medidas-obtidas/confiabilidade/confiabilidade-m2.md
       - M3: medidas-obtidas/confiabilidade/confiabilidade-m3.md
     - Julgamento dos Resultados: medidas-obtidas/julgamento_resultados.md
@@ -56,3 +59,5 @@ theme:
         name: Switch to high contrast
   logo: assets/img/logo1.png
   extra_css: [stylesheets/extra.css]
+markdown_extensions:
+  - attr_list
