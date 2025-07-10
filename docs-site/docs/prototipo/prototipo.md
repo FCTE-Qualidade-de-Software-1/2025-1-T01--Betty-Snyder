@@ -52,6 +52,8 @@ O protótipo visa:
 
 ## 8. Acesso ao Protótipo
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/UnJYeq1K1Ypd1YQNo7DCDx/AgroMart?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+
 O protótipo desenvolvido está disponível publicamente no Figma, permitindo navegação pelas telas, simulação de interações e visualização dos comentários técnicos realizados para guiar a implementação.
 
 > [Clique aqui para acessar o protótipo no Figma](https://www.figma.com/design/UnJYeq1K1Ypd1YQNo7DCDx/AgroMart?node-id=0-1&p=f&t=8OvhyE5JmOqflUdX-0)
