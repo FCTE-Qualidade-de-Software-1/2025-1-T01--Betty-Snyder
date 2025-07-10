@@ -33,7 +33,7 @@ A seguir, após as capturas de telas, a Tabela 1 documenta a análise dos erros 
 <!-- Imagem 2: -->
 <center><p>Imagem 2 - Erro exibir lojas na tela inicial</p></center>
 
-  ![Erro exibir lojas na tela inicial](loja.jpeg){ style="display: block; margin: 0 auto;" width="400" }
+  ![Erro exibir lojas na tela inicial](lojas.jpeg){ style="display: block; margin: 0 auto;" width="400" }
 
 <center><p>Fonte: Captura de tela do mobile client do AgroMart</p></center>
 
@@ -245,3 +245,4 @@ No entanto, um ponto que contribuiu positivamente para a avaliação foi o fato 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Júlia Fortunato](https://github.com/julia-fortunato) |[Weverton Rodrigues](https://github.com/vevetin)|
+|`1.1`|08/07/2025|Ajuste imagem| [Maria Clara](https://github.com/Oleari19) | - |
