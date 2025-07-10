@@ -163,17 +163,17 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
 
 - **Aceitável:** ≥ 70% das métricas classificadas como "Bom" ou "Excelente".
 
-- **Parcialmente aceitável:** Entre 50% e 69% das métricas com nível "Bom" ou superior.
+- **Parcialmente aceitável:** Entre 40% e 69% das métricas com nível "Regular" ou superior.
 
-- **Inaceitável:** < 50% das métricas atingindo "Bom" ou "Excelente".
+- **Inaceitável:** > 30% das métricas atingindo "Ruim" ou "Insatisfatório".
 
 ### Critérios para Confiabilidade 
 
-- **Adequada:** Taxa de erros inferior a 5% nas sessões testadas e ≥ 90% dos erros com mensagens claras e recuperação possível.
+- **Aceitável:** ≥ 70% das métricas classificadas como "Bom" ou "Excelente".
 
-- **Moderada:** Taxa de erros entre 5% e 10%, com ≥ 70% dos erros apresentando feedback compreensível.
+- **Parcialmente aceitável:** Entre 40% e 69% das métricas com nível "Regular" ou superior.
 
-- **Crítica:** Taxa de erros > 10% ou erros recorrentes sem feedback ou perda de dados.
+- **Inaceitável:** > 30% das métricas atingindo "Ruim" ou "Insatisfatório".
 
 ## Bibliografia
 > \- ISO/IEC 25010:2011. Disponível em: https://iso25000.com/index.php/en/iso-25000-standards/iso-25010. Acesso em: 02 de junho de 2025.
@@ -185,6 +185,7 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
 > [1] BASILI, Victor R.; CALDIERA, Gianluigi; ROMBACH, Hans Dieter. The Goal Question Metric (GQM) Approach. In: MARCINIAK, J. J. (ed.). Encyclopedia of Software Engineering. New York: John Wiley & Sons, 1994. cap. 6, p. 50. Ilust. (Figura 6-2).
 
 ## Tabela de Contribuição
+
 
 <div align="center">
   <table border="1">
@@ -199,36 +200,37 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
       <tr>
         <td>221007798</td>
         <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
-        <td>16,6</td>
+        <td>20</td>
       </tr>
       <tr>
         <td>221022355</td>
         <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
-        <td>16,6</td>
+        <td>20</td>
       </tr>
       <tr>
         <td>221008338</td>
         <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
-        <td>16,6</td>
+        <td>13,3</td>
       </tr>
       <tr>
         <td>222007021</td>
         <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
-        <td>16,6</td>
+        <td>13,3</td>
       </tr>
       <tr>
         <td>222006356</td>
         <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
-        <td>16,6</td>
+        <td>13,3</td>
       </tr>
       <tr>
         <td>221022767</td>
         <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
-        <td>16,6</td>
+        <td>20</td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 ## Historico de Versões
 
@@ -236,5 +238,5 @@ Os critérios são organizados por característica (usabilidade e confiabilidade
 |:----:|----|---------|-----|:-------:|
 |`1.0`|22/05/2025|Criação do documento|[Weverton Rodrigues](https://github.com/vevetin)|[Júlia Fortunato](https://github.com/julia-fortunato)|
 | `1.1`|27/06/2025 | Atualização do documento |[Ana Júlia](https://github.com/ailujana)|[Weverton Rodrigues](https://github.com/vevetin)|
-| `1.2`|07/07/2025 | Atualização de métricas e textos do documento |[Júlia Fortunato](https://github.com/julia-fortunato)||
+| `1.2`|07/07/2025 | Atualização de métricas e textos do documento |[Júlia Fortunato](https://github.com/julia-fortunato)| [Maurício Ferreira](https://github.com/mauricio-araujoo) |
 

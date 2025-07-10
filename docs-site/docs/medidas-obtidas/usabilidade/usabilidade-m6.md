@@ -28,11 +28,8 @@ A média de cada participante foi registrada e, ao final, foi calculada a nota m
 
 ## Execução da análise
 
-Foi utilizada uma escala de **0 (muito ruim)** a **10 (excelente)**. A média das notas foi calculada com base em 6 participantes:
-
-> Como ficou pendente as respostas de um dos 6 integrantes, a média foi calculada considerando 5 participantes
-
-A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da análise.
+Foi utilizada uma escala de **1 (muito ruim)** a **10 (excelente)**. A média das notas foi calculada com base em 6 participantes.
+A Tabela 1 apresenta as notas atribuídas pelos participantes:
 
 <div style="text-align: center">
 
@@ -75,11 +72,6 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
         <td>8</td>
         <td>4</td>
         <td>6,25</td>
-        <td>6</td>
-        <td>7</td>
-        <td>8</td>
-        <td>4</td>
-        <td>6,25</td>
       </tr>
       <tr>
         <td>Usuário 4</td>
@@ -99,25 +91,25 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
       </tr>
       <tr>
         <td>Usuário 6</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
+        <td>7</td>
+        <td>6</td>
+        <td>8</td>
+        <td>6</td>
+        <td>6,75</td>
       </tr>
       <tr>
         <td><b>Média Geral</b></td>
-        <td>6,8</td>
-        <td>6</td>
-        <td>6,6</td>
-        <td>5,6</td>
-        <td><b>6,25</b></td>
+        <td>6,83</td>
+        <td>5,83</td>
+        <td>6,83</td>
+        <td>5,33</td>
+        <td><b>6,20</b></td>
       </tr>
     </tbody>
   </table>
 
   <font size="3">
-    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a><a href="https://github.com/Oleari19">Maria Clara</a></p>
+    <p><b>Autor:</b> <a href="https://github.com/ailujana">Ana Júlia</a> e <a href="https://github.com/Oleari19">Maria Clara</a></p>
   </font>
 
 </div>
@@ -125,7 +117,7 @@ A Tabela 1 apresenta as notas atribuídas pelos participantes até o momento da 
 
 ## Resultados
 
- A nota média geral obtida foi de 5,75, refletindo uma percepção moderada de usabilidade e estética da interface na percepção subjetiva de usabilidade.
+A nota média geral obtida foi de **6,20**, refletindo uma percepção regular a moderadamente positiva de usabilidade e estética da interface, de acordo com a avaliação subjetiva dos usuários.
 
 Alguns pontos destacados pelos participantes durante o preenchimento do questionário incluem:
 
@@ -135,7 +127,7 @@ Alguns pontos destacados pelos participantes durante o preenchimento do question
 
 - Navegação considerada funcional, porém com fluxo pouco fluido em alguns momentos.
 
-De acordo com os critérios definidos na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M6 foi classificada com a **pontuação 7 (Regular)**.
+De acordo com os critérios definidos na [Fase 2](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--Betty-Snyder/gqm/gqm/#selecao-das-metricas), a métrica M6 foi classificada com a **pontuação 6 (Regular)**.
 
 ### Recomendação
 
@@ -160,4 +152,4 @@ Recomendações:
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|07/07/2025|Criação do documento| [Ana Júlia](https://github.com/ailujana) |[Weverton Rodrigues](https://github.com/vevetin)|
-|`1.1`|07/07/2025|Atualização dps dados e melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| - |
+|`1.1`|07/07/2025|Atualização dps dados e melhoria da escrita|[Maria Clara](https://github.com/Oleari19)| [Weverton Rodrigues](https://github.com/vevetin) |

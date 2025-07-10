@@ -32,13 +32,13 @@ A avaliação será considerada bem-sucedida se pelo menos 70% das métricas ati
 
 Para a realização da avaliação, serão utilizados os seguintes recursos:
 
-1. Materiais de Apoio:
+#### Materiais de Apoio:
 
    - Documentação de Critérios de Avaliação: Documento com instruções sobre como cada métrica será medida e julgada, garantindo consistência e transparência.
 
    - Heurísticas de Nielsen: As dez heurísticas servirão como guia complementar para avaliação da interface, especialmente durante a análise heurística.
 
-2. Ferramentas Técnicas:
+#### Ferramentas Técnicas:
 
    - Cronômetro digital (medição de tempo de tarefas);
 
@@ -63,8 +63,56 @@ Este plano de avaliação foi elaborado com o objetivo de proporcionar uma anál
 
 Espera-se, com isso, obter uma visão abrangente sobre o desempenho do sistema e sua adequação ao público-alvo, gerando subsídios confiáveis para futuras melhorias e evoluções.
 
+
+## Tabela de Contribuição 
+
+<div align="center">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Matrícula</th>
+        <th>Nome completo</th>
+        <th>Contribuição (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>221007798</td>
+        <td><a href="https://github.com/ailujana">Ana Júlia Mendes Santos</a></td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>221022355</td>
+        <td><a href="https://github.com/julia-fortunato">Júlia Rocha Fortunato</a></td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>221008338</td>
+        <td><a href="https://github.com/Oleari19">Maria Clara Oleari de Araujo</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>222007021</td>
+        <td><a href="https://github.com/mauricio-araujoo">Maurício Ferreira de Araújo</a></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>222006356</td>
+        <td><a href="https://github.com/PedroLock">Pedro Lock Martins</a></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>221022767</td>
+        <td><a href="https://github.com/vevetin">Weverton Rodrigues da Costa Silva</a></td>
+        <td>30</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Histórico de Versões
 
 |Versão|Data|Descrição|Autor|Revisor|
 |:----:|----|---------|-----|:-------:|
 |`1.0`|05/07/2025|Criação do documento| [Ana Júlia Mendes](https://github.com/ailujana) e [Weverton Rodrigues](https://github.com/vevetin) |[Júlia Fortunato](https://github.com/julia-fortunato)|
+|`1.0`|08/07/2025|Adição da tabela de contribuição| [Ana Júlia Mendes](https://github.com/ailujana) e [Júlia Fortunato](https://github.com/julia-fortunato)|[Weverton Rodrigues](https://github.com/vevetin) |
